@@ -10,27 +10,21 @@
 
 #include "tkjhat/sdk.h"
 void display_task();
+uint8_t display_state = 0;
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
-    // Tehtävä 1: Vaihda LEDin tila käyttämällä TKJHAT SDK:n sopivaa funktiota.
-    // Exercise 1: Toggle the LED using the appropriate function from the TKJHAT SDK.
-
     display_task();
 }
-void display_task() {
 
-    while (1) {
+void display_task() {
+    if (!display_state){
         clear_display();
-        write_text("olleh");
-        draw_circle(1, 1, 20, 0);
-        draw_line(0, 0, 127, 0);
-        draw_square(30,10,20,20, 0);
-        draw_square(70,10,20,20,0);
-        vTaskDelay(1000);
+        write_text("click");
+        display_state = 1;
+    } else if (display_state){
         clear_display();
-        draw_line(30, 20, 50, 20);
-        draw_line(70, 20, 90, 20);
-        vTaskDelay(300);
+        write_text("clack");
+        display_state = 0;
     }
 }
 int main() {
