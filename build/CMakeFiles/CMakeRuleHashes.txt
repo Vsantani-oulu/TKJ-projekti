@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+5f8d2b79d553e3c40f2a17b0be7af8b6 libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h
+bb66e47c4168ecac80702f9eaac130bd libs/TKJHAT/CMakeFiles/tkjhat-doc
+8050f956e9da2e9e5d6454c79b91f263 libs/TKJHAT/pdm_microphone.pio.h
+ade216b68da3fcbdd0e11dc90ce371bd pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
+5e3ffc207b7ba6e1f0f771e09b3f8c4a pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+9cb4eecca759f47fc54ef63d30fa4f78 pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+84bd33b64b05f71b0cbc28147eebc9a0 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+218fb43e180bcb6d4b355bf012ee0fda pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+2fe3f7acc9fe9a527af2f5e7112a1e96 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h
+9407f9d64105d1ff12962ae4f1ae0bbb pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h

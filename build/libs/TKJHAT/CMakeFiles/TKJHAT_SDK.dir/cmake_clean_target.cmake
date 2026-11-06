@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libTKJHAT_SDK.a"
+)
