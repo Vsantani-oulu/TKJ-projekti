@@ -23,6 +23,7 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
         clear_display();
         display_state = 0;
     }
+    stop_display();
 }
 
 void display_task() {
