@@ -14,7 +14,15 @@ uint8_t display_state = 0;
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     toggle_led();
+    init_display();
     write_text("helooo");
+    if (display_state == 0){
+        display_state = 1;
+    }
+    if (display_state == 1){
+        clear_display();
+        display_state = 0;
+    }
 }
 
 void display_task() {
@@ -57,7 +65,6 @@ int main() {
     //             Keskeytyskäsittelijä on määritelty yläpuolella nimellä btn_fxn
     init_sw1();
     init_led();
-    init_display();
 
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
