@@ -11,6 +11,7 @@
 #include "tkjhat/sdk.h"
 void display_task();
 uint8_t display_state = 0;
+char display_string = 0;
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     toggle_led();
@@ -25,10 +26,7 @@ void uartFxn() {
         char input;
         char buf[30];
         input = uart_getc(uart0);
-        sprintf(buf, "recived: %c\n", input);
-        uart_puts(uart0, buf);
-        printf(buf);
-
+        display_string = input;
 }
 void serial_task() {
 
@@ -57,12 +55,12 @@ void display_task() {
     while(1){
     if (display_state == 0){
         clear_display();
-        write_text("click");
+        write_text("state == 0");
     } else if (display_state == 1){
         clear_display();
-        write_text("clack");
+        write_text(&display_string);
     }
-    vTaskDelay(pdMS_TO_TICKS(4000));
+    vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 int main() {
