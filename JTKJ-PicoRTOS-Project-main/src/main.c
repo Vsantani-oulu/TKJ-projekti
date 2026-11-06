@@ -14,12 +14,6 @@ uint8_t display_state = 0;
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     toggle_led();
-
-    clear_display();         // Start clean
-    write_text_xy(10, 20, "Hello!"); // Write text
- 
-    draw_circle(64, 32, 10, false);  // Draw circle outline
-    draw_square(0, 0, 20, 20, true); // Draw filled rectangle
  
 }
 
@@ -67,7 +61,11 @@ int main() {
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
     
-
+    clear_display();         // Start clean
+    write_text_xy(10, 20, "Hello!"); // Write text
+ 
+    draw_circle(64, 32, 10, false);  // Draw circle outline
+    draw_square(0, 0, 20, 20, true); // Draw filled rectangle
     // Exercise 4: Uncomment this xTaskCreate to create the task that enables dual USB communication.
     // Tehtävä 4: Poista tämän xTaskCreate-rivin kommentointi luodaksesi tehtävän,
     // joka mahdollistaa kaksikanavaisen USB-viestinnän.
