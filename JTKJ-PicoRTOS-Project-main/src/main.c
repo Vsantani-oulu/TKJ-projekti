@@ -109,6 +109,17 @@ int main() {
         printf("Display Task created failed\n");
         return 0;
     }
+    result = xTaskCreate(serial_task,   // (en) Task function
+        "serial",                   // (en) Name of the task 
+            1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
+            NULL,                    // (en) Arguments of the task 
+            2,                       // (en) Priority of this task
+            &serialTaskHandle);     // (en) A handle to control the execution of this task
+
+    if(result != pdPASS) {
+        printf("Serial Task created failed\n");
+        return 0;
+    }
     // Start the scheduler (never returns)
     vTaskStartScheduler();
     
