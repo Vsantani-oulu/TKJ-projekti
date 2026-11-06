@@ -14,6 +14,12 @@ uint8_t display_state = 0;
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     toggle_led();
+    if (display_state == 1){
+        display_state = 0;
+    } else if (display_state == 0){
+        display_state = 1;
+    }
+
  
 }
 
@@ -21,11 +27,9 @@ void display_task() {
     if (!display_state){
         clear_display();
         write_text("click");
-        display_state = 1;
     } else if (display_state){
         clear_display();
         write_text("clack");
-        display_state = 0;
     }
 }
 int main() {
@@ -60,26 +64,18 @@ int main() {
     init_display();
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
-    
-    clear_display();         // Start clean
-    write_text_xy(10, 20, "Hello!"); // Write text
- 
-    draw_circle(64, 32, 10, false);  // Draw circle outline
-    draw_square(0, 0, 20, 20, true); // Draw filled rectangle
-    // Exercise 4: Uncomment this xTaskCreate to create the task that enables dual USB communication.
-    // Tehtävä 4: Poista tämän xTaskCreate-rivin kommentointi luodaksesi tehtävän,
-    // joka mahdollistaa kaksikanavaisen USB-viestinnän.
+    TaskHandle_t displayTaskHandle = NULL;
+    BaseType_t result = xTaskCreate(display_task,   // (en) Task function
+            "display",                   // (en) Name of the task 
+                1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
+                NULL,                    // (en) Arguments of the task 
+                2,                       // (en) Priority of this task
+                &displayTaskHandle);     // (en) A handle to control the execution of this task
 
-    /*
-    xTaskCreate(usbTask, "usb", 2048, NULL, 3, &hUSB);
-    #if (configNUMBER_OF_CORES > 1)
-        vTaskCoreAffinitySet(hUSB, 1u << 0);
-    #endif
-    */
-
-
-
-
+    if(result != pdPASS) {
+        printf("Display Task created failed\n");
+        return 0;
+    }
     // Start the scheduler (never returns)
     vTaskStartScheduler();
     
