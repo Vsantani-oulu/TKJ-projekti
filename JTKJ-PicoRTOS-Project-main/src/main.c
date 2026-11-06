@@ -19,17 +19,20 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     } else if (display_state == 0){
         display_state = 1;
     }
-
+    printf("%d",display_state);
  
 }
 
 void display_task() {
-    if (!display_state){
+    while(1){
+    if (display_state == 0){
         clear_display();
         write_text("click");
-    } else if (display_state){
+    } else if (display_state == 1){
         clear_display();
         write_text("clack");
+    }
+    vTaskDelay(pdMS_TO_TICKS(4000));
     }
 }
 int main() {
