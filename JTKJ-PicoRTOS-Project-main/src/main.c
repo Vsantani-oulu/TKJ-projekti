@@ -14,16 +14,13 @@ uint8_t display_state = 0;
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     toggle_led();
-    init_display();
-    write_text("helooo");
-    if (display_state == 0){
-        display_state = 1;
-    }
-    if (display_state == 1){
-        clear_display();
-        display_state = 0;
-    }
-    stop_display();
+
+    clear_display();         // Start clean
+    write_text_xy(10, 20, "Hello!"); // Write text
+ 
+    draw_circle(64, 32, 10, false);  // Draw circle outline
+    draw_square(0, 0, 20, 20, true); // Draw filled rectangle
+ 
 }
 
 void display_task() {
@@ -66,11 +63,10 @@ int main() {
     //             Keskeytyskäsittelijä on määritelty yläpuolella nimellä btn_fxn
     init_sw1();
     init_led();
-
+    init_display();
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
     
-    TaskHandle_t hSensorTask, hPrintTask, hUSB = NULL;
 
     // Exercise 4: Uncomment this xTaskCreate to create the task that enables dual USB communication.
     // Tehtävä 4: Poista tämän xTaskCreate-rivin kommentointi luodaksesi tehtävän,
