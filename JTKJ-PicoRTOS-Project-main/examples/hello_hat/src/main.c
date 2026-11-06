@@ -41,18 +41,6 @@ static void display_task(void *arg) {
 
 }
 
-static void buzzer_task(void *arg) {
-    (void)arg;
-
-    //Initialize the buzzer
-    init_buzzer();
-    printf("Initializing buzzer\n");
-
-    while(1){
-        buzzer_play_tone (440, 500);
-        vTaskDelay(pdMS_TO_TICKS(6000));
-    }
-}
 
 
 int main() {
@@ -66,7 +54,7 @@ int main() {
     init_hat_sdk();
     sleep_ms(400); 
 
-    TaskHandle_t ledsTaskHandle, displayTaskHandle, buzzerTaskHandle = NULL;
+    TaskHandle_t ledsTaskHandle, displayTaskHandle = NULL;
    
     // Create the single blinky/printf task
     // (en) We create a task
@@ -79,18 +67,6 @@ int main() {
 
     if(result != pdPASS) {
         printf("Led Task created failed\n");
-        return 0;
-    }
-
-    result = xTaskCreate(buzzer_task,   // (en) Task function
-            "buzzer",                   // (en) Name of the task 
-                1024,                   // (en) Size of the stack for this task (in words). Generally 1024 or 2048
-                NULL,                   // (en) Arguments of the task 
-                2,                      // (en) Priority of this task
-                &buzzerTaskHandle);     // (en) A handle to control the execution of this task
-
-    if(result != pdPASS) {
-        printf("Buzzer Task created failed\n");
         return 0;
     }
     result = xTaskCreate(display_task,   // (en) Task function
