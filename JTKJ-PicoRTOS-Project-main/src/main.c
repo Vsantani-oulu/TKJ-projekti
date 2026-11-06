@@ -21,7 +21,7 @@ void display_task() {
 
     while (1) {
         clear_display();
-        write_text("Hello");
+        write_text("olleh");
         draw_circle(1, 1, 20, 0);
         draw_line(0, 0, 127, 0);
         draw_square(30,10,20,20, 0);
