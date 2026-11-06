@@ -20,7 +20,6 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
         display_state = 1;
     }
     printf("%d",display_state);
- 
 }
 void uartFxn() {
         char input;
@@ -29,7 +28,6 @@ void uartFxn() {
         sprintf(buf, "recived: %c\n", input);
         uart_puts(uart0, buf);
         printf(buf);
-        vTaskDelay(pdMS_TO_TICKS(100));
 
 }
 void serial_task() {

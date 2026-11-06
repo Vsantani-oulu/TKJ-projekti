@@ -37,23 +37,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  16 .comment      00000045  00000000  00000000  00010290  2**0
                   CONTENTS, READONLY
- 17 .debug_info   00041e46  00000000  00000000  000102d5  2**0
+ 17 .debug_info   00041e32  00000000  00000000  000102d5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_abbrev 0000b1b5  00000000  00000000  0005211b  2**0
+ 18 .debug_abbrev 0000b1b5  00000000  00000000  00052107  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 0001db4a  00000000  00000000  0005d2d0  2**0
+ 19 .debug_loclists 0001db4a  00000000  00000000  0005d2bc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_aranges 00002398  00000000  00000000  0007ae20  2**3
+ 20 .debug_aranges 00002398  00000000  00000000  0007ae08  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_rnglists 0000272c  00000000  00000000  0007d1b8  2**0
+ 21 .debug_rnglists 0000272c  00000000  00000000  0007d1a0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   00028d94  00000000  00000000  0007f8e4  2**0
+ 22 .debug_line   00028d93  00000000  00000000  0007f8cc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000ce9e  00000000  00000000  000a8678  2**0
+ 23 .debug_str    0000ce9e  00000000  00000000  000a865f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  00005c00  00000000  00000000  000b5518  2**2
+ 24 .debug_frame  00005c00  00000000  00000000  000b5500  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 0000034b  00000000  00000000  000bb118  2**0
+ 25 .debug_line_str 0000034b  00000000  00000000  000bb100  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf:     file format elf32-littlearm
