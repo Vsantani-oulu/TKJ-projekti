@@ -13,7 +13,6 @@ void display_task();
 uint8_t display_state = 0;
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
-    display_task();
     toggle_led();
 }
 
