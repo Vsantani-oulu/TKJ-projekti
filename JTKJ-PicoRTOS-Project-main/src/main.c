@@ -26,14 +26,12 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     printf("%d",display_state);
 }
 void uartFxn() {
-    if (!send_message){
-        char input;
-        char buf[30];
-        input = uart_getc(uart0);
-        printf(buf);
-        sprintf(buf, "%c", input);
-        recive_message(buf);
-    }
+    char input;
+    char buf[30];
+    input = uart_getc(uart0);
+    printf(buf);
+    sprintf(buf, "%c", input);
+    recive_message(buf);
 }
 void serial_task() {
 
