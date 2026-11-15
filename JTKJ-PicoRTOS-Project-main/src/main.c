@@ -13,6 +13,7 @@ void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
 char global_msg[30] = "";
+int len;
 uint8_t send_message = 0;
 
 void recive_message(char msg[]);
@@ -55,9 +56,10 @@ void serial_task() {
 void recive_message(char msg[]){
     // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
     printf("%s", msg);
-    sprintf(global_msg+strlen(global_msg), "%s", msg);
-    if(msg == "  "){
-        send_message = 1;
+    len += sprintf(global_msg+strlen(global_msg), "%s", msg);
+    char last_char = ("%c",global_msg[len-1]);
+    if(global_msg[len-1] == '\n'){
+        printf("finished message");
     }
     printf("%s", global_msg);
 }
