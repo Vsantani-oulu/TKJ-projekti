@@ -18,13 +18,7 @@ uint8_t send_message = 0;
 
 void recive_message(char msg[]);
 static void btn_fxn(uint gpio, uint32_t eventMask) {
-    toggle_led();
-    if (display_state == 1){
-        display_state = 0;
-    } else if (display_state == 0){
-        display_state = 1;
-    }
-    printf("%d",display_state);
+    printf("%d",send_message);
 }
 void uartFxn() {
     send_message = 0;
@@ -78,7 +72,7 @@ void display_task() {
         else {
             clear_display();
             write_text("waiting for message");
-        vTaskDelay(pdMS_TO_TICKS(100));
+        vTaskDelay(pdMS_TO_TICKS(20));
         }
     }
 }
