@@ -27,6 +27,7 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     printf("%d",display_state);
 }
 void uartFxn() {
+    send_message = 0;
     char input;
     char buf[30];
     input = uart_getc(uart0);
@@ -72,12 +73,11 @@ void display_task() {
         if (send_message){
             clear_display();
             write_text(global_msg);
-            send_message = 0;
         }
         else {
             clear_display();
             write_text("waiting for message");
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        vTaskDelay(pdMS_TO_TICKS(100));
         }
     }
 }

@@ -37,19 +37,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  16 .comment      00000045  00000000  00000000  00010290  2**0
                   CONTENTS, READONLY
- 17 .debug_info   00042f14  00000000  00000000  000102d5  2**0
+ 17 .debug_info   00042f13  00000000  00000000  000102d5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_abbrev 0000b4a2  00000000  00000000  000531e9  2**0
+ 18 .debug_abbrev 0000b4a2  00000000  00000000  000531e8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 0001e034  00000000  00000000  0005e68b  2**0
+ 19 .debug_loclists 0001e034  00000000  00000000  0005e68a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_aranges 00002400  00000000  00000000  0007c6c0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  21 .debug_rnglists 0000278e  00000000  00000000  0007eac0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   00029607  00000000  00000000  0008124e  2**0
+ 22 .debug_line   00029609  00000000  00000000  0008124e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000d075  00000000  00000000  000aa855  2**0
+ 23 .debug_str    0000d075  00000000  00000000  000aa857  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  24 .debug_frame  00005cec  00000000  00000000  000b78cc  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -410,106 +410,105 @@ Disassembly of section .text:
 1000037a:	f008 fcff 	bl	10008d7c <vTaskDelay>
 1000037e:	e7fb      	b.n	10000378 <serial_task+0x38>
 10000380:	40034000 	.word	0x40034000
-10000384:	1000044d 	.word	0x1000044d
+10000384:	10000445 	.word	0x10000445
 
 10000388 <display_task>:
 10000388:	b510      	push	{r4, lr}
-1000038a:	e007      	b.n	1000039c <display_task+0x14>
+1000038a:	e004      	b.n	10000396 <display_task+0xe>
 1000038c:	f009 fce4 	bl	10009d58 <clear_display>
-10000390:	4809      	ldr	r0, [pc, #36]	@ (100003b8 <display_task+0x30>)
+10000390:	4807      	ldr	r0, [pc, #28]	@ (100003b0 <display_task+0x28>)
 10000392:	f009 fcc9 	bl	10009d28 <write_text>
-10000396:	4b09      	ldr	r3, [pc, #36]	@ (100003bc <display_task+0x34>)
-10000398:	2200      	movs	r2, #0
-1000039a:	701a      	strb	r2, [r3, #0]
-1000039c:	4b07      	ldr	r3, [pc, #28]	@ (100003bc <display_task+0x34>)
-1000039e:	781b      	ldrb	r3, [r3, #0]
-100003a0:	2b00      	cmp	r3, #0
-100003a2:	d1f3      	bne.n	1000038c <display_task+0x4>
-100003a4:	f009 fcd8 	bl	10009d58 <clear_display>
-100003a8:	4805      	ldr	r0, [pc, #20]	@ (100003c0 <display_task+0x38>)
-100003aa:	f009 fcbd 	bl	10009d28 <write_text>
-100003ae:	20fa      	movs	r0, #250	@ 0xfa
-100003b0:	0080      	lsls	r0, r0, #2
-100003b2:	f008 fce3 	bl	10008d7c <vTaskDelay>
-100003b6:	e7f1      	b.n	1000039c <display_task+0x14>
-100003b8:	20001c84 	.word	0x20001c84
-100003bc:	20022701 	.word	0x20022701
-100003c0:	1000ab30 	.word	0x1000ab30
+10000396:	4b07      	ldr	r3, [pc, #28]	@ (100003b4 <display_task+0x2c>)
+10000398:	781b      	ldrb	r3, [r3, #0]
+1000039a:	2b00      	cmp	r3, #0
+1000039c:	d1f6      	bne.n	1000038c <display_task+0x4>
+1000039e:	f009 fcdb 	bl	10009d58 <clear_display>
+100003a2:	4805      	ldr	r0, [pc, #20]	@ (100003b8 <display_task+0x30>)
+100003a4:	f009 fcc0 	bl	10009d28 <write_text>
+100003a8:	2064      	movs	r0, #100	@ 0x64
+100003aa:	f008 fce7 	bl	10008d7c <vTaskDelay>
+100003ae:	e7f2      	b.n	10000396 <display_task+0xe>
+100003b0:	20001c84 	.word	0x20001c84
+100003b4:	20022701 	.word	0x20022701
+100003b8:	1000ab30 	.word	0x1000ab30
 
-100003c4 <btn_fxn>:
-100003c4:	b510      	push	{r4, lr}
-100003c6:	f009 fc29 	bl	10009c1c <toggle_led>
-100003ca:	4b09      	ldr	r3, [pc, #36]	@ (100003f0 <btn_fxn+0x2c>)
-100003cc:	781b      	ldrb	r3, [r3, #0]
-100003ce:	2b01      	cmp	r3, #1
-100003d0:	d005      	beq.n	100003de <btn_fxn+0x1a>
-100003d2:	2b00      	cmp	r3, #0
-100003d4:	d106      	bne.n	100003e4 <btn_fxn+0x20>
-100003d6:	4b06      	ldr	r3, [pc, #24]	@ (100003f0 <btn_fxn+0x2c>)
-100003d8:	2201      	movs	r2, #1
+100003bc <btn_fxn>:
+100003bc:	b510      	push	{r4, lr}
+100003be:	f009 fc2d 	bl	10009c1c <toggle_led>
+100003c2:	4b09      	ldr	r3, [pc, #36]	@ (100003e8 <btn_fxn+0x2c>)
+100003c4:	781b      	ldrb	r3, [r3, #0]
+100003c6:	2b01      	cmp	r3, #1
+100003c8:	d005      	beq.n	100003d6 <btn_fxn+0x1a>
+100003ca:	2b00      	cmp	r3, #0
+100003cc:	d106      	bne.n	100003dc <btn_fxn+0x20>
+100003ce:	4b06      	ldr	r3, [pc, #24]	@ (100003e8 <btn_fxn+0x2c>)
+100003d0:	2201      	movs	r2, #1
+100003d2:	701a      	strb	r2, [r3, #0]
+100003d4:	e002      	b.n	100003dc <btn_fxn+0x20>
+100003d6:	4b04      	ldr	r3, [pc, #16]	@ (100003e8 <btn_fxn+0x2c>)
+100003d8:	2200      	movs	r2, #0
 100003da:	701a      	strb	r2, [r3, #0]
-100003dc:	e002      	b.n	100003e4 <btn_fxn+0x20>
-100003de:	4b04      	ldr	r3, [pc, #16]	@ (100003f0 <btn_fxn+0x2c>)
-100003e0:	2200      	movs	r2, #0
-100003e2:	701a      	strb	r2, [r3, #0]
-100003e4:	4b02      	ldr	r3, [pc, #8]	@ (100003f0 <btn_fxn+0x2c>)
-100003e6:	7819      	ldrb	r1, [r3, #0]
-100003e8:	4802      	ldr	r0, [pc, #8]	@ (100003f4 <btn_fxn+0x30>)
-100003ea:	f003 fd43 	bl	10003e74 <__wrap_printf>
-100003ee:	bd10      	pop	{r4, pc}
-100003f0:	200226fc 	.word	0x200226fc
-100003f4:	1000ab44 	.word	0x1000ab44
+100003dc:	4b02      	ldr	r3, [pc, #8]	@ (100003e8 <btn_fxn+0x2c>)
+100003de:	7819      	ldrb	r1, [r3, #0]
+100003e0:	4802      	ldr	r0, [pc, #8]	@ (100003ec <btn_fxn+0x30>)
+100003e2:	f003 fd47 	bl	10003e74 <__wrap_printf>
+100003e6:	bd10      	pop	{r4, pc}
+100003e8:	200226fc 	.word	0x200226fc
+100003ec:	1000ab44 	.word	0x1000ab44
 
-100003f8 <recive_message>:
-100003f8:	b570      	push	{r4, r5, r6, lr}
-100003fa:	0005      	movs	r5, r0
-100003fc:	4c0f      	ldr	r4, [pc, #60]	@ (1000043c <recive_message+0x44>)
-100003fe:	0001      	movs	r1, r0
-10000400:	0020      	movs	r0, r4
-10000402:	f003 fd37 	bl	10003e74 <__wrap_printf>
-10000406:	4e0e      	ldr	r6, [pc, #56]	@ (10000440 <recive_message+0x48>)
-10000408:	0030      	movs	r0, r6
-1000040a:	f00a f979 	bl	1000a700 <strlen>
-1000040e:	1830      	adds	r0, r6, r0
-10000410:	002a      	movs	r2, r5
-10000412:	0021      	movs	r1, r4
-10000414:	f003 fb74 	bl	10003b00 <__wrap_sprintf>
-10000418:	4b0a      	ldr	r3, [pc, #40]	@ (10000444 <recive_message+0x4c>)
-1000041a:	681a      	ldr	r2, [r3, #0]
-1000041c:	1880      	adds	r0, r0, r2
-1000041e:	6018      	str	r0, [r3, #0]
-10000420:	3801      	subs	r0, #1
-10000422:	5c33      	ldrb	r3, [r6, r0]
-10000424:	2b0a      	cmp	r3, #10
-10000426:	d103      	bne.n	10000430 <recive_message+0x38>
-10000428:	4b07      	ldr	r3, [pc, #28]	@ (10000448 <recive_message+0x50>)
-1000042a:	2201      	movs	r2, #1
-1000042c:	701a      	strb	r2, [r3, #0]
-1000042e:	bd70      	pop	{r4, r5, r6, pc}
-10000430:	4903      	ldr	r1, [pc, #12]	@ (10000440 <recive_message+0x48>)
-10000432:	4802      	ldr	r0, [pc, #8]	@ (1000043c <recive_message+0x44>)
-10000434:	f003 fd1e 	bl	10003e74 <__wrap_printf>
-10000438:	e7f9      	b.n	1000042e <recive_message+0x36>
-1000043a:	46c0      	nop			@ (mov r8, r8)
-1000043c:	1000ab48 	.word	0x1000ab48
-10000440:	20001c84 	.word	0x20001c84
-10000444:	200020a8 	.word	0x200020a8
-10000448:	20022701 	.word	0x20022701
+100003f0 <recive_message>:
+100003f0:	b570      	push	{r4, r5, r6, lr}
+100003f2:	0005      	movs	r5, r0
+100003f4:	4c0f      	ldr	r4, [pc, #60]	@ (10000434 <recive_message+0x44>)
+100003f6:	0001      	movs	r1, r0
+100003f8:	0020      	movs	r0, r4
+100003fa:	f003 fd3b 	bl	10003e74 <__wrap_printf>
+100003fe:	4e0e      	ldr	r6, [pc, #56]	@ (10000438 <recive_message+0x48>)
+10000400:	0030      	movs	r0, r6
+10000402:	f00a f97d 	bl	1000a700 <strlen>
+10000406:	1830      	adds	r0, r6, r0
+10000408:	002a      	movs	r2, r5
+1000040a:	0021      	movs	r1, r4
+1000040c:	f003 fb78 	bl	10003b00 <__wrap_sprintf>
+10000410:	4b0a      	ldr	r3, [pc, #40]	@ (1000043c <recive_message+0x4c>)
+10000412:	681a      	ldr	r2, [r3, #0]
+10000414:	1880      	adds	r0, r0, r2
+10000416:	6018      	str	r0, [r3, #0]
+10000418:	3801      	subs	r0, #1
+1000041a:	5c33      	ldrb	r3, [r6, r0]
+1000041c:	2b0a      	cmp	r3, #10
+1000041e:	d103      	bne.n	10000428 <recive_message+0x38>
+10000420:	4b07      	ldr	r3, [pc, #28]	@ (10000440 <recive_message+0x50>)
+10000422:	2201      	movs	r2, #1
+10000424:	701a      	strb	r2, [r3, #0]
+10000426:	bd70      	pop	{r4, r5, r6, pc}
+10000428:	4903      	ldr	r1, [pc, #12]	@ (10000438 <recive_message+0x48>)
+1000042a:	4802      	ldr	r0, [pc, #8]	@ (10000434 <recive_message+0x44>)
+1000042c:	f003 fd22 	bl	10003e74 <__wrap_printf>
+10000430:	e7f9      	b.n	10000426 <recive_message+0x36>
+10000432:	46c0      	nop			@ (mov r8, r8)
+10000434:	1000ab48 	.word	0x1000ab48
+10000438:	20001c84 	.word	0x20001c84
+1000043c:	200020a8 	.word	0x200020a8
+10000440:	20022701 	.word	0x20022701
 
-1000044c <uartFxn>:
-1000044c:	b510      	push	{r4, lr}
-1000044e:	b088      	sub	sp, #32
-10000450:	4806      	ldr	r0, [pc, #24]	@ (1000046c <uartFxn+0x20>)
-10000452:	f7ff ff63 	bl	1000031c <uart_getc>
-10000456:	0002      	movs	r2, r0
-10000458:	4905      	ldr	r1, [pc, #20]	@ (10000470 <uartFxn+0x24>)
-1000045a:	4668      	mov	r0, sp
-1000045c:	f003 fb50 	bl	10003b00 <__wrap_sprintf>
-10000460:	4668      	mov	r0, sp
-10000462:	f7ff ffc9 	bl	100003f8 <recive_message>
-10000466:	b008      	add	sp, #32
-10000468:	bd10      	pop	{r4, pc}
-1000046a:	46c0      	nop			@ (mov r8, r8)
+10000444 <uartFxn>:
+10000444:	b510      	push	{r4, lr}
+10000446:	b088      	sub	sp, #32
+10000448:	4b07      	ldr	r3, [pc, #28]	@ (10000468 <uartFxn+0x24>)
+1000044a:	2200      	movs	r2, #0
+1000044c:	701a      	strb	r2, [r3, #0]
+1000044e:	4807      	ldr	r0, [pc, #28]	@ (1000046c <uartFxn+0x28>)
+10000450:	f7ff ff64 	bl	1000031c <uart_getc>
+10000454:	0002      	movs	r2, r0
+10000456:	4906      	ldr	r1, [pc, #24]	@ (10000470 <uartFxn+0x2c>)
+10000458:	4668      	mov	r0, sp
+1000045a:	f003 fb51 	bl	10003b00 <__wrap_sprintf>
+1000045e:	4668      	mov	r0, sp
+10000460:	f7ff ffc6 	bl	100003f0 <recive_message>
+10000464:	b008      	add	sp, #32
+10000466:	bd10      	pop	{r4, pc}
+10000468:	20022701 	.word	0x20022701
 1000046c:	40034000 	.word	0x40034000
 10000470:	1000ab4c 	.word	0x1000ab4c
 
@@ -566,7 +565,7 @@ Disassembly of section .text:
 100004ec:	f008 fb4a 	bl	10008b84 <vTaskStartScheduler>
 100004f0:	e7e8      	b.n	100004c4 <main+0x50>
 100004f2:	46c0      	nop			@ (mov r8, r8)
-100004f4:	100003c5 	.word	0x100003c5
+100004f4:	100003bd 	.word	0x100003bd
 100004f8:	1000ab50 	.word	0x1000ab50
 100004fc:	10000389 	.word	0x10000389
 10000500:	1000ab58 	.word	0x1000ab58
