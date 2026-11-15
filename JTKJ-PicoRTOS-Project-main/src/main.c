@@ -30,7 +30,6 @@ void uartFxn() {
     char buf[30];
     input = uart_getc(uart0);
     sprintf(buf, "%c", input);
-    printf("in uartfxn");
     recive_message(buf);
 }
 void serial_task() {
@@ -56,11 +55,11 @@ void serial_task() {
 void recive_message(char msg[]){
     // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
     printf("%s", msg);
-    //sprintf(global_msg+strlen(global_msg), "%s", msg);
-    //if(msg == "  "){
-    //    send_message = 1;
-    //}
-    //printf("%s", global_msg);
+    sprintf(global_msg+strlen(global_msg), "%s", msg);
+    if(msg == "  "){
+        send_message = 1;
+    }
+    printf("%s", global_msg);
 }
 
 
