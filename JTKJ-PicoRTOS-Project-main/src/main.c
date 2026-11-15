@@ -59,22 +59,26 @@ void recive_message(char msg[]){
     len += sprintf(global_msg+strlen(global_msg), "%s", msg);
     char last_char = ("%c",global_msg[len-1]);
     if(global_msg[len-1] == '\n'){
-        printf("finished message");
+        send_message = 1;
     }
-    printf("%s", global_msg);
+    else{
+        printf("%s", global_msg);
+    }
 }
 
 
 void display_task() {
     while(1){
-        if (display_state == 0){
+        if (send_message){
             clear_display();
-            write_text("state == 0");
-        } else if (display_state == 1){
-            clear_display();
-            write_text("1");
+            write_text(global_msg);
+            send_message = 0;
         }
+        else {
+            clear_display();
+            write_text("waiting for message");
         vTaskDelay(pdMS_TO_TICKS(1000));
+        }
     }
 }
 int main() {
