@@ -29,8 +29,8 @@ void uartFxn() {
     char input;
     char buf[30];
     input = uart_getc(uart0);
-    printf(buf);
     sprintf(buf, "%c", input);
+    printf(buf);
     recive_message(buf);
 }
 void serial_task() {
@@ -71,7 +71,7 @@ void display_task() {
             write_text(global_msg);
         }
 
-        vTaskDelay(pdMS_TO_TICKS(300));
+        vTaskDelay(pdMS_TO_TICKS(3000));
     }
 }
 int main() {

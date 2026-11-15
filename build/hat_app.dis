@@ -37,23 +37,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  16 .comment      00000045  00000000  00000000  00010290  2**0
                   CONTENTS, READONLY
- 17 .debug_info   00042ee7  00000000  00000000  000102d5  2**0
+ 17 .debug_info   00042ee1  00000000  00000000  000102d5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_abbrev 0000b491  00000000  00000000  000531bc  2**0
+ 18 .debug_abbrev 0000b491  00000000  00000000  000531b6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 0001dff9  00000000  00000000  0005e64d  2**0
+ 19 .debug_loclists 0001dff9  00000000  00000000  0005e647  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_aranges 00002400  00000000  00000000  0007c648  2**3
+ 20 .debug_aranges 00002400  00000000  00000000  0007c640  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_rnglists 0000278e  00000000  00000000  0007ea48  2**0
+ 21 .debug_rnglists 0000278e  00000000  00000000  0007ea40  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   000295e9  00000000  00000000  000811d6  2**0
+ 22 .debug_line   000295e8  00000000  00000000  000811ce  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000d07c  00000000  00000000  000aa7bf  2**0
+ 23 .debug_str    0000d07c  00000000  00000000  000aa7b6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  00005d0c  00000000  00000000  000b783c  2**2
+ 24 .debug_frame  00005d0c  00000000  00000000  000b7834  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 0000034b  00000000  00000000  000bd548  2**0
+ 25 .debug_line_str 0000034b  00000000  00000000  000bd540  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf:     file format elf32-littlearm
@@ -410,94 +410,93 @@ Disassembly of section .text:
 1000037a:	f008 fcef 	bl	10008d5c <vTaskDelay>
 1000037e:	e7fb      	b.n	10000378 <serial_task+0x38>
 10000380:	40034000 	.word	0x40034000
-10000384:	10000429 	.word	0x10000429
+10000384:	1000042d 	.word	0x1000042d
 
 10000388 <display_task>:
 10000388:	b510      	push	{r4, lr}
-1000038a:	e008      	b.n	1000039e <display_task+0x16>
+1000038a:	e007      	b.n	1000039c <display_task+0x14>
 1000038c:	f009 fcd4 	bl	10009d38 <clear_display>
 10000390:	4805      	ldr	r0, [pc, #20]	@ (100003a8 <display_task+0x20>)
 10000392:	f009 fcb9 	bl	10009d08 <write_text>
-10000396:	2096      	movs	r0, #150	@ 0x96
-10000398:	0040      	lsls	r0, r0, #1
-1000039a:	f008 fcdf 	bl	10008d5c <vTaskDelay>
-1000039e:	4b03      	ldr	r3, [pc, #12]	@ (100003ac <display_task+0x24>)
-100003a0:	781b      	ldrb	r3, [r3, #0]
-100003a2:	2b00      	cmp	r3, #0
-100003a4:	d1f2      	bne.n	1000038c <display_task+0x4>
-100003a6:	e7f6      	b.n	10000396 <display_task+0xe>
+10000396:	4805      	ldr	r0, [pc, #20]	@ (100003ac <display_task+0x24>)
+10000398:	f008 fce0 	bl	10008d5c <vTaskDelay>
+1000039c:	4b04      	ldr	r3, [pc, #16]	@ (100003b0 <display_task+0x28>)
+1000039e:	781b      	ldrb	r3, [r3, #0]
+100003a0:	2b00      	cmp	r3, #0
+100003a2:	d1f3      	bne.n	1000038c <display_task+0x4>
+100003a4:	e7f7      	b.n	10000396 <display_task+0xe>
+100003a6:	46c0      	nop			@ (mov r8, r8)
 100003a8:	20001c84 	.word	0x20001c84
-100003ac:	200226fd 	.word	0x200226fd
+100003ac:	00000bb8 	.word	0x00000bb8
+100003b0:	200226fd 	.word	0x200226fd
 
-100003b0 <btn_fxn>:
-100003b0:	b510      	push	{r4, lr}
-100003b2:	f009 fc23 	bl	10009bfc <toggle_led>
-100003b6:	4b09      	ldr	r3, [pc, #36]	@ (100003dc <btn_fxn+0x2c>)
-100003b8:	781b      	ldrb	r3, [r3, #0]
-100003ba:	2b01      	cmp	r3, #1
-100003bc:	d005      	beq.n	100003ca <btn_fxn+0x1a>
-100003be:	2b00      	cmp	r3, #0
-100003c0:	d106      	bne.n	100003d0 <btn_fxn+0x20>
-100003c2:	4b06      	ldr	r3, [pc, #24]	@ (100003dc <btn_fxn+0x2c>)
-100003c4:	2201      	movs	r2, #1
-100003c6:	701a      	strb	r2, [r3, #0]
-100003c8:	e002      	b.n	100003d0 <btn_fxn+0x20>
-100003ca:	4b04      	ldr	r3, [pc, #16]	@ (100003dc <btn_fxn+0x2c>)
-100003cc:	2200      	movs	r2, #0
-100003ce:	701a      	strb	r2, [r3, #0]
-100003d0:	4b02      	ldr	r3, [pc, #8]	@ (100003dc <btn_fxn+0x2c>)
-100003d2:	7819      	ldrb	r1, [r3, #0]
-100003d4:	4802      	ldr	r0, [pc, #8]	@ (100003e0 <btn_fxn+0x30>)
-100003d6:	f003 fd3f 	bl	10003e58 <__wrap_printf>
-100003da:	bd10      	pop	{r4, pc}
-100003dc:	200226f8 	.word	0x200226f8
-100003e0:	1000ab20 	.word	0x1000ab20
+100003b4 <btn_fxn>:
+100003b4:	b510      	push	{r4, lr}
+100003b6:	f009 fc21 	bl	10009bfc <toggle_led>
+100003ba:	4b09      	ldr	r3, [pc, #36]	@ (100003e0 <btn_fxn+0x2c>)
+100003bc:	781b      	ldrb	r3, [r3, #0]
+100003be:	2b01      	cmp	r3, #1
+100003c0:	d005      	beq.n	100003ce <btn_fxn+0x1a>
+100003c2:	2b00      	cmp	r3, #0
+100003c4:	d106      	bne.n	100003d4 <btn_fxn+0x20>
+100003c6:	4b06      	ldr	r3, [pc, #24]	@ (100003e0 <btn_fxn+0x2c>)
+100003c8:	2201      	movs	r2, #1
+100003ca:	701a      	strb	r2, [r3, #0]
+100003cc:	e002      	b.n	100003d4 <btn_fxn+0x20>
+100003ce:	4b04      	ldr	r3, [pc, #16]	@ (100003e0 <btn_fxn+0x2c>)
+100003d0:	2200      	movs	r2, #0
+100003d2:	701a      	strb	r2, [r3, #0]
+100003d4:	4b02      	ldr	r3, [pc, #8]	@ (100003e0 <btn_fxn+0x2c>)
+100003d6:	7819      	ldrb	r1, [r3, #0]
+100003d8:	4802      	ldr	r0, [pc, #8]	@ (100003e4 <btn_fxn+0x30>)
+100003da:	f003 fd3d 	bl	10003e58 <__wrap_printf>
+100003de:	bd10      	pop	{r4, pc}
+100003e0:	200226f8 	.word	0x200226f8
+100003e4:	1000ab20 	.word	0x1000ab20
 
-100003e4 <recive_message>:
-100003e4:	b570      	push	{r4, r5, r6, lr}
-100003e6:	0004      	movs	r4, r0
-100003e8:	4d0b      	ldr	r5, [pc, #44]	@ (10000418 <recive_message+0x34>)
-100003ea:	0028      	movs	r0, r5
-100003ec:	f00a f980 	bl	1000a6f0 <strlen>
-100003f0:	1828      	adds	r0, r5, r0
-100003f2:	0021      	movs	r1, r4
-100003f4:	f00a f974 	bl	1000a6e0 <strcpy>
-100003f8:	0020      	movs	r0, r4
-100003fa:	f003 fd2d 	bl	10003e58 <__wrap_printf>
-100003fe:	4b07      	ldr	r3, [pc, #28]	@ (1000041c <recive_message+0x38>)
-10000400:	429c      	cmp	r4, r3
-10000402:	d004      	beq.n	1000040e <recive_message+0x2a>
-10000404:	4904      	ldr	r1, [pc, #16]	@ (10000418 <recive_message+0x34>)
-10000406:	4806      	ldr	r0, [pc, #24]	@ (10000420 <recive_message+0x3c>)
-10000408:	f003 fd26 	bl	10003e58 <__wrap_printf>
-1000040c:	bd70      	pop	{r4, r5, r6, pc}
-1000040e:	4b05      	ldr	r3, [pc, #20]	@ (10000424 <recive_message+0x40>)
-10000410:	2201      	movs	r2, #1
-10000412:	701a      	strb	r2, [r3, #0]
-10000414:	e7f6      	b.n	10000404 <recive_message+0x20>
-10000416:	46c0      	nop			@ (mov r8, r8)
-10000418:	20001c84 	.word	0x20001c84
-1000041c:	1000ab24 	.word	0x1000ab24
-10000420:	1000ab28 	.word	0x1000ab28
-10000424:	200226fd 	.word	0x200226fd
+100003e8 <recive_message>:
+100003e8:	b570      	push	{r4, r5, r6, lr}
+100003ea:	0004      	movs	r4, r0
+100003ec:	4d0b      	ldr	r5, [pc, #44]	@ (1000041c <recive_message+0x34>)
+100003ee:	0028      	movs	r0, r5
+100003f0:	f00a f97e 	bl	1000a6f0 <strlen>
+100003f4:	1828      	adds	r0, r5, r0
+100003f6:	0021      	movs	r1, r4
+100003f8:	f00a f972 	bl	1000a6e0 <strcpy>
+100003fc:	0020      	movs	r0, r4
+100003fe:	f003 fd2b 	bl	10003e58 <__wrap_printf>
+10000402:	4b07      	ldr	r3, [pc, #28]	@ (10000420 <recive_message+0x38>)
+10000404:	429c      	cmp	r4, r3
+10000406:	d004      	beq.n	10000412 <recive_message+0x2a>
+10000408:	4904      	ldr	r1, [pc, #16]	@ (1000041c <recive_message+0x34>)
+1000040a:	4806      	ldr	r0, [pc, #24]	@ (10000424 <recive_message+0x3c>)
+1000040c:	f003 fd24 	bl	10003e58 <__wrap_printf>
+10000410:	bd70      	pop	{r4, r5, r6, pc}
+10000412:	4b05      	ldr	r3, [pc, #20]	@ (10000428 <recive_message+0x40>)
+10000414:	2201      	movs	r2, #1
+10000416:	701a      	strb	r2, [r3, #0]
+10000418:	e7f6      	b.n	10000408 <recive_message+0x20>
+1000041a:	46c0      	nop			@ (mov r8, r8)
+1000041c:	20001c84 	.word	0x20001c84
+10000420:	1000ab24 	.word	0x1000ab24
+10000424:	1000ab28 	.word	0x1000ab28
+10000428:	200226fd 	.word	0x200226fd
 
-10000428 <uartFxn>:
-10000428:	b530      	push	{r4, r5, lr}
-1000042a:	b089      	sub	sp, #36	@ 0x24
-1000042c:	4808      	ldr	r0, [pc, #32]	@ (10000450 <uartFxn+0x28>)
-1000042e:	f7ff ff75 	bl	1000031c <uart_getc>
-10000432:	0005      	movs	r5, r0
-10000434:	4668      	mov	r0, sp
-10000436:	f003 fd0f 	bl	10003e58 <__wrap_printf>
-1000043a:	4906      	ldr	r1, [pc, #24]	@ (10000454 <uartFxn+0x2c>)
-1000043c:	002a      	movs	r2, r5
-1000043e:	4668      	mov	r0, sp
-10000440:	f003 fb50 	bl	10003ae4 <__wrap_sprintf>
-10000444:	4668      	mov	r0, sp
-10000446:	f7ff ffcd 	bl	100003e4 <recive_message>
-1000044a:	b009      	add	sp, #36	@ 0x24
-1000044c:	bd30      	pop	{r4, r5, pc}
-1000044e:	46c0      	nop			@ (mov r8, r8)
+1000042c <uartFxn>:
+1000042c:	b510      	push	{r4, lr}
+1000042e:	b088      	sub	sp, #32
+10000430:	4807      	ldr	r0, [pc, #28]	@ (10000450 <uartFxn+0x24>)
+10000432:	f7ff ff73 	bl	1000031c <uart_getc>
+10000436:	0002      	movs	r2, r0
+10000438:	4906      	ldr	r1, [pc, #24]	@ (10000454 <uartFxn+0x28>)
+1000043a:	4668      	mov	r0, sp
+1000043c:	f003 fb52 	bl	10003ae4 <__wrap_sprintf>
+10000440:	4668      	mov	r0, sp
+10000442:	f003 fd09 	bl	10003e58 <__wrap_printf>
+10000446:	4668      	mov	r0, sp
+10000448:	f7ff ffce 	bl	100003e8 <recive_message>
+1000044c:	b008      	add	sp, #32
+1000044e:	bd10      	pop	{r4, pc}
 10000450:	40034000 	.word	0x40034000
 10000454:	1000ab2c 	.word	0x1000ab2c
 
@@ -554,7 +553,7 @@ Disassembly of section .text:
 100004d0:	f008 fb48 	bl	10008b64 <vTaskStartScheduler>
 100004d4:	e7e8      	b.n	100004a8 <main+0x50>
 100004d6:	46c0      	nop			@ (mov r8, r8)
-100004d8:	100003b1 	.word	0x100003b1
+100004d8:	100003b5 	.word	0x100003b5
 100004dc:	1000ab30 	.word	0x1000ab30
 100004e0:	10000389 	.word	0x10000389
 100004e4:	1000ab38 	.word	0x1000ab38
