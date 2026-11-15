@@ -30,6 +30,7 @@ void uartFxn() {
         char input;
         char buf[30];
         input = uart_getc(uart0);
+        printf(buf);
         sprintf(buf, "%c", input);
         recive_message(buf);
     }
