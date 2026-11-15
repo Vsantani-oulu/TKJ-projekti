@@ -57,7 +57,8 @@ void serial_task() {
 void recive_message(char msg[]){
     // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
     sprintf(global_msg+strlen(global_msg), "%s", msg);
-    if(msg == "  \n"){
+    printf(msg);
+    if(msg == "  "){
         send_message = 1;
     }
     printf("%s", global_msg);
