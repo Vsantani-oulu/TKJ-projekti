@@ -21,14 +21,18 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     printf("%d",send_message);
     char last_char = ("%c",global_msg[len-1]);
     printf("%c",last_char);
+    if (send_message == 1){
+        send_message = 0;
+    }
 }
 void uartFxn() {
-    send_message = 0;
-    char input;
-    char buf[30];
-    input = uart_getc(uart0);
-    sprintf(buf, "%c", input);
-    recive_message(buf);
+    if (send_message == 0){
+        char input;
+        char buf[30];
+        input = uart_getc(uart0);
+        sprintf(buf, "%c", input);
+        recive_message(buf);
+    }
 }
 void serial_task() {
 
