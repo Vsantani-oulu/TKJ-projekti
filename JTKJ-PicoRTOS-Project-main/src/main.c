@@ -73,6 +73,7 @@ void display_task() {
         if (send_message){
             clear_display();
             write_text(global_msg);
+            global_msg[0]='\0';
         }
         else {
             clear_display();
