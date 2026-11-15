@@ -13,6 +13,7 @@ void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
 char global_msg[30] = "";
+char ready_msg[30] = "";
 int len;
 uint8_t send_message = 0;
 
@@ -61,6 +62,7 @@ void recive_message(char msg[]){
     char last_char = ("%c",global_msg[len-1]);
     if(last_char == '\n'){
         send_message = 1;
+        len = 0;
     }
     else{
         printf("%s", global_msg);
