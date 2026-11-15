@@ -12,6 +12,8 @@
 void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
+char global_msg[30] = "";
+uint8_t send_message = 0;
 
 void recive_message(char msg[]);
 static void btn_fxn(uint gpio, uint32_t eventMask) {
@@ -24,11 +26,13 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     printf("%d",display_state);
 }
 void uartFxn() {
+    if (!send_message){
         char input;
         char buf[30];
         input = uart_getc(uart0);
         sprintf(buf, "%c", input);
         recive_message(buf);
+    }
 }
 void serial_task() {
 
@@ -51,20 +55,23 @@ void serial_task() {
     }
 }
 void recive_message(char msg[]){
-    printf("%s", msg);
+    // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
+    sprintf(global_msg+strlen(global_msg), "%s", msg);
+    if(msg == "  \n"){
+        send_message = 1;
+    }
+    printf("%s", global_msg);
 }
 
 
 void display_task() {
     while(1){
-        if (display_state == 0){
+        if (send_message){
             clear_display();
-            write_text("state == 0");
-        } else if (display_state == 1){
-            clear_display();
-            write_text("1");
+            write_text(global_msg);
         }
-        vTaskDelay(pdMS_TO_TICKS(1000));
+
+        vTaskDelay(pdMS_TO_TICKS(300));
     }
 }
 int main() {
