@@ -66,12 +66,14 @@ void recive_message(char msg[]){
 
 void display_task() {
     while(1){
-        if (send_message){
+        if (display_state == 0){
             clear_display();
-            write_text(global_msg);
+            write_text("state == 0");
+        } else if (display_state == 1){
+            clear_display();
+            write_text("1");
         }
-
-        vTaskDelay(pdMS_TO_TICKS(3000));
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 int main() {
