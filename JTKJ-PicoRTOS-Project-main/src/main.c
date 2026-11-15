@@ -13,6 +13,7 @@ void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
 
+void recive_message(char msg[]);
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     toggle_led();
     if (display_state == 1){
@@ -26,7 +27,8 @@ void uartFxn() {
         char input;
         char buf[30];
         input = uart_getc(uart0);
-        display_string = input;
+        sprintf(buf, "%c", input);
+        recive_message(buf);
 }
 void serial_task() {
 
@@ -48,19 +50,21 @@ void serial_task() {
         vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
-
+void recive_message(char msg[]){
+    printf("%s", msg);
+}
 
 
 void display_task() {
     while(1){
-    if (display_state == 0){
-        clear_display();
-        write_text("state == 0");
-    } else if (display_state == 1){
-        clear_display();
-        write_text(&display_string);
-    }
-    vTaskDelay(pdMS_TO_TICKS(1000));
+        if (display_state == 0){
+            clear_display();
+            write_text("state == 0");
+        } else if (display_state == 1){
+            clear_display();
+            write_text("1");
+        }
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 int main() {
