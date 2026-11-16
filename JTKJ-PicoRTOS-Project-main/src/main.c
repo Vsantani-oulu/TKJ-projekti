@@ -9,6 +9,8 @@
 #include <task.h>
 
 #include "tkjhat/sdk.h"
+enum state {READ_UART, DISPLAY};
+enum state currentState = READ_UART;
 void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
@@ -24,7 +26,7 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     printf("current msg: %s",global_msg);
 }
 void uartFxn() {
-    if (send_message == 0){
+    if (currentState == READ_UART){
         char input;
         char buf[30];
         input = uart_getc(uart0);
@@ -54,11 +56,12 @@ void serial_task() {
 }
 void recive_message(char msg[]){
     // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
-    printf("%s", msg);
     len += sprintf(global_msg+strlen(global_msg), "%s", msg);
     char last_char = ("%c",global_msg[len-1]);
     if(last_char == '\n'){
-        send_message = 1;
+        memcpy(&ready_msg, &global_msg, sizeof(global_msg));
+        currentState = DISPLAY;
+        global_msg[0]='\0';
     }
     else{
         printf("%s", global_msg);
@@ -67,16 +70,15 @@ void recive_message(char msg[]){
 
 void write_message() {
     clear_display();
-    write_text(global_msg);
-    global_msg[0]='\0';
+    write_text(ready_msg);
     len = 0;
-    send_message = 0;
+    currentState = READ_UART;
 }
 void display_task() {
     clear_display();
     write_text("waiting for message");
     while(1){
-        if (send_message){
+        if (currentState == DISPLAY){
             write_message();
         }
         vTaskDelay(pdMS_TO_TICKS(20));
