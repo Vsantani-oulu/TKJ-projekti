@@ -16,16 +16,13 @@ char global_msg[30] = "";
 char ready_msg[30] = "";
 int len;
 uint8_t send_message = 0;
-void write_message(char msg[]);
+void write_message();
 void recive_message(char msg[]);
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     printf("%d",send_message);
     char last_char = ("%c",global_msg[len-1]);
     printf("%c",last_char);
-    if (send_message == 1){
-        send_message = 0;
-    }
 }
 void uartFxn() {
     if (send_message == 0){
@@ -62,30 +59,28 @@ void recive_message(char msg[]){
     len += sprintf(global_msg+strlen(global_msg), "%s", msg);
     char last_char = ("%c",global_msg[len-1]);
     if(last_char == '\n'){
-        write_message(global_msg);
+        send_message = 1;
     }
     else{
         printf("%s", global_msg);
     }
 }
 
-void write_message(char msg[]) {
+void write_message() {
     clear_display();
     write_text(global_msg);
+    global_msg[0]='\0';
+    len = 0;
+    send_message = 0;
 }
 void display_task() {
+    clear_display();
+    write_text("waiting for message");
     while(1){
         if (send_message){
-            //clear_display();
-            //write_text(global_msg);
-            //global_msg[0]='\0';
-            //len = 0;
+            write_message();
         }
-        else {
-            //clear_display();
-            //write_text("waiting for message");
         vTaskDelay(pdMS_TO_TICKS(20));
-        }
     }
 }
 int main() {
