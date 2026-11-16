@@ -21,8 +21,7 @@ void recive_message(char msg[]);
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     printf("%d",send_message);
-    char last_char = ("%c",global_msg[len-1]);
-    printf("%c",last_char);
+    printf("current msg: %s",global_msg);
 }
 void uartFxn() {
     if (send_message == 0){
