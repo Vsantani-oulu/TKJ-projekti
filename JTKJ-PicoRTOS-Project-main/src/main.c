@@ -27,10 +27,12 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
 }
 void uartFxn() {
     if (currentState == READ_UART){
+        char full_msg[30] = "";
         char input;
         char buf[30];
         input = uart_getc(uart0);
         sprintf(buf, "%c", input);
+        printf("%s", buf);
         recive_message(buf);
     }
 }
@@ -56,7 +58,6 @@ void serial_task() {
 }
 void recive_message(char msg[]){
     // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
-    printf("hello");
     len += sprintf(global_msg+strlen(global_msg), "%s", msg);
     char last_char = ("%c",global_msg[len-1]);
     if(last_char == '\n'){
