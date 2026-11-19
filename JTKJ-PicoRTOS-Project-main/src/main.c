@@ -61,7 +61,7 @@ void recive_message(char msg[]){
     if(last_char == '\n'){
         memcpy(&ready_msg, &global_msg, sizeof(global_msg));
         currentState = DISPLAY;
-        global_msg[0]='\0';
+        printf("State to display");
     }
     else{
         printf("%s", global_msg);
@@ -72,6 +72,7 @@ void write_message() {
     clear_display();
     write_text(ready_msg);
     len = 0;
+    global_msg[0]='\0';
     currentState = READ_UART;
 }
 void display_task() {
