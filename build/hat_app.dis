@@ -37,23 +37,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  16 .comment      00000045  00000000  00000000  00010290  2**0
                   CONTENTS, READONLY
- 17 .debug_info   00042f8b  00000000  00000000  000102d5  2**0
+ 17 .debug_info   00042fa8  00000000  00000000  000102d5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_abbrev 0000b4ab  00000000  00000000  00053260  2**0
+ 18 .debug_abbrev 0000b4ab  00000000  00000000  0005327d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 0001e036  00000000  00000000  0005e70b  2**0
+ 19 .debug_loclists 0001e04f  00000000  00000000  0005e728  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_aranges 00002408  00000000  00000000  0007c748  2**3
+ 20 .debug_aranges 00002408  00000000  00000000  0007c778  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_rnglists 00002794  00000000  00000000  0007eb50  2**0
+ 21 .debug_rnglists 00002794  00000000  00000000  0007eb80  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   00029625  00000000  00000000  000812e4  2**0
+ 22 .debug_line   00029621  00000000  00000000  00081314  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000d0ac  00000000  00000000  000aa909  2**0
+ 23 .debug_str    0000d0ac  00000000  00000000  000aa935  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  00005d04  00000000  00000000  000b79b8  2**2
+ 24 .debug_frame  00005d04  00000000  00000000  000b79e4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 0000034b  00000000  00000000  000bd6bc  2**0
+ 25 .debug_line_str 0000034b  00000000  00000000  000bd6e8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf:     file format elf32-littlearm
@@ -431,14 +431,14 @@ Disassembly of section .text:
 100003b0 <recive_message>:
 100003b0:	b570      	push	{r4, r5, r6, lr}
 100003b2:	0005      	movs	r5, r0
-100003b4:	4c13      	ldr	r4, [pc, #76]	@ (10000404 <recive_message+0x54>)
+100003b4:	4c14      	ldr	r4, [pc, #80]	@ (10000408 <recive_message+0x58>)
 100003b6:	0020      	movs	r0, r4
 100003b8:	f00a f9a6 	bl	1000a708 <strlen>
-100003bc:	4912      	ldr	r1, [pc, #72]	@ (10000408 <recive_message+0x58>)
+100003bc:	4913      	ldr	r1, [pc, #76]	@ (1000040c <recive_message+0x5c>)
 100003be:	1820      	adds	r0, r4, r0
 100003c0:	002a      	movs	r2, r5
 100003c2:	f003 fbb7 	bl	10003b34 <__wrap_sprintf>
-100003c6:	4b11      	ldr	r3, [pc, #68]	@ (1000040c <recive_message+0x5c>)
+100003c6:	4b12      	ldr	r3, [pc, #72]	@ (10000410 <recive_message+0x60>)
 100003c8:	681a      	ldr	r2, [r3, #0]
 100003ca:	1880      	adds	r0, r0, r2
 100003cc:	6018      	str	r0, [r3, #0]
@@ -446,32 +446,31 @@ Disassembly of section .text:
 100003d0:	5c23      	ldrb	r3, [r4, r0]
 100003d2:	2b0a      	cmp	r3, #10
 100003d4:	d004      	beq.n	100003e0 <recive_message+0x30>
-100003d6:	490b      	ldr	r1, [pc, #44]	@ (10000404 <recive_message+0x54>)
-100003d8:	480b      	ldr	r0, [pc, #44]	@ (10000408 <recive_message+0x58>)
+100003d6:	490c      	ldr	r1, [pc, #48]	@ (10000408 <recive_message+0x58>)
+100003d8:	480c      	ldr	r0, [pc, #48]	@ (1000040c <recive_message+0x5c>)
 100003da:	f003 fd65 	bl	10003ea8 <__wrap_printf>
 100003de:	bd70      	pop	{r4, r5, r6, pc}
-100003e0:	490b      	ldr	r1, [pc, #44]	@ (10000410 <recive_message+0x60>)
-100003e2:	4b08      	ldr	r3, [pc, #32]	@ (10000404 <recive_message+0x54>)
-100003e4:	000a      	movs	r2, r1
-100003e6:	cb31      	ldmia	r3!, {r0, r4, r5}
-100003e8:	c231      	stmia	r2!, {r0, r4, r5}
-100003ea:	cb13      	ldmia	r3!, {r0, r1, r4}
-100003ec:	c213      	stmia	r2!, {r0, r1, r4}
+100003e0:	4c0c      	ldr	r4, [pc, #48]	@ (10000414 <recive_message+0x64>)
+100003e2:	4b09      	ldr	r3, [pc, #36]	@ (10000408 <recive_message+0x58>)
+100003e4:	0022      	movs	r2, r4
+100003e6:	cb23      	ldmia	r3!, {r0, r1, r5}
+100003e8:	c223      	stmia	r2!, {r0, r1, r5}
+100003ea:	cb23      	ldmia	r3!, {r0, r1, r5}
+100003ec:	c223      	stmia	r2!, {r0, r1, r5}
 100003ee:	6819      	ldr	r1, [r3, #0]
 100003f0:	6011      	str	r1, [r2, #0]
 100003f2:	889b      	ldrh	r3, [r3, #4]
 100003f4:	8093      	strh	r3, [r2, #4]
-100003f6:	4b07      	ldr	r3, [pc, #28]	@ (10000414 <recive_message+0x64>)
-100003f8:	2201      	movs	r2, #1
-100003fa:	701a      	strb	r2, [r3, #0]
-100003fc:	4806      	ldr	r0, [pc, #24]	@ (10000418 <recive_message+0x68>)
-100003fe:	f003 fd53 	bl	10003ea8 <__wrap_printf>
-10000402:	e7ec      	b.n	100003de <recive_message+0x2e>
-10000404:	20001c84 	.word	0x20001c84
-10000408:	1000ab5c 	.word	0x1000ab5c
-1000040c:	200020a8 	.word	0x200020a8
-10000410:	2000238c 	.word	0x2000238c
-10000414:	2002271c 	.word	0x2002271c
+100003f6:	f009 fcb3 	bl	10009d60 <clear_display>
+100003fa:	0020      	movs	r0, r4
+100003fc:	f009 fc98 	bl	10009d30 <write_text>
+10000400:	4805      	ldr	r0, [pc, #20]	@ (10000418 <recive_message+0x68>)
+10000402:	f003 fd51 	bl	10003ea8 <__wrap_printf>
+10000406:	e7ea      	b.n	100003de <recive_message+0x2e>
+10000408:	20001c84 	.word	0x20001c84
+1000040c:	1000ab5c 	.word	0x1000ab5c
+10000410:	200020a8 	.word	0x200020a8
+10000414:	2000238c 	.word	0x2000238c
 10000418:	1000ab60 	.word	0x1000ab60
 
 1000041c <uartFxn>:

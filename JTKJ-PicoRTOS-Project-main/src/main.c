@@ -60,7 +60,8 @@ void recive_message(char msg[]){
     char last_char = ("%c",global_msg[len-1]);
     if(last_char == '\n'){
         memcpy(&ready_msg, &global_msg, sizeof(global_msg));
-        currentState = DISPLAY;
+        clear_display();
+        write_text(ready_msg);
         printf("State to display");
     }
     else{
