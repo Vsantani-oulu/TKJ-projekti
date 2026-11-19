@@ -56,12 +56,12 @@ void serial_task() {
 }
 void recive_message(char msg[]){
     // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
+    printf("hello");
     len += sprintf(global_msg+strlen(global_msg), "%s", msg);
     char last_char = ("%c",global_msg[len-1]);
     if(last_char == '\n'){
-        memcpy(&ready_msg, &global_msg, sizeof(global_msg));
         clear_display();
-        write_text(ready_msg);
+        write_text(global_msg);
         printf("State to display");
         len = 0;
         global_msg[0]='\0';
