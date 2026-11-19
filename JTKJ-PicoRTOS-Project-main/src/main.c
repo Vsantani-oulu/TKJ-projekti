@@ -63,6 +63,8 @@ void recive_message(char msg[]){
         clear_display();
         write_text(ready_msg);
         printf("State to display");
+        len = 0;
+        global_msg[0]='\0';
     }
     else{
         printf("%s", global_msg);
