@@ -22,7 +22,7 @@ void write_message();
 void recive_message(char msg[]);
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
-    printf("%d",send_message);
+    printf("current state: %d",currentState);
     printf("current msg: %s",global_msg);
 }
 void uartFxn() {
