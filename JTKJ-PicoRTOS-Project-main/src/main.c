@@ -27,8 +27,8 @@ void stateChanger(void * pvParameters) {
         if (currentState == IDLE){
             currentState = READ_UART;
             printf("hi");
-            vTaskDelay(pdMS_TO_TICKS(500));
         }
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
 static void btn_fxn(uint gpio, uint32_t eventMask) {
