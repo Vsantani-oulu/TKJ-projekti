@@ -32,7 +32,14 @@ void uartFxn() {
         char buf[30];
         input = uart_getc(uart0);
         sprintf(buf, "%c", input);
-        printf("recived: %s", buf);
+        if (buf[0] == '\n'){
+            clear_display();
+            write_text(global_msg);
+            global_msg[0]='\0';
+        } else if(buf[0] != '\0'){
+            sprintf(global_msg+strlen(global_msg), "%s", buf);
+        }
+        printf("%c",buf[0]);
     }
 }
 void serial_task() {
