@@ -5583,6 +5583,7 @@ CMakeFiles/hat_app.dir/src/main.c.o: /home/student/jtkj-projects/jtkj-project-to
   /home/student/.freertos/include/projdefs.h \
   /home/student/.freertos/include/queue.h \
   /home/student/.freertos/include/task.h \
+  /home/student/.freertos/include/timers.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \

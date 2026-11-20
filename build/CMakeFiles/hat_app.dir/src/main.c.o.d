@@ -85,9 +85,10 @@ CMakeFiles/hat_app.dir/src/main.c.o: \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/include/hardware/sync.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
  /home/student/.freertos/include/mpu_wrappers.h \
- /home/student/.freertos/include/queue.h \
+ /home/student/.freertos/include/timers.h \
  /home/student/.freertos/include/task.h \
  /home/student/.freertos/include/list.h \
+ /home/student/.freertos/include/queue.h \
  /home/student/.freertos/include/task.h \
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \

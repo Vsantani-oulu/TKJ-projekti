@@ -5,6 +5,7 @@
 #include <pico/stdlib.h>
 
 #include <FreeRTOS.h>
+#include <timers.h>
 #include <queue.h>
 #include <task.h>
 
@@ -21,7 +22,7 @@ int len;
 uint8_t send_message = 0;
 void write_message();
 void recive_message(char msg[]);
-int64_t stateChanger(alarm_id_t id, void *user_data) {
+void timerFxn(TimerHandle_t timer) {
     if (currentState == IDLE){
         currentState = READ_UART;
     }
@@ -113,7 +114,6 @@ int main() {
     init_sw1();
     init_led();
     init_display();
-    add_alarm_in_ms(500, stateChanger, NULL, false);
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
     TaskHandle_t displayTaskHandle, serialTaskHandle = NULL;
     BaseType_t result = xTaskCreate(display_task,   // (en) Task function
@@ -137,6 +137,26 @@ int main() {
     if(result != pdPASS) {
         printf("Serial Task created failed\n");
         return 0;
+    }
+    TimerHandle_t timerHandle;
+    // Alustetaan ajastin
+    timerHandle = xTimerCreate(
+        "Timer",              // Ajastimen nimi
+        pdMS_TO_TICKS(1000),  // Periodi
+        pdTRUE,               // Käynnistetään ajastin automaattisesti uudelleen
+        (void *) 0,           // Ajastimen tunnistenumero
+        timerFxn              // Ajastinfunktio
+    );
+    if(timerHandle == NULL) {
+        printf("Timer create failed\n");
+        return 0;
+    }
+    else {
+        // Käynnistetään ajastin
+        if(xTimerStart(timerHandle, 0) != pdPASS) {
+            printf("Timer start failed\n");
+            return 0;
+        }
     }
     // Start the scheduler (never returns)
     vTaskStartScheduler();
