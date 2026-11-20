@@ -22,10 +22,13 @@ int len;
 uint8_t send_message = 0;
 void write_message();
 void recive_message(char msg[]);
-void timerFxn(TimerHandle_t timer) {
-    printf("hi");
-    if (currentState == IDLE){
-        currentState = READ_UART;
+void stateChanger(void * pvParameters) {
+    while(1){
+        if (currentState == IDLE){
+            currentState = READ_UART;
+            printf("hi");
+            vTaskDelay(pdMS_TO_TICKS(500));
+        }
     }
 }
 static void btn_fxn(uint gpio, uint32_t eventMask) {
@@ -117,7 +120,7 @@ int main() {
     init_led();
     init_display();
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
-    TaskHandle_t displayTaskHandle, serialTaskHandle = NULL;
+    TaskHandle_t stateChangerHandle, displayTaskHandle, serialTaskHandle = NULL;
     BaseType_t result = xTaskCreate(display_task,   // (en) Task function
             "display",                   // (en) Name of the task 
                 1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
@@ -129,6 +132,16 @@ int main() {
         printf("Display Task created failed\n");
         return 0;
     }
+    result = xTaskCreate(stateChanger,   // (en) Task function
+            "stateChanger",                   // (en) Name of the task 
+            1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
+            NULL,                    // (en) Arguments of the task 
+            2,                       // (en) Priority of this task
+            &stateChangerHandle);     // (en) A handle to control the execution of this task
+    if(result != pdPASS) {
+        printf("state changer Task created failed\n");
+        return 0;
+    }    
     result = xTaskCreate(serial_task,   // (en) Task function
         "serial",                   // (en) Name of the task 
             1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
@@ -139,26 +152,6 @@ int main() {
     if(result != pdPASS) {
         printf("Serial Task created failed\n");
         return 0;
-    }
-    TimerHandle_t timerHandle;
-    // Alustetaan ajastin
-    timerHandle = xTimerCreate(
-        "Timer",              // Ajastimen nimi
-        pdMS_TO_TICKS(1000),  // Periodi
-        pdTRUE,               // Käynnistetään ajastin automaattisesti uudelleen
-        (void *) 0,           // Ajastimen tunnistenumero
-        timerFxn              // Ajastinfunktio
-    );
-    if(timerHandle == NULL) {
-        printf("Timer create failed\n");
-        return 0;
-    }
-    else {
-        // Käynnistetään ajastin
-        if(xTimerStart(timerHandle, 0) != pdPASS) {
-            printf("Timer start failed\n");
-            return 0;
-        }
     }
     // Start the scheduler (never returns)
     vTaskStartScheduler();
