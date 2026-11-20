@@ -9,8 +9,8 @@
 #include <task.h>
 
 #include "tkjhat/sdk.h"
-enum state {READ_UART, DISPLAY};
-enum state currentState = READ_UART;
+enum state {IDLE=1, READ_UART, DISPLAY};
+enum state currentState = IDLE;
 void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
@@ -21,24 +21,20 @@ int len;
 uint8_t send_message = 0;
 void write_message();
 void recive_message(char msg[]);
-
+int64_t stateChanger(alarm_id_t id, void *user_data) {
+    if (currentState == IDLE){
+        currentState = READ_UART;
+    }
+}
 static void btn_fxn(uint gpio, uint32_t eventMask) {
-    printf("current state: %d",currentState);
-    printf("current msg: %s",global_msg);
 }
 void uartFxn() {
     if (currentState == READ_UART){
-        char full_msg[30] = "";
         char input;
         char buf[30];
         input = uart_getc(uart0);
         sprintf(buf, "%c", input);
-        if (buf[0] == '\n'){
-            currentState = DISPLAY;
-        } else if(buf[0] != '\0'){
-            sprintf(global_msg+strlen(global_msg), "%s", buf);
-        }
-        printf("%c",buf[0]);
+        recive_message(buf);
     }
 }
 void serial_task() {
@@ -62,18 +58,10 @@ void serial_task() {
     }
 }
 void recive_message(char msg[]){
-    // Käytetään sprintf yhdistämään saatu viesti ja globaali viesti, ensimmäiseen muuttujaan lisätään strlen(global_msg), että listan pituus nousee
-    len += sprintf(global_msg+strlen(global_msg), "%s", msg);
-    char last_char = ("%c",global_msg[len-1]);
-    if(last_char == '\n'){
-        clear_display();
-        write_text(global_msg);
-        printf("State to display");
-        len = 0;
-        global_msg[0]='\0';
-    }
-    else{
-        printf("%s", global_msg);
+    if (msg[0] == '\n'){
+        currentState = DISPLAY;
+    } else if(msg[0] != '\0'){
+        sprintf(global_msg+strlen(global_msg), "%s", msg);
     }
 }
 
@@ -90,7 +78,7 @@ void display_task() {
             clear_display();
             write_text(global_msg);
             memcpy(global_msg, empty_msg, strlen(global_msg));
-            currentState = READ_UART;
+            currentState = IDLE;
         }
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
@@ -125,7 +113,7 @@ int main() {
     init_sw1();
     init_led();
     init_display();
-
+    add_alarm_in_ms(500, stateChanger, NULL, false);
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
     TaskHandle_t displayTaskHandle, serialTaskHandle = NULL;
     BaseType_t result = xTaskCreate(display_task,   // (en) Task function
