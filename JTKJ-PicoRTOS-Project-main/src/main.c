@@ -31,6 +31,9 @@ void stateChanger(void * pvParameters) {
         } else if (currentState == READ_UART && message_status == 2){
             message_status = 1;
             currentState = DISPLAY;
+        } else if (currentState == DISPLAY) {
+            write_message();
+            currentState = IDLE;
         }
         vTaskDelay(pdMS_TO_TICKS(500));
     }
@@ -78,8 +81,8 @@ void recive_message(char msg[]){
 void write_message() {
     clear_display();
     write_text(global_msg);
-    global_msg[0]='\0';
-    currentState = READ_UART;
+    memcpy(global_msg, empty_msg, strlen(global_msg));
+    return;
 }
 void display_task() {
     write_text("waiting");
