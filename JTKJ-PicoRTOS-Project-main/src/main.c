@@ -10,11 +10,11 @@
 
 #include "tkjhat/sdk.h"
 enum state {READ_UART, DISPLAY};
-enum state currentState = READ_UART;
+enum state currentState = DISPLAY;
 void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
-char global_msg[30] = "";
+char global_msg[30] = "waiting";
 char ready_msg[30] = "";
 int len;
 uint8_t send_message = 0;
@@ -33,7 +33,6 @@ void uartFxn() {
         input = uart_getc(uart0);
         sprintf(buf, "%c", input);
         if (buf[0] == '\n'){
-            memcpy(ready_msg, global_msg, sizeof(ready_msg));
             currentState = DISPLAY;
         } else if(buf[0] != '\0'){
             sprintf(global_msg+strlen(global_msg), "%s", buf);
@@ -79,17 +78,17 @@ void recive_message(char msg[]){
 
 void write_message() {
     clear_display();
-    write_text(ready_msg);
+    write_text(global_msg);
     global_msg[0]='\0';
-    ready_msg[0]='\0';
     currentState = READ_UART;
 }
 void display_task() {
-    clear_display();
-    write_text("waiting for message");
     while(1){
         if (currentState == DISPLAY){
-            write_message();
+            clear_display();
+            write_text(global_msg);
+            global_msg[0]='\0';
+            currentState = READ_UART;
         }
         vTaskDelay(pdMS_TO_TICKS(20));
     }
