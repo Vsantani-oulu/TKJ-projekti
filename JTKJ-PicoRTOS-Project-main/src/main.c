@@ -33,9 +33,8 @@ void uartFxn() {
         input = uart_getc(uart0);
         sprintf(buf, "%c", input);
         if (buf[0] == '\n'){
-            clear_display();
-            write_text(global_msg);
-            global_msg[0]='\0';
+            memcpy(ready_msg, global_msg, sizeof(ready_msg));
+            currentState = DISPLAY;
         } else if(buf[0] != '\0'){
             sprintf(global_msg+strlen(global_msg), "%s", buf);
         }
@@ -81,8 +80,8 @@ void recive_message(char msg[]){
 void write_message() {
     clear_display();
     write_text(ready_msg);
-    len = 0;
     global_msg[0]='\0';
+    ready_msg[0]='\0';
     currentState = READ_UART;
 }
 void display_task() {
