@@ -12,6 +12,7 @@
 #include "tkjhat/sdk.h"
 enum state {IDLE=1, READ_UART, DISPLAY};
 enum state currentState = IDLE;
+int message_status = 1; 
 void display_task();
 uint8_t display_state = 0;
 char display_string = 0;
@@ -27,6 +28,9 @@ void stateChanger(void * pvParameters) {
         if (currentState == IDLE){
             currentState = READ_UART;
             printf("hi");
+        } else if (currentState == READ_UART && message_status == 2){
+            message_status = 1;
+            currentState = DISPLAY;
         }
         vTaskDelay(pdMS_TO_TICKS(500));
     }
@@ -65,7 +69,7 @@ void serial_task() {
 }
 void recive_message(char msg[]){
     if (msg[0] == '\n'){
-        currentState = DISPLAY;
+        message_status = 2;
     } else if(msg[0] != '\0'){
         sprintf(global_msg+strlen(global_msg), "%s", msg);
     }
@@ -86,7 +90,7 @@ void display_task() {
             memcpy(global_msg, empty_msg, strlen(global_msg));
             currentState = IDLE;
         }
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
 int main() {
