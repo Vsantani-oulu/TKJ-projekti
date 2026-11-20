@@ -63,13 +63,18 @@ void serial_task() {
     // Asetetaan keskeytyksen käsittelijä uartFxn UART0:n keskeytyksille
     irq_set_exclusive_handler(UART0_IRQ, uartFxn);
     // Aletaan vastaanottamaan keskeytyksiä
-    irq_set_enabled(UART0_IRQ, true);
 
     // Kerrotaan UART:ille, että haluamme ottaa vastaan keskeytyksiä,
     // kun dataa on luettavissa.
-    uart_set_irq_enables(uart0, true, false);
 
     while(1){
+        if (currentState == READ_UART){
+            irq_set_enabled(UART0_IRQ, true);
+            uart_set_irq_enables(uart0, true, false);
+        } else {
+            irq_set_enabled(UART0_IRQ, false);
+            uart_set_irq_enables(uart0, false, false);   
+        }
         vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
