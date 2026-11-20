@@ -87,7 +87,7 @@ void display_task() {
         if (currentState == DISPLAY){
             clear_display();
             write_text(global_msg);
-            global_msg[0]='\0';
+            memset(global_msg, 0, strlen(global_msg));
             currentState = READ_UART;
         }
         vTaskDelay(pdMS_TO_TICKS(20));
