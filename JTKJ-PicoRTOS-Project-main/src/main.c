@@ -23,11 +23,13 @@ uint8_t send_message = 0;
 void write_message();
 void recive_message(char msg[]);
 void timerFxn(TimerHandle_t timer) {
+    printf("hi");
     if (currentState == IDLE){
         currentState = READ_UART;
     }
 }
 static void btn_fxn(uint gpio, uint32_t eventMask) {
+    printf("current state: %d",currentState);
 }
 void uartFxn() {
     if (currentState == READ_UART){
