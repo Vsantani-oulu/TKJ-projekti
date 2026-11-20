@@ -25,14 +25,17 @@ void write_message();
 void recive_message(char msg[]);
 void stateChanger(void * pvParameters) {
     while(1){
+        printf("called");
         if (currentState == IDLE){
             currentState = READ_UART;
-            printf("hi");
+            printf("reading uart");
         } else if (currentState == READ_UART && message_status == 2){
             message_status = 1;
             currentState = DISPLAY;
+            printf("displaying");
         } else if (currentState == DISPLAY) {
             write_message();
+            printf("returing to idle");
             currentState = IDLE;
         }
         vTaskDelay(pdMS_TO_TICKS(500));
