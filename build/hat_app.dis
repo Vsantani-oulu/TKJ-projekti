@@ -37,11 +37,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  16 .comment      00000045  00000000  00000000  00010290  2**0
                   CONTENTS, READONLY
- 17 .debug_info   0004302a  00000000  00000000  000102d5  2**0
+ 17 .debug_info   00043029  00000000  00000000  000102d5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_abbrev 0000b4b7  00000000  00000000  000532ff  2**0
+ 18 .debug_abbrev 0000b4b7  00000000  00000000  000532fe  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 0001e03a  00000000  00000000  0005e7b6  2**0
+ 19 .debug_loclists 0001e03a  00000000  00000000  0005e7b5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_aranges 00002408  00000000  00000000  0007c7f0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -502,7 +502,7 @@ Disassembly of section .text:
 10000450:	b510      	push	{r4, lr}
 10000452:	4818      	ldr	r0, [pc, #96]	@ (100004b4 <stateChanger+0x64>)
 10000454:	f009 fc5c 	bl	10009d10 <write_text>
-10000458:	e00c      	b.n	10000474 <stateChanger+0x24>
+10000458:	e00b      	b.n	10000472 <stateChanger+0x22>
 1000045a:	4b17      	ldr	r3, [pc, #92]	@ (100004b8 <stateChanger+0x68>)
 1000045c:	2202      	movs	r2, #2
 1000045e:	701a      	strb	r2, [r3, #0]
@@ -510,38 +510,38 @@ Disassembly of section .text:
 10000462:	f003 fd25 	bl	10003eb0 <__wrap_printf>
 10000466:	e001      	b.n	1000046c <stateChanger+0x1c>
 10000468:	2b03      	cmp	r3, #3
-1000046a:	d01a      	beq.n	100004a2 <stateChanger+0x52>
-1000046c:	20fa      	movs	r0, #250	@ 0xfa
-1000046e:	0040      	lsls	r0, r0, #1
-10000470:	f008 fca4 	bl	10008dbc <vTaskDelay>
-10000474:	4812      	ldr	r0, [pc, #72]	@ (100004c0 <stateChanger+0x70>)
-10000476:	f003 fd1b 	bl	10003eb0 <__wrap_printf>
-1000047a:	4b0f      	ldr	r3, [pc, #60]	@ (100004b8 <stateChanger+0x68>)
-1000047c:	781b      	ldrb	r3, [r3, #0]
-1000047e:	2b01      	cmp	r3, #1
-10000480:	d0eb      	beq.n	1000045a <stateChanger+0xa>
-10000482:	2b02      	cmp	r3, #2
-10000484:	d1f0      	bne.n	10000468 <stateChanger+0x18>
-10000486:	4a0f      	ldr	r2, [pc, #60]	@ (100004c4 <stateChanger+0x74>)
-10000488:	7812      	ldrb	r2, [r2, #0]
-1000048a:	2a02      	cmp	r2, #2
-1000048c:	d1ec      	bne.n	10000468 <stateChanger+0x18>
-1000048e:	4b0d      	ldr	r3, [pc, #52]	@ (100004c4 <stateChanger+0x74>)
-10000490:	3a01      	subs	r2, #1
-10000492:	701a      	strb	r2, [r3, #0]
-10000494:	4b08      	ldr	r3, [pc, #32]	@ (100004b8 <stateChanger+0x68>)
-10000496:	3202      	adds	r2, #2
-10000498:	701a      	strb	r2, [r3, #0]
-1000049a:	480b      	ldr	r0, [pc, #44]	@ (100004c8 <stateChanger+0x78>)
-1000049c:	f003 fd08 	bl	10003eb0 <__wrap_printf>
-100004a0:	e7e4      	b.n	1000046c <stateChanger+0x1c>
-100004a2:	f7ff ffc1 	bl	10000428 <write_message>
-100004a6:	4809      	ldr	r0, [pc, #36]	@ (100004cc <stateChanger+0x7c>)
-100004a8:	f003 fd02 	bl	10003eb0 <__wrap_printf>
-100004ac:	4b02      	ldr	r3, [pc, #8]	@ (100004b8 <stateChanger+0x68>)
-100004ae:	2201      	movs	r2, #1
-100004b0:	701a      	strb	r2, [r3, #0]
-100004b2:	e7db      	b.n	1000046c <stateChanger+0x1c>
+1000046a:	d019      	beq.n	100004a0 <stateChanger+0x50>
+1000046c:	2032      	movs	r0, #50	@ 0x32
+1000046e:	f008 fca5 	bl	10008dbc <vTaskDelay>
+10000472:	4813      	ldr	r0, [pc, #76]	@ (100004c0 <stateChanger+0x70>)
+10000474:	f003 fd1c 	bl	10003eb0 <__wrap_printf>
+10000478:	4b0f      	ldr	r3, [pc, #60]	@ (100004b8 <stateChanger+0x68>)
+1000047a:	781b      	ldrb	r3, [r3, #0]
+1000047c:	2b01      	cmp	r3, #1
+1000047e:	d0ec      	beq.n	1000045a <stateChanger+0xa>
+10000480:	2b02      	cmp	r3, #2
+10000482:	d1f1      	bne.n	10000468 <stateChanger+0x18>
+10000484:	4a0f      	ldr	r2, [pc, #60]	@ (100004c4 <stateChanger+0x74>)
+10000486:	7812      	ldrb	r2, [r2, #0]
+10000488:	2a02      	cmp	r2, #2
+1000048a:	d1ed      	bne.n	10000468 <stateChanger+0x18>
+1000048c:	4b0d      	ldr	r3, [pc, #52]	@ (100004c4 <stateChanger+0x74>)
+1000048e:	3a01      	subs	r2, #1
+10000490:	701a      	strb	r2, [r3, #0]
+10000492:	4b09      	ldr	r3, [pc, #36]	@ (100004b8 <stateChanger+0x68>)
+10000494:	3202      	adds	r2, #2
+10000496:	701a      	strb	r2, [r3, #0]
+10000498:	480b      	ldr	r0, [pc, #44]	@ (100004c8 <stateChanger+0x78>)
+1000049a:	f003 fd09 	bl	10003eb0 <__wrap_printf>
+1000049e:	e7e5      	b.n	1000046c <stateChanger+0x1c>
+100004a0:	f7ff ffc2 	bl	10000428 <write_message>
+100004a4:	4809      	ldr	r0, [pc, #36]	@ (100004cc <stateChanger+0x7c>)
+100004a6:	f003 fd03 	bl	10003eb0 <__wrap_printf>
+100004aa:	4b03      	ldr	r3, [pc, #12]	@ (100004b8 <stateChanger+0x68>)
+100004ac:	2201      	movs	r2, #1
+100004ae:	701a      	strb	r2, [r3, #0]
+100004b0:	e7dc      	b.n	1000046c <stateChanger+0x1c>
+100004b2:	46c0      	nop			@ (mov r8, r8)
 100004b4:	1000ab40 	.word	0x1000ab40
 100004b8:	20000c31 	.word	0x20000c31
 100004bc:	1000ab50 	.word	0x1000ab50

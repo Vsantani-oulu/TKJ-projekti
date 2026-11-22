@@ -46,7 +46,7 @@ void stateChanger(void * pvParameters) {
             printf("returing to idle");
             currentState = IDLE;
         }
-        vTaskDelay(pdMS_TO_TICKS(500));
+        vTaskDelay(pdMS_TO_TICKS(50));
     }
 }
 
