@@ -105,6 +105,8 @@ void write_message() {
 int main() {
     stdio_init_all();
     init_hat_sdk();
+    init_display();
+    write_message("waiting");
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
