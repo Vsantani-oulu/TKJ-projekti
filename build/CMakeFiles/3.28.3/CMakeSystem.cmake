@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.14.0-36-generic")
+set(CMAKE_HOST_SYSTEM "Linux-7.0.0-43-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.14.0-36-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "7.0.0-43-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/student/.pico-sdk/sdk/2.2.0/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake")

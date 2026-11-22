@@ -10,27 +10,34 @@
 #include <task.h>
 
 #include "tkjhat/sdk.h"
+// states
 enum state {IDLE=1, READ_UART, DISPLAY};
 enum state currentState = IDLE;
-int message_status = 1; 
-void display_task();
-uint8_t display_state = 0;
-char display_string = 0;
+enum msg {NOT_READY=1, READY};
+enum msg message = NOT_READY;
+
+// message variables
 char global_msg[30] = "";
-char empty_msg[30] = "";
-char ready_msg[30] = "";
-int len;
-uint8_t send_message = 0;
-void write_message();
+static char empty_msg[30] = "";
+
+// prototypes
+void stateChanger(void * pvParameters);
+static void btn_fxn(uint gpio, uint32_t eventMask);
+void uartFxn();
+void serial_task(); 
 void recive_message(char msg[]);
+void write_message();
+
 void stateChanger(void * pvParameters) {
+    // Handles changing states
     while(1){
         printf("called");
         if (currentState == IDLE){
             currentState = READ_UART;
             printf("reading uart");
-        } else if (currentState == READ_UART && message_status == 2){
-            message_status = 1;
+        } else if (currentState == READ_UART && message == READY){
+            // Only change into display state if message is ready and currently reading uart
+            message = NOT_READY;
             currentState = DISPLAY;
             printf("displaying");
         } else if (currentState == DISPLAY) {
@@ -41,10 +48,14 @@ void stateChanger(void * pvParameters) {
         vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
+
 static void btn_fxn(uint gpio, uint32_t eventMask) {
+    // This is for debug purposes for checking states/variables during testing
     printf("current state: %d",currentState);
 }
+
 void uartFxn() {
+    // Take char from UART and give it to recive_message()
     if (currentState == READ_UART){
         char input;
         char buf[30];
@@ -53,21 +64,16 @@ void uartFxn() {
         recive_message(buf);
     }
 }
+
 void serial_task() {
-
-
     uart_init(uart0, 9600);
     gpio_set_function(0, GPIO_FUNC_UART);
     gpio_set_function(1, GPIO_FUNC_UART);
 
-    // Asetetaan keskeytyksen käsittelijä uartFxn UART0:n keskeytyksille
     irq_set_exclusive_handler(UART0_IRQ, uartFxn);
-    // Aletaan vastaanottamaan keskeytyksiä
-
-    // Kerrotaan UART:ille, että haluamme ottaa vastaan keskeytyksiä,
-    // kun dataa on luettavissa.
 
     while(1){
+        // Enable uart only if state is READ_UART
         if (currentState == READ_UART){
             irq_set_enabled(UART0_IRQ, true);
             uart_set_irq_enables(uart0, true, false);
@@ -78,76 +84,33 @@ void serial_task() {
         vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
+
 void recive_message(char msg[]){
+    // Append input into global_msg and set state of message to ready if its newline
     if (msg[0] == '\n'){
-        message_status = 2;
+        message = READY;
     } else if(msg[0] != '\0'){
         sprintf(global_msg+strlen(global_msg), "%s", msg);
     }
 }
 
 void write_message() {
+    // Write global_msg to display and clear it
     clear_display();
     write_text(global_msg);
     memcpy(global_msg, empty_msg, strlen(global_msg));
     return;
 }
-void display_task() {
-    write_text("waiting");
-    while(1){
-        if (currentState == DISPLAY){
-            clear_display();
-            write_text(global_msg);
-            memcpy(global_msg, empty_msg, strlen(global_msg));
-            currentState = IDLE;
-        }
-        vTaskDelay(pdMS_TO_TICKS(500));
-    }
-}
+
 int main() {
-
-    // Exercise 4: Comment the statement stdio_init_all(); 
-    //             Instead, add AT THE END OF MAIN (before vTaskStartScheduler();) adequate statements to enable the TinyUSB library and the usb-serial-debug.
-    //             You can see hello_dual_cdc for help
-    //             In CMakeLists.txt add usb_serial_debug to target_link_libraries.
-    //             In CMakeLists.txt deactivate pico_enable_stdio_usb
-    // Tehtävä 4:  Kommentoi lause stdio_init_all();
-    //             Sen sijaan lisää MAIN LOPPUUN (ennen vTaskStartScheduler();) tarvittavat komennot aktivoidaksesi TinyUSB-kirjaston ja usb-serial-debugin.
-    //             Voit katsoa apua esimerkistä hello_dual_cdc.
-    //             Lisää CMakeLists.txt-tiedoston target_link_libraries-kohtaan usb_serial_debug.
-    //             Poista CMakeLists.txt-tiedostosta käytöstä pico_enable_stdio_usb
-
     stdio_init_all();
-
-    // Uncomment this lines if you want to wait till the serial monitor is connected
-    /*while (!stdio_usb_connected()){
-        sleep_ms(10);
-    }*/ 
-    
     init_hat_sdk();
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
 
-    // Exercise 1: Initialize the button and the led and define an register the corresponding interrupton.
-    //             Interruption handler is defined up as btn_fxn
-    // Tehtävä 1:  Alusta painike ja LEd ja rekisteröi vastaava keskeytys.
-    //             Keskeytyskäsittelijä on määritelty yläpuolella nimellä btn_fxn
-    init_sw1();
-    init_led();
-    init_display();
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
-    TaskHandle_t stateChangerHandle, displayTaskHandle, serialTaskHandle = NULL;
-    BaseType_t result = xTaskCreate(display_task,   // (en) Task function
-            "display",                   // (en) Name of the task 
-                1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
-                NULL,                    // (en) Arguments of the task 
-                2,                       // (en) Priority of this task
-                &displayTaskHandle);     // (en) A handle to control the execution of this task
 
-    if(result != pdPASS) {
-        printf("Display Task created failed\n");
-        return 0;
-    }
-    result = xTaskCreate(stateChanger,   // (en) Task function
+    TaskHandle_t stateChangerHandle, serialTaskHandle = NULL;
+    BaseType_t result = xTaskCreate(stateChanger,   // (en) Task function
             "stateChanger",                   // (en) Name of the task 
             1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
             NULL,                    // (en) Arguments of the task 
@@ -157,17 +120,18 @@ int main() {
         printf("state changer Task created failed\n");
         return 0;
     }    
+
     result = xTaskCreate(serial_task,   // (en) Task function
-        "serial",                   // (en) Name of the task 
+            "serial",                   // (en) Name of the task 
             1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
             NULL,                    // (en) Arguments of the task 
             2,                       // (en) Priority of this task
             &serialTaskHandle);     // (en) A handle to control the execution of this task
-
     if(result != pdPASS) {
         printf("Serial Task created failed\n");
         return 0;
     }
+
     // Start the scheduler (never returns)
     vTaskStartScheduler();
     
