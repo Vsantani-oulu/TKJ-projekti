@@ -30,6 +30,7 @@ void write_message();
 
 void stateChanger(void * pvParameters) {
     // Handles changing states
+    write_text("waiting");
     while(1){
         printf("called");
         if (currentState == IDLE){
@@ -105,9 +106,9 @@ void write_message() {
 int main() {
     stdio_init_all();
     init_hat_sdk();
-    init_display();
-    write_message("waiting");
+
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
+    init_display();
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
 

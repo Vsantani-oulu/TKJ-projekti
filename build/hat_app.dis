@@ -41,19 +41,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  18 .debug_abbrev 0000b4b7  00000000  00000000  000532ff  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 0001e039  00000000  00000000  0005e7b6  2**0
+ 19 .debug_loclists 0001e03a  00000000  00000000  0005e7b6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_aranges 00002408  00000000  00000000  0007c7f0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_rnglists 00002794  00000000  00000000  0007ebf8  2**0
+ 21 .debug_rnglists 00002795  00000000  00000000  0007ebf8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   00029660  00000000  00000000  0008138c  2**0
+ 22 .debug_line   00029667  00000000  00000000  0008138d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000d094  00000000  00000000  000aa9ec  2**0
+ 23 .debug_str    0000d094  00000000  00000000  000aa9f4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  00005d24  00000000  00000000  000b7a80  2**2
+ 24 .debug_frame  00005d24  00000000  00000000  000b7a88  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 0000034b  00000000  00000000  000bd7a4  2**0
+ 25 .debug_line_str 0000034b  00000000  00000000  000bd7ac  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf:     file format elf32-littlearm
@@ -284,7 +284,7 @@ Disassembly of section .text:
 10000270:	20001268 	.word	0x20001268
 10000274:	20022720 	.word	0x20022720
 10000278:	10003c09 	.word	0x10003c09
-1000027c:	100004c9 	.word	0x100004c9
+1000027c:	100004d1 	.word	0x100004d1
 10000280:	10003bc9 	.word	0x10003bc9
 
 10000284 <_init>:
@@ -500,107 +500,107 @@ Disassembly of section .text:
 
 10000450 <stateChanger>:
 10000450:	b510      	push	{r4, lr}
-10000452:	e00c      	b.n	1000046e <stateChanger+0x1e>
-10000454:	4b16      	ldr	r3, [pc, #88]	@ (100004b0 <stateChanger+0x60>)
-10000456:	2202      	movs	r2, #2
-10000458:	701a      	strb	r2, [r3, #0]
-1000045a:	4816      	ldr	r0, [pc, #88]	@ (100004b4 <stateChanger+0x64>)
-1000045c:	f003 fd28 	bl	10003eb0 <__wrap_printf>
-10000460:	e001      	b.n	10000466 <stateChanger+0x16>
-10000462:	2b03      	cmp	r3, #3
-10000464:	d01a      	beq.n	1000049c <stateChanger+0x4c>
-10000466:	20fa      	movs	r0, #250	@ 0xfa
-10000468:	0040      	lsls	r0, r0, #1
-1000046a:	f008 fca7 	bl	10008dbc <vTaskDelay>
-1000046e:	4812      	ldr	r0, [pc, #72]	@ (100004b8 <stateChanger+0x68>)
-10000470:	f003 fd1e 	bl	10003eb0 <__wrap_printf>
-10000474:	4b0e      	ldr	r3, [pc, #56]	@ (100004b0 <stateChanger+0x60>)
-10000476:	781b      	ldrb	r3, [r3, #0]
-10000478:	2b01      	cmp	r3, #1
-1000047a:	d0eb      	beq.n	10000454 <stateChanger+0x4>
-1000047c:	2b02      	cmp	r3, #2
-1000047e:	d1f0      	bne.n	10000462 <stateChanger+0x12>
-10000480:	4a0e      	ldr	r2, [pc, #56]	@ (100004bc <stateChanger+0x6c>)
-10000482:	7812      	ldrb	r2, [r2, #0]
-10000484:	2a02      	cmp	r2, #2
-10000486:	d1ec      	bne.n	10000462 <stateChanger+0x12>
-10000488:	4b0c      	ldr	r3, [pc, #48]	@ (100004bc <stateChanger+0x6c>)
-1000048a:	3a01      	subs	r2, #1
-1000048c:	701a      	strb	r2, [r3, #0]
-1000048e:	4b08      	ldr	r3, [pc, #32]	@ (100004b0 <stateChanger+0x60>)
-10000490:	3202      	adds	r2, #2
+10000452:	4818      	ldr	r0, [pc, #96]	@ (100004b4 <stateChanger+0x64>)
+10000454:	f009 fc5c 	bl	10009d10 <write_text>
+10000458:	e00c      	b.n	10000474 <stateChanger+0x24>
+1000045a:	4b17      	ldr	r3, [pc, #92]	@ (100004b8 <stateChanger+0x68>)
+1000045c:	2202      	movs	r2, #2
+1000045e:	701a      	strb	r2, [r3, #0]
+10000460:	4816      	ldr	r0, [pc, #88]	@ (100004bc <stateChanger+0x6c>)
+10000462:	f003 fd25 	bl	10003eb0 <__wrap_printf>
+10000466:	e001      	b.n	1000046c <stateChanger+0x1c>
+10000468:	2b03      	cmp	r3, #3
+1000046a:	d01a      	beq.n	100004a2 <stateChanger+0x52>
+1000046c:	20fa      	movs	r0, #250	@ 0xfa
+1000046e:	0040      	lsls	r0, r0, #1
+10000470:	f008 fca4 	bl	10008dbc <vTaskDelay>
+10000474:	4812      	ldr	r0, [pc, #72]	@ (100004c0 <stateChanger+0x70>)
+10000476:	f003 fd1b 	bl	10003eb0 <__wrap_printf>
+1000047a:	4b0f      	ldr	r3, [pc, #60]	@ (100004b8 <stateChanger+0x68>)
+1000047c:	781b      	ldrb	r3, [r3, #0]
+1000047e:	2b01      	cmp	r3, #1
+10000480:	d0eb      	beq.n	1000045a <stateChanger+0xa>
+10000482:	2b02      	cmp	r3, #2
+10000484:	d1f0      	bne.n	10000468 <stateChanger+0x18>
+10000486:	4a0f      	ldr	r2, [pc, #60]	@ (100004c4 <stateChanger+0x74>)
+10000488:	7812      	ldrb	r2, [r2, #0]
+1000048a:	2a02      	cmp	r2, #2
+1000048c:	d1ec      	bne.n	10000468 <stateChanger+0x18>
+1000048e:	4b0d      	ldr	r3, [pc, #52]	@ (100004c4 <stateChanger+0x74>)
+10000490:	3a01      	subs	r2, #1
 10000492:	701a      	strb	r2, [r3, #0]
-10000494:	480a      	ldr	r0, [pc, #40]	@ (100004c0 <stateChanger+0x70>)
-10000496:	f003 fd0b 	bl	10003eb0 <__wrap_printf>
-1000049a:	e7e4      	b.n	10000466 <stateChanger+0x16>
-1000049c:	f7ff ffc4 	bl	10000428 <write_message>
-100004a0:	4808      	ldr	r0, [pc, #32]	@ (100004c4 <stateChanger+0x74>)
-100004a2:	f003 fd05 	bl	10003eb0 <__wrap_printf>
-100004a6:	4b02      	ldr	r3, [pc, #8]	@ (100004b0 <stateChanger+0x60>)
-100004a8:	2201      	movs	r2, #1
-100004aa:	701a      	strb	r2, [r3, #0]
-100004ac:	e7db      	b.n	10000466 <stateChanger+0x16>
-100004ae:	46c0      	nop			@ (mov r8, r8)
-100004b0:	20000c31 	.word	0x20000c31
-100004b4:	1000ab48 	.word	0x1000ab48
-100004b8:	1000ab40 	.word	0x1000ab40
-100004bc:	20000c30 	.word	0x20000c30
-100004c0:	1000ab58 	.word	0x1000ab58
-100004c4:	1000ab64 	.word	0x1000ab64
+10000494:	4b08      	ldr	r3, [pc, #32]	@ (100004b8 <stateChanger+0x68>)
+10000496:	3202      	adds	r2, #2
+10000498:	701a      	strb	r2, [r3, #0]
+1000049a:	480b      	ldr	r0, [pc, #44]	@ (100004c8 <stateChanger+0x78>)
+1000049c:	f003 fd08 	bl	10003eb0 <__wrap_printf>
+100004a0:	e7e4      	b.n	1000046c <stateChanger+0x1c>
+100004a2:	f7ff ffc1 	bl	10000428 <write_message>
+100004a6:	4809      	ldr	r0, [pc, #36]	@ (100004cc <stateChanger+0x7c>)
+100004a8:	f003 fd02 	bl	10003eb0 <__wrap_printf>
+100004ac:	4b02      	ldr	r3, [pc, #8]	@ (100004b8 <stateChanger+0x68>)
+100004ae:	2201      	movs	r2, #1
+100004b0:	701a      	strb	r2, [r3, #0]
+100004b2:	e7db      	b.n	1000046c <stateChanger+0x1c>
+100004b4:	1000ab40 	.word	0x1000ab40
+100004b8:	20000c31 	.word	0x20000c31
+100004bc:	1000ab50 	.word	0x1000ab50
+100004c0:	1000ab48 	.word	0x1000ab48
+100004c4:	20000c30 	.word	0x20000c30
+100004c8:	1000ab60 	.word	0x1000ab60
+100004cc:	1000ab6c 	.word	0x1000ab6c
 
-100004c8 <main>:
-100004c8:	b500      	push	{lr}
-100004ca:	b085      	sub	sp, #20
-100004cc:	f003 fcbc 	bl	10003e48 <stdio_init_all>
-100004d0:	f009 fbfe 	bl	10009cd0 <init_hat_sdk>
-100004d4:	f009 fc02 	bl	10009cdc <init_display>
-100004d8:	481a      	ldr	r0, [pc, #104]	@ (10000544 <main+0x7c>)
-100004da:	f7ff ffa5 	bl	10000428 <write_message>
-100004de:	2096      	movs	r0, #150	@ 0x96
-100004e0:	0040      	lsls	r0, r0, #1
-100004e2:	f001 f933 	bl	1000174c <sleep_ms>
-100004e6:	4b18      	ldr	r3, [pc, #96]	@ (10000548 <main+0x80>)
-100004e8:	2201      	movs	r2, #1
-100004ea:	2104      	movs	r1, #4
-100004ec:	2002      	movs	r0, #2
-100004ee:	f000 f92d 	bl	1000074c <gpio_set_irq_enabled_with_callback>
-100004f2:	2300      	movs	r3, #0
-100004f4:	9302      	str	r3, [sp, #8]
-100004f6:	2280      	movs	r2, #128	@ 0x80
-100004f8:	4914      	ldr	r1, [pc, #80]	@ (1000054c <main+0x84>)
-100004fa:	4815      	ldr	r0, [pc, #84]	@ (10000550 <main+0x88>)
-100004fc:	ab03      	add	r3, sp, #12
-100004fe:	9301      	str	r3, [sp, #4]
-10000500:	2302      	movs	r3, #2
-10000502:	9300      	str	r3, [sp, #0]
-10000504:	2300      	movs	r3, #0
-10000506:	00d2      	lsls	r2, r2, #3
-10000508:	f008 fb00 	bl	10008b0c <xTaskCreate>
-1000050c:	2801      	cmp	r0, #1
-1000050e:	d005      	beq.n	1000051c <main+0x54>
-10000510:	4810      	ldr	r0, [pc, #64]	@ (10000554 <main+0x8c>)
-10000512:	f003 fc9d 	bl	10003e50 <__wrap_puts>
-10000516:	2000      	movs	r0, #0
-10000518:	b005      	add	sp, #20
-1000051a:	bd00      	pop	{pc}
-1000051c:	2280      	movs	r2, #128	@ 0x80
-1000051e:	490e      	ldr	r1, [pc, #56]	@ (10000558 <main+0x90>)
-10000520:	480e      	ldr	r0, [pc, #56]	@ (1000055c <main+0x94>)
-10000522:	ab02      	add	r3, sp, #8
-10000524:	9301      	str	r3, [sp, #4]
-10000526:	2302      	movs	r3, #2
-10000528:	9300      	str	r3, [sp, #0]
-1000052a:	2300      	movs	r3, #0
-1000052c:	00d2      	lsls	r2, r2, #3
-1000052e:	f008 faed 	bl	10008b0c <xTaskCreate>
-10000532:	2801      	cmp	r0, #1
-10000534:	d003      	beq.n	1000053e <main+0x76>
-10000536:	480a      	ldr	r0, [pc, #40]	@ (10000560 <main+0x98>)
-10000538:	f003 fc8a 	bl	10003e50 <__wrap_puts>
-1000053c:	e7eb      	b.n	10000516 <main+0x4e>
-1000053e:	f008 fb41 	bl	10008bc4 <vTaskStartScheduler>
-10000542:	e7e8      	b.n	10000516 <main+0x4e>
-10000544:	1000ab78 	.word	0x1000ab78
+100004d0 <main>:
+100004d0:	b500      	push	{lr}
+100004d2:	b085      	sub	sp, #20
+100004d4:	f003 fcb8 	bl	10003e48 <stdio_init_all>
+100004d8:	f009 fbfa 	bl	10009cd0 <init_hat_sdk>
+100004dc:	2096      	movs	r0, #150	@ 0x96
+100004de:	0040      	lsls	r0, r0, #1
+100004e0:	f001 f934 	bl	1000174c <sleep_ms>
+100004e4:	f009 fbfa 	bl	10009cdc <init_display>
+100004e8:	4b17      	ldr	r3, [pc, #92]	@ (10000548 <main+0x78>)
+100004ea:	2201      	movs	r2, #1
+100004ec:	2104      	movs	r1, #4
+100004ee:	2002      	movs	r0, #2
+100004f0:	f000 f92c 	bl	1000074c <gpio_set_irq_enabled_with_callback>
+100004f4:	2300      	movs	r3, #0
+100004f6:	9302      	str	r3, [sp, #8]
+100004f8:	2280      	movs	r2, #128	@ 0x80
+100004fa:	4914      	ldr	r1, [pc, #80]	@ (1000054c <main+0x7c>)
+100004fc:	4814      	ldr	r0, [pc, #80]	@ (10000550 <main+0x80>)
+100004fe:	ab03      	add	r3, sp, #12
+10000500:	9301      	str	r3, [sp, #4]
+10000502:	2302      	movs	r3, #2
+10000504:	9300      	str	r3, [sp, #0]
+10000506:	2300      	movs	r3, #0
+10000508:	00d2      	lsls	r2, r2, #3
+1000050a:	f008 faff 	bl	10008b0c <xTaskCreate>
+1000050e:	2801      	cmp	r0, #1
+10000510:	d005      	beq.n	1000051e <main+0x4e>
+10000512:	4810      	ldr	r0, [pc, #64]	@ (10000554 <main+0x84>)
+10000514:	f003 fc9c 	bl	10003e50 <__wrap_puts>
+10000518:	2000      	movs	r0, #0
+1000051a:	b005      	add	sp, #20
+1000051c:	bd00      	pop	{pc}
+1000051e:	2280      	movs	r2, #128	@ 0x80
+10000520:	490d      	ldr	r1, [pc, #52]	@ (10000558 <main+0x88>)
+10000522:	480e      	ldr	r0, [pc, #56]	@ (1000055c <main+0x8c>)
+10000524:	ab02      	add	r3, sp, #8
+10000526:	9301      	str	r3, [sp, #4]
+10000528:	2302      	movs	r3, #2
+1000052a:	9300      	str	r3, [sp, #0]
+1000052c:	2300      	movs	r3, #0
+1000052e:	00d2      	lsls	r2, r2, #3
+10000530:	f008 faec 	bl	10008b0c <xTaskCreate>
+10000534:	2801      	cmp	r0, #1
+10000536:	d003      	beq.n	10000540 <main+0x70>
+10000538:	4809      	ldr	r0, [pc, #36]	@ (10000560 <main+0x90>)
+1000053a:	f003 fc89 	bl	10003e50 <__wrap_puts>
+1000053e:	e7eb      	b.n	10000518 <main+0x48>
+10000540:	f008 fb40 	bl	10008bc4 <vTaskStartScheduler>
+10000544:	e7e8      	b.n	10000518 <main+0x48>
+10000546:	46c0      	nop			@ (mov r8, r8)
 10000548:	10000341 	.word	0x10000341
 1000054c:	1000ab80 	.word	0x1000ab80
 10000550:	10000451 	.word	0x10000451
