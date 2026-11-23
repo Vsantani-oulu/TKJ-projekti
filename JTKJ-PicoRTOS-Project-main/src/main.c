@@ -94,9 +94,10 @@ void commTask(void * pvParameters) {
     while(1){
         if (currentState == DISPLAY){
             buzz_message();
-            write_message();
-            currentState = IDLE;
+            clear_display();
+            write_text(global_msg);
             memcpy(global_msg, empty_msg, strlen(global_msg));
+            currentState = IDLE;
         }
     }
 }
