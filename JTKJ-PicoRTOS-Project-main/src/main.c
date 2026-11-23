@@ -55,6 +55,7 @@ void stateChanger(void * pvParameters) {
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     // This is for debug purposes for checking states/variables during testing
     printf("current state: %d",currentState);
+    buzzer_play_tone(500,  300);
 }
 
 void uartFxn() {
@@ -121,9 +122,11 @@ void buzz_message() {
 void beep(char length) {
     // beeps either for 300ms (long) or 100ms (short), frequency used is 100hz 
     if (length == 'L'){
-        buzzer_play_tone(100,  300);
+        buzzer_play_tone(500,  300);
+        printf("long");
     } else if (length == 'S'){
-        buzzer_play_tone(100,  100);
+        buzzer_play_tone(500,  100);
+        printf("Short");
     }
 }
 int main() {
