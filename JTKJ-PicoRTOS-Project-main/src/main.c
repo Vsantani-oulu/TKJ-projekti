@@ -27,7 +27,8 @@ void uartFxn();
 void serial_task(); 
 void recive_message(char msg[]);
 void write_message();
-
+void buzz_message();
+void beep(char length); 
 void stateChanger(void * pvParameters) {
     // Handles changing states
     write_text("waiting");
@@ -43,6 +44,7 @@ void stateChanger(void * pvParameters) {
             printf("displaying");
         } else if (currentState == DISPLAY) {
             write_message();
+            buzz_message();
             printf("returing to idle");
             currentState = IDLE;
         }
@@ -103,13 +105,34 @@ void write_message() {
     return;
 }
 
+void buzz_message() {
+    // Iterates over the global_msg and uses the buzzer to translate dots into short beeps and lines into long beeps
+    int len = (sizeof(global_msg) / sizeof(global_msg[0]));
+    int c;
+    for (c = 0; c < len; c++){
+        if (global_msg[c] == '.'){
+            beep('S');
+        } else if (global_msg[c] == '-'){
+            beep('L');
+        }   
+    }
+}
+
+void beep(char length) {
+    // beeps either for 300ms (long) or 100ms (short), frequency used is 100hz 
+    if (length == 'L'){
+        buzzer_play_tone(100,  300);
+    } else if (length == 'S'){
+        buzzer_play_tone(100,  100);
+    }
+}
 int main() {
     stdio_init_all();
     init_hat_sdk();
 
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
     init_display();
-
+    init_buzzer();
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
 
     TaskHandle_t stateChangerHandle, serialTaskHandle = NULL;
