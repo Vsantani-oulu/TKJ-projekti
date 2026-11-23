@@ -55,7 +55,6 @@ void stateChanger(void * pvParameters) {
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     // This is for debug purposes for checking states/variables during testing
     printf("current state: %d",currentState);
-    buzzer_play_tone(500,  300);
 }
 
 void uartFxn() {
@@ -115,19 +114,32 @@ void buzz_message() {
             beep('S');
         } else if (global_msg[c] == '-'){
             beep('L');
-        }   
+        }
+        //short sleep so that its easier to see when one blink ends and other starts
+        sleep_ms(100);   
     }
 }
 
 void beep(char length) {
-    // beeps either for 300ms (long) or 100ms (short), frequency used is 100hz 
+    // blinks the led for 300ms if - and 100ms if .
     if (length == 'L'){
-        buzzer_play_tone(500,  300);
-        printf("long");
+        toggle_led();
+        sleep_ms(300);
+        toggle_led();
     } else if (length == 'S'){
-        buzzer_play_tone(500,  100);
-        printf("Short");
+        toggle_led();
+        sleep_ms(100);
+        toggle_led();
     }
+
+    // This part of the code uses the buzzer, the simualtion struggles with the buzzer so for testing purposes led is used instead
+    // beeps either for 300ms (long) or 100ms (short), frequency used is 100hz 
+    //if (length == 'L'){
+    //    buzzer_play_tone(500,  300);
+    //    printf("long");
+    //} else if (length == 'S'){
+    //    buzzer_play_tone(500,  100);
+    //    printf("Short");
 }
 int main() {
     stdio_init_all();
@@ -135,7 +147,11 @@ int main() {
 
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
     init_display();
-    init_buzzer();
+
+    //init buzzer and dont init led if using buzzer, led is for testing purposes for the sim
+    //init_buzzer();
+    init_led();
+
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
 
     TaskHandle_t stateChangerHandle, serialTaskHandle = NULL;
