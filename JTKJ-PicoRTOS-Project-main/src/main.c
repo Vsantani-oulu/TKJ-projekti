@@ -19,20 +19,23 @@ enum msg message = NOT_READY;
 // message variables
 char global_msg[30] = "waiting";
 static char empty_msg[30] = "";
-
+int updated = 0;
 // prototypes
 void stateChanger(void * pvParameters);
 static void btn_fxn(uint gpio, uint32_t eventMask);
 void uartFxn();
-void serial_task(); 
+void serial_task(void * pvParameters); 
+void commTask(void * pvParameters);
 void recive_message(char msg[]);
 void write_message();
 void buzz_message();
 void beep(char length); 
+
 void stateChanger(void * pvParameters) {
     // Handles changing states
     while(1){
         if (currentState == IDLE){
+            updated = 0;
             currentState = READ_UART;
             printf("reading uart");
         } else if (currentState == READ_UART && message == READY){
@@ -41,7 +44,7 @@ void stateChanger(void * pvParameters) {
             currentState = DISPLAY;
             printf("displaying");
         }
-        vTaskDelay(pdMS_TO_TICKS(50));
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
 
@@ -67,19 +70,23 @@ void serial_task(void * pvParameters) {
     gpio_set_function(1, GPIO_FUNC_UART);
 
     irq_set_exclusive_handler(UART0_IRQ, uartFxn);
-
     while(1){
         // Enable uart only if state is READ_UART
-        if (currentState == READ_UART){
-            irq_set_enabled(UART0_IRQ, true);
-            uart_set_irq_enables(uart0, true, false);
-        } else {
-            irq_set_enabled(UART0_IRQ, false);
-            uart_set_irq_enables(uart0, false, false);   
+        if (!updated){
+            if (currentState == READ_UART){
+                irq_set_enabled(UART0_IRQ, true);
+                uart_set_irq_enables(uart0, true, false);
+                updated = 1;
+            } else {
+                irq_set_enabled(UART0_IRQ, false);
+                uart_set_irq_enables(uart0, false, false);   
+                updated = 1;
+            }
         }
         vTaskDelay(pdMS_TO_TICKS(100));
-    }
+        }
 }
+
 
 void commTask(void * pvParameters) {
     //Buzz message, display it on lcd and then clear global_msg
