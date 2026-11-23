@@ -41,8 +41,8 @@ void stateChanger(void * pvParameters) {
             currentState = DISPLAY;
             printf("displaying");
         } else if (currentState == DISPLAY) {
-            write_message();
             buzz_message();
+            write_message();
             printf("returing to idle");
             currentState = IDLE;
         }

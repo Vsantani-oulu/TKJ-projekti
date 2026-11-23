@@ -580,8 +580,8 @@ Disassembly of section .text:
 10000504:	480a      	ldr	r0, [pc, #40]	@ (10000530 <stateChanger+0x68>)
 10000506:	f003 fd15 	bl	10003f34 <__wrap_printf>
 1000050a:	e7e8      	b.n	100004de <stateChanger+0x16>
-1000050c:	f7ff ff8c 	bl	10000428 <write_message>
-10000510:	f7ff ffb6 	bl	10000480 <buzz_message>
+1000050c:	f7ff ffb8 	bl	10000480 <buzz_message>
+10000510:	f7ff ff8a 	bl	10000428 <write_message>
 10000514:	4807      	ldr	r0, [pc, #28]	@ (10000534 <stateChanger+0x6c>)
 10000516:	f003 fd0d 	bl	10003f34 <__wrap_printf>
 1000051a:	4b02      	ldr	r3, [pc, #8]	@ (10000524 <stateChanger+0x5c>)
