@@ -40,11 +40,6 @@ void stateChanger(void * pvParameters) {
             message = NOT_READY;
             currentState = DISPLAY;
             printf("displaying");
-        } else if (currentState == DISPLAY) {
-            buzz_message();
-            write_message();
-            printf("returing to idle");
-            currentState = IDLE;
         }
         vTaskDelay(pdMS_TO_TICKS(50));
     }
@@ -66,7 +61,7 @@ void uartFxn() {
     }
 }
 
-void serial_task() {
+void serial_task(void * pvParameters) {
     uart_init(uart0, 9600);
     gpio_set_function(0, GPIO_FUNC_UART);
     gpio_set_function(1, GPIO_FUNC_UART);
@@ -86,6 +81,19 @@ void serial_task() {
     }
 }
 
+void commTask(void * pvParameters) {
+    //Buzz message, display it on lcd and then clear global_msg
+    //Task has a lower priority than the other ones, running only when the others are idle 
+    while(1){
+        if (currentState == DISPLAY){
+            buzz_message();
+            write_message();
+            currentState = IDLE;
+            memcpy(global_msg, empty_msg, strlen(global_msg));
+        }
+    }
+}
+
 void recive_message(char msg[]){
     // Append input into global_msg and set state of message to ready if its newline
     if (msg[0] == '\n'){
@@ -99,7 +107,6 @@ void write_message() {
     // Write global_msg to display and clear it
     clear_display();
     write_text(global_msg);
-    memcpy(global_msg, empty_msg, strlen(global_msg));
     return;
 }
 
@@ -154,26 +161,35 @@ int main() {
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
 
-    TaskHandle_t stateChangerHandle, serialTaskHandle = NULL;
+    TaskHandle_t stateChangerHandle, serialTaskHandle, commTaskHandle = NULL;
     BaseType_t result = xTaskCreate(stateChanger,   // (en) Task function
-            "stateChanger",                   // (en) Name of the task 
-            1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
-            NULL,                    // (en) Arguments of the task 
-            2,                       // (en) Priority of this task
-            &stateChangerHandle);     // (en) A handle to control the execution of this task
+        "stateChanger",                   // (en) Name of the task 
+        1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
+        NULL,                    // (en) Arguments of the task 
+        2,                       // (en) Priority of this task
+        &stateChangerHandle);     // (en) A handle to control the execution of this task
     if(result != pdPASS) {
         printf("state changer Task created failed\n");
         return 0;
     }    
-
     result = xTaskCreate(serial_task,   // (en) Task function
-            "serial",                   // (en) Name of the task 
-            1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
-            NULL,                    // (en) Arguments of the task 
-            2,                       // (en) Priority of this task
-            &serialTaskHandle);     // (en) A handle to control the execution of this task
+        "serial",                   // (en) Name of the task 
+        1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
+        NULL,                    // (en) Arguments of the task 
+        2,                       // (en) Priority of this task
+        &serialTaskHandle);     // (en) A handle to control the execution of this task
     if(result != pdPASS) {
         printf("Serial Task created failed\n");
+        return 0;
+    }
+    result = xTaskCreate(commTask,   // (en) Task function
+        "comm",                   // (en) Name of the task 
+        1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
+        NULL,                    // (en) Arguments of the task 
+        1,                       // (en) Priority of this task
+        &commTaskHandle);     // (en) A handle to control the execution of this task
+    if(result != pdPASS) {
+        printf("Comm Task created failed\n");
         return 0;
     }
 
