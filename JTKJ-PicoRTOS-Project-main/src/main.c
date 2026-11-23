@@ -12,12 +12,12 @@
 #include "tkjhat/sdk.h"
 // states
 enum state {IDLE=1, READ_UART, DISPLAY};
-enum state currentState = IDLE;
+enum state currentState = DISPLAY;
 enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
 
 // message variables
-char global_msg[30] = "";
+char global_msg[30] = "waiting";
 static char empty_msg[30] = "";
 
 // prototypes
@@ -31,9 +31,7 @@ void buzz_message();
 void beep(char length); 
 void stateChanger(void * pvParameters) {
     // Handles changing states
-    write_text("waiting");
     while(1){
-        printf("called");
         if (currentState == IDLE){
             currentState = READ_UART;
             printf("reading uart");
@@ -112,8 +110,10 @@ void buzz_message() {
     for (c = 0; c < len; c++){
         if (global_msg[c] == '.'){
             beep('S');
+            printf("short\n");
         } else if (global_msg[c] == '-'){
             beep('L');
+            printf("long\n");
         }
         //short sleep so that its easier to see when one blink ends and other starts
         sleep_ms(100);   
