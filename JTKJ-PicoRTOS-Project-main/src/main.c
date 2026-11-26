@@ -12,12 +12,12 @@
 #include "tkjhat/sdk.h"
 // states
 enum state {IDLE=1, READ_UART, DISPLAY};
-enum state currentState = IDLE;
+enum state currentState = DISPLAY;
 enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
-
+int initialized = 0;
 // message variables
-char global_msg[200] = "";
+char global_msg[200] = ".-- .- .. - .. -. --. ";
 static char empty_msg[200] = "";
 int updated = 0;
 // prototypes
@@ -33,7 +33,6 @@ void translate_msg();
 char translate_char(char word[]);
 
 void stateChanger(void * pvParameters) {
-    write_text("waiting");
     // Handles changing states
     while(1){
         if (currentState == IDLE){
@@ -95,10 +94,19 @@ void commTask(void * pvParameters) {
     //Task has a lower priority than the other ones, running only when the others are idle 
     while(1){
         if (currentState == DISPLAY){
-            buzz_message();
-            translate_msg();
-            currentState = IDLE;
-            memcpy(global_msg, empty_msg, strlen(global_msg));
+            if (!initialized){
+                // dont buzz the innitial "waiting" message
+                translate_msg();
+                currentState = IDLE;
+                memcpy(global_msg, empty_msg, strlen(global_msg));
+                initialized = 1;
+            }
+            else{
+                buzz_message();
+                translate_msg();
+                currentState = IDLE;
+                memcpy(global_msg, empty_msg, strlen(global_msg));
+            }
         }
     }
 }
