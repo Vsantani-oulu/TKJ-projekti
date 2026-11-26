@@ -17,8 +17,8 @@ enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
 int initialized = 0;
 // message variables
-char global_msg[200] = ".-- .- .. - .. -. --. ";
-static char empty_msg[200] = "";
+char global_msg[100] = ".-- .- .. - .. -. --. ";
+static char empty_msg[100] = "";
 int updated = 0;
 // prototypes
 void stateChanger(void * pvParameters);
@@ -58,7 +58,7 @@ void uartFxn() {
     // Take char from UART and give it to recive_message()
     if (currentState == READ_UART){
         char input;
-        char buf[30];
+        char buf[100];
         input = uart_getc(uart0);
         sprintf(buf, "%c", input);
         recive_message(buf);
@@ -170,9 +170,9 @@ void translate_msg(){
     // Iterate over global_msg and translate it (outputted string includes spaces between words)
     int i;
 
-    char empty_word[30] = "";
-    char word_to_be_translated[30] = "";
-    char sentance_to_be_built[60] = "";
+    char empty_word[100] = "";
+    char word_to_be_translated[100] = "";
+    char sentance_to_be_built[100] = "";
 
     // Tried using strtok, did not find a simple way to have it include double spaces so wrote my own version of it
     for (i = 0; i < strlen(global_msg); i++){
