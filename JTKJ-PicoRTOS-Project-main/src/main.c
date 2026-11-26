@@ -33,6 +33,7 @@ void translate_msg();
 char translate_char(char word[]);
 
 void stateChanger(void * pvParameters) {
+    write_text("waiting");
     // Handles changing states
     while(1){
         if (currentState == IDLE){
@@ -292,7 +293,6 @@ int main() {
         printf("Comm Task created failed\n");
         return 0;
     }
-    write_text("waiting");
     // Start the scheduler (never returns)
     vTaskStartScheduler();
     
