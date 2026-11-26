@@ -18,6 +18,7 @@ enum msg message = NOT_READY;
 
 // message variables
 char global_msg[30] = "waiting";
+char translated_msg[30] = "";
 static char empty_msg[30] = "";
 int updated = 0;
 // prototypes
@@ -30,6 +31,8 @@ void recive_message(char msg[]);
 void write_message();
 void buzz_message();
 void beep(char length); 
+void translate_msg();
+char translate_char(char word[]);
 
 void stateChanger(void * pvParameters) {
     // Handles changing states
@@ -94,10 +97,10 @@ void commTask(void * pvParameters) {
     while(1){
         if (currentState == DISPLAY){
             buzz_message();
-            clear_display();
-            write_text(global_msg);
-            memcpy(global_msg, empty_msg, strlen(global_msg));
+            translate_msg();
+            write_message(translated_msg);
             currentState = IDLE;
+            memcpy(global_msg, empty_msg, strlen(global_msg));
         }
     }
 }
@@ -111,10 +114,10 @@ void recive_message(char msg[]){
     }
 }
 
-void write_message() {
+void write_message(char text[]) {
     // Write global_msg to display and clear it
     clear_display();
-    write_text(global_msg);
+    write_text(text);
     return;
 }
 
@@ -156,6 +159,97 @@ void beep(char length) {
     //    buzzer_play_tone(500,  100);
     //    printf("Short");
 }
+
+void translate_msg(){
+    // Iterate over global_msg and translate it (outputted string includes spaces between words)
+    int i;
+
+    char empty_word[30] = "";
+    char word_to_be_translated[30] = "";
+    char sentance_to_be_built[60] = "";
+
+    // Tried using strtok, did not find a simple way to have it include double spaces so wrote my own version of it
+    for (i = 0; i < strlen(global_msg); i++){
+        if (global_msg[i] != ' '){
+            // add characters to the string that gets send to be translated (word_to_be_translated) if current char isint a space
+            sprintf(word_to_be_translated+strlen(word_to_be_translated), "%c", global_msg[i]);
+        } else if (global_msg[i] == ' ' && global_msg[i+1] == ' '){
+            // if current char and next char is a space, append translated morse character AND a single space to the final message
+            sprintf(sentance_to_be_built+strlen(sentance_to_be_built), "%c ", translate_char(word_to_be_translated));
+            memcpy(word_to_be_translated, empty_word, strlen(word_to_be_translated));
+        } else {
+            // if only current char is a space, translate the current character and append it to the final string without adding a space after
+            sprintf(sentance_to_be_built+strlen(sentance_to_be_built), "%c", translate_char(word_to_be_translated));
+            memcpy(word_to_be_translated, empty_word, strlen(word_to_be_translated));
+        }
+    }
+    memcpy(translated_msg, sentance_to_be_built, strlen(sentance_to_be_built));
+}
+
+char translate_char(char word[]){
+    // Translate given morse word into a character,
+    // using a massive elif ladder because of: https://stackoverflow.com/questions/4014827/how-can-i-compare-strings-in-c-using-a-switch-statement 
+    if (!strcmp(word, ".-")){
+        return 'a';
+    } else if (!strcmp(word, "-...")) {  
+        return 'b';
+    } else if (!strcmp(word, "-.-.")) {  
+        return 'c';
+    } else if (!strcmp(word, "-..")) {  
+        return 'd';
+    } else if (!strcmp(word, ".")) {  
+        return 'e';
+    } else if (!strcmp(word, "..-.")) {  
+        return 'f';
+    } else if (!strcmp(word, "--.")) {  
+        return 'g';
+    } else if (!strcmp(word, "....")) {  
+        return 'h';
+    } else if (!strcmp(word, "..")) {  
+        return 'i';
+    } else if (!strcmp(word, ".---")) {  
+        return 'j';
+    } else if (!strcmp(word, "-.-")) {  
+        return 'k';
+    } else if (!strcmp(word, ".-..")) {  
+        return 'l';
+    } else if (!strcmp(word, "--")) {  
+        return 'm';
+    } else if (!strcmp(word, "-.")) {  
+        return 'n';
+    } else if (!strcmp(word, "---")) {  
+        return 'o';
+    } else if (!strcmp(word, ".--.")) {  
+        return 'p';
+    } else if (!strcmp(word, "--.-")) {  
+        return 'q';
+    } else if (!strcmp(word, ".-.")) {  
+        return 'r';
+    } else if (!strcmp(word, "...")) {
+        return 's';
+    } else if (!strcmp(word, "-")) {  
+        return 't';
+    } else if (!strcmp(word, "..-")) {  
+        return 'u';
+    } else if (!strcmp(word, "...-")) {
+        return 'v';  
+    } else if (!strcmp(word, ".--")) {  
+        return 'w';
+    } else if (!strcmp(word, "-..-")) {
+        return 'x';  
+    } else if (!strcmp(word, "-.--")) {  
+        return 'y';
+    } else if (!strcmp(word, "--..")) { 
+        return 'z'; 
+    } else if (!strcmp(word, " ")) {  
+        return ' ';
+    } else if (!strcmp(word, "")) {
+        return (char)0;
+    } else{
+        return '?';
+    }
+}
+
 int main() {
     stdio_init_all();
     init_hat_sdk();
