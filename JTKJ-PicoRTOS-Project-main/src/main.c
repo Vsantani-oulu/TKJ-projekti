@@ -17,7 +17,7 @@ enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
 
 // message variables
-char global_msg[30] = "waiting";
+char global_msg[30] = ".-- .- .. - .. -. --.";
 char translated_msg[30] = "";
 static char empty_msg[30] = "";
 int updated = 0;
@@ -98,7 +98,6 @@ void commTask(void * pvParameters) {
         if (currentState == DISPLAY){
             buzz_message();
             translate_msg();
-            write_message(translated_msg);
             currentState = IDLE;
             memcpy(global_msg, empty_msg, strlen(global_msg));
         }
@@ -183,7 +182,8 @@ void translate_msg(){
             memcpy(word_to_be_translated, empty_word, strlen(word_to_be_translated));
         }
     }
-    memcpy(translated_msg, sentance_to_be_built, strlen(sentance_to_be_built));
+    clear_display();
+    write_text(sentance_to_be_built);
 }
 
 char translate_char(char word[]){
