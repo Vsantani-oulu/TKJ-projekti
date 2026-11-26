@@ -12,14 +12,13 @@
 #include "tkjhat/sdk.h"
 // states
 enum state {IDLE=1, READ_UART, DISPLAY};
-enum state currentState = DISPLAY;
+enum state currentState = IDLE;
 enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
 
 // message variables
-char global_msg[30] = ".-- .- .. - .. -. --.";
-char translated_msg[30] = "";
-static char empty_msg[30] = "";
+char global_msg[200] = "";
+static char empty_msg[200] = "";
 int updated = 0;
 // prototypes
 void stateChanger(void * pvParameters);
@@ -28,7 +27,6 @@ void uartFxn();
 void serial_task(void * pvParameters); 
 void commTask(void * pvParameters);
 void recive_message(char msg[]);
-void write_message();
 void buzz_message();
 void beep(char length); 
 void translate_msg();
@@ -294,7 +292,7 @@ int main() {
         printf("Comm Task created failed\n");
         return 0;
     }
-
+    write_text("waiting");
     // Start the scheduler (never returns)
     vTaskStartScheduler();
     
