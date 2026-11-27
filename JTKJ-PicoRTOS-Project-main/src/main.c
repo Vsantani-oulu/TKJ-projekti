@@ -102,8 +102,11 @@ void commTask(void * pvParameters) {
                 initialized = 1;
             }
             else{
+                printf("starting buzz");
                 buzz_message();
+                printf("done with buzz");
                 translate_msg();
+                printf("swapping to idle");
                 currentState = IDLE;
                 memcpy(global_msg, empty_msg, strlen(global_msg));
             }
@@ -168,6 +171,7 @@ void beep(char length) {
 }
 
 void translate_msg(){
+    printf("entering translation");
     // Iterate over global_msg and translate it (outputted string includes spaces between words)
     int i;
 
@@ -190,6 +194,7 @@ void translate_msg(){
             memcpy(word_to_be_translated, empty_word, strlen(word_to_be_translated));
         }
     }
+    printf("writing to screen");
     clear_display();
     write_text(sentance_to_be_built);
 }
