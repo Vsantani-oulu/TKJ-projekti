@@ -133,9 +133,8 @@ void write_message(char text[]) {
 
 void buzz_message() {
     // Iterates over the global_msg and uses the buzzer to translate dots into short beeps and lines into long beeps
-    int len = (sizeof(global_msg) / sizeof(global_msg[0]));
     int c;
-    for (c = 0; c < len; c++){
+    for (c = 0; c < strlen(global_msg); c++){
         if (global_msg[c] == '.'){
             beep('S');
             printf("short\n");
