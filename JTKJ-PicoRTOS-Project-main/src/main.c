@@ -108,6 +108,7 @@ void commTask(void * pvParameters) {
                 memcpy(global_msg, empty_msg, strlen(global_msg));
             }
         }
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
 
@@ -293,9 +294,9 @@ int main() {
     }
     result = xTaskCreate(commTask,   // (en) Task function
         "comm",                   // (en) Name of the task 
-        1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
+        2048,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
         NULL,                    // (en) Arguments of the task 
-        1,                       // (en) Priority of this task
+        2,                       // (en) Priority of this task
         &commTaskHandle);     // (en) A handle to control the execution of this task
     if(result != pdPASS) {
         printf("Comm Task created failed\n");
