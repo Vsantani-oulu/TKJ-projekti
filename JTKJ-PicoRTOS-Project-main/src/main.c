@@ -36,9 +36,6 @@ char translate_char(char word[]);
 
 void startRX(){
     // Enable reciving messages by starting the RXs state machine, also init display and write "waiting" on it
-    init_display();
-    sleep_ms(100);
-    //sleep a bit to make sure screen is inited before writing on it
     currentState = IDLE;
 }
 
@@ -280,7 +277,7 @@ int main() {
     init_hat_sdk();
 
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
-
+    init_display();
     //init buzzer and dont init led if using buzzer, led is for testing purposes for the sim
     //init_buzzer();
     init_led();
