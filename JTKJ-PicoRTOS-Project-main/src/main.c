@@ -35,7 +35,7 @@ void translate_msg();
 char translate_char(char word[]);
 
 void startRX(){
-    // Enable reciving messages by starting the RXs state machine, also init display and write "waiting" on it
+    // Enable reciving messages by starting the RXs state machine
     currentState = IDLE;
 }
 
@@ -72,7 +72,8 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     if (currentState == SUSPENDED){
         printf("Starting");
         startRX();
-    } else {
+    } else if (currentState == READ_UART){
+        //only allow stopping the rx if state is READ_UART so that it cannot be stopped during any output task
         printf("Ending");
         stopRX();
     }
