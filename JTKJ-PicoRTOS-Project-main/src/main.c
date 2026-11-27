@@ -27,7 +27,7 @@ void stateChanger(void * pvParameters);
 static void btn_fxn(uint gpio, uint32_t eventMask);
 void uartFxn();
 void serial_task(void * pvParameters); 
-void commTask(void * pvParameters);
+void outputTask(void * pvParameters);
 void recive_message(char msg[]);
 void buzz_message();
 void beep(char length); 
@@ -114,7 +114,7 @@ void serial_task(void * pvParameters) {
 }
 
 
-void commTask(void * pvParameters) {
+void outputTask(void * pvParameters) {
     //Buzz message, display it on lcd and then clear global_msg
     //Task has a lower priority than the other ones, running only when the others are idle 
     while(1){
@@ -285,7 +285,7 @@ int main() {
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
 
-    TaskHandle_t stateChangerHandle, serialTaskHandle, commTaskHandle = NULL;
+    TaskHandle_t stateChangerHandle, serialTaskHandle, outputTaskHandle = NULL;
     BaseType_t result = xTaskCreate(stateChanger,   // (en) Task function
         "stateChanger",                   // (en) Name of the task 
         1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
@@ -306,14 +306,14 @@ int main() {
         printf("Serial Task created failed\n");
         return 0;
     }
-    result = xTaskCreate(commTask,   // (en) Task function
-        "comm",                   // (en) Name of the task 
+    result = xTaskCreate(outputTask,   // (en) Task function
+        "output",                   // (en) Name of the task 
         2048,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
         NULL,                    // (en) Arguments of the task 
         2,                       // (en) Priority of this task
-        &commTaskHandle);     // (en) A handle to control the execution of this task
+        &outputTaskHandle);     // (en) A handle to control the execution of this task
     if(result != pdPASS) {
-        printf("Comm Task created failed\n");
+        printf("Output Task created failed\n");
         return 0;
     }
     // Start the scheduler (never returns)

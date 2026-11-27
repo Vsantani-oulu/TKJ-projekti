@@ -49,11 +49,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  22 .debug_line   00029aa3  00000000  00000000  00081db1  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000d14e  00000000  00000000  000ab854  2**0
+ 23 .debug_str    0000d152  00000000  00000000  000ab854  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  00005df0  00000000  00000000  000b89a4  2**2
+ 24 .debug_frame  00005df0  00000000  00000000  000b89a8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 00000423  00000000  00000000  000be794  2**0
+ 25 .debug_line_str 00000423  00000000  00000000  000be798  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf:     file format elf32-littlearm
@@ -949,28 +949,28 @@ Disassembly of section .text:
 1000088c:	20001ce8 	.word	0x20001ce8
 10000890:	1000b130 	.word	0x1000b130
 
-10000894 <commTask>:
+10000894 <outputTask>:
 10000894:	b510      	push	{r4, lr}
-10000896:	e002      	b.n	1000089e <commTask+0xa>
+10000896:	e002      	b.n	1000089e <outputTask+0xa>
 10000898:	2064      	movs	r0, #100	@ 0x64
 1000089a:	f008 fcaf 	bl	100091fc <vTaskDelay>
-1000089e:	4b0a      	ldr	r3, [pc, #40]	@ (100008c8 <commTask+0x34>)
+1000089e:	4b0a      	ldr	r3, [pc, #40]	@ (100008c8 <outputTask+0x34>)
 100008a0:	781b      	ldrb	r3, [r3, #0]
 100008a2:	2b03      	cmp	r3, #3
-100008a4:	d1f8      	bne.n	10000898 <commTask+0x4>
+100008a4:	d1f8      	bne.n	10000898 <outputTask+0x4>
 100008a6:	f7ff fe47 	bl	10000538 <buzz_message>
 100008aa:	f7ff ff8d 	bl	100007c8 <translate_msg>
-100008ae:	4b06      	ldr	r3, [pc, #24]	@ (100008c8 <commTask+0x34>)
+100008ae:	4b06      	ldr	r3, [pc, #24]	@ (100008c8 <outputTask+0x34>)
 100008b0:	2201      	movs	r2, #1
 100008b2:	701a      	strb	r2, [r3, #0]
-100008b4:	4c05      	ldr	r4, [pc, #20]	@ (100008cc <commTask+0x38>)
+100008b4:	4c05      	ldr	r4, [pc, #20]	@ (100008cc <outputTask+0x38>)
 100008b6:	0020      	movs	r0, r4
 100008b8:	f00a f9b2 	bl	1000ac20 <strlen>
 100008bc:	0002      	movs	r2, r0
-100008be:	4904      	ldr	r1, [pc, #16]	@ (100008d0 <commTask+0x3c>)
+100008be:	4904      	ldr	r1, [pc, #16]	@ (100008d0 <outputTask+0x3c>)
 100008c0:	0020      	movs	r0, r4
 100008c2:	f002 fa71 	bl	10002da8 <__wrap___aeabi_memcpy>
-100008c6:	e7e7      	b.n	10000898 <commTask+0x4>
+100008c6:	e7e7      	b.n	10000898 <outputTask+0x4>
 100008c8:	20000c32 	.word	0x20000c32
 100008cc:	20001ce8 	.word	0x20001ce8
 100008d0:	20001c7c 	.word	0x20001c7c
