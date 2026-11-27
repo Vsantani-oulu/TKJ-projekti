@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "examples/hello_serial_client/hello_serial_client.elf"
+			"path" : "examples/hat_imu_ex/hat_imu_ex.elf"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"examples/hello_serial_client/CMakeLists.txt",
+			"examples/hat_imu_ex/CMakeLists.txt",
 			"/home/student/.pico-sdk/sdk/2.2.0/src/CMakeLists.txt",
 			"/home/student/.pico-sdk/sdk/2.2.0/src/cmake/on_device.cmake",
 			"/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/boot_stage2/CMakeLists.txt"
@@ -348,7 +348,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"hello_serial_client\""
+					"define" : "PICO_TARGET_NAME=\"hat_imu_ex\""
 				},
 				{
 					"backtrace" : 5,
@@ -371,7 +371,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -379,11 +379,11 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 5,
@@ -403,7 +403,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -1062,7 +1062,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"hello_serial_client\""
+					"define" : "PICO_TARGET_NAME=\"hat_imu_ex\""
 				},
 				{
 					"backtrace" : 5,
@@ -1085,7 +1085,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -1093,11 +1093,11 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 5,
@@ -1117,7 +1117,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -1710,7 +1710,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"hello_serial_client\""
+					"define" : "PICO_TARGET_NAME=\"hat_imu_ex\""
 				},
 				{
 					"backtrace" : 5,
@@ -1733,7 +1733,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -1741,11 +1741,11 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 5,
@@ -1765,7 +1765,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -2089,7 +2089,7 @@
 			"id" : "TKJHAT_SDK::@070647dd357c7d4768a5"
 		}
 	],
-	"id" : "hello_serial_client::@bef8cc48ff3085d8b453",
+	"id" : "hat_imu_ex::@c337141516dd8cf8654a",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -2104,7 +2104,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hello_serial_client/hello_serial_client.elf.map",
+				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hat_imu_ex/hat_imu_ex.elf.map",
 				"role" : "flags"
 			},
 			{
@@ -2864,7 +2864,7 @@
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "-Wl,-L/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build",
+				"fragment" : "-Wl,-L/home/student/jtkj-projects/projekti/TKJ-projekti/build",
 				"role" : "flags"
 			},
 			{
@@ -2940,12 +2940,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "hello_serial_client",
-	"nameOnDisk" : "hello_serial_client.elf",
+	"name" : "hat_imu_ex",
+	"nameOnDisk" : "hat_imu_ex.elf",
 	"paths" : 
 	{
-		"build" : "examples/hello_serial_client",
-		"source" : "examples/hello_serial_client"
+		"build" : "examples/hat_imu_ex",
+		"source" : "examples/hat_imu_ex"
 	},
 	"sourceGroups" : 
 	[
@@ -3064,7 +3064,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/hello_serial_client/src/main.c",
+			"path" : "examples/hat_imu_ex/src/main.c",
 			"sourceGroupIndex" : 0
 		},
 		{

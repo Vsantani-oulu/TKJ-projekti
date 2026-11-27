@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "examples/hat_imu_cdc_ex/hat_imu_cdc_ex.elf"
+			"path" : "examples/hello_serial_client/hello_serial_client.elf"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"examples/hat_imu_cdc_ex/CMakeLists.txt",
+			"examples/hello_serial_client/CMakeLists.txt",
 			"/home/student/.pico-sdk/sdk/2.2.0/src/CMakeLists.txt",
 			"/home/student/.pico-sdk/sdk/2.2.0/src/cmake/on_device.cmake",
 			"/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/boot_stage2/CMakeLists.txt"
@@ -39,7 +39,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 21,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -260,6 +260,10 @@
 				},
 				{
 					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_USB=1"
+				},
+				{
+					"backtrace" : 5,
 					"define" : "LIB_PICO_STDLIB=1"
 				},
 				{
@@ -293,14 +297,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_UTIL=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_TINYUSB_BOARD=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_TINYUSB_DEVICE=1"
 				},
 				{
 					"backtrace" : 5,
@@ -352,7 +348,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"hat_imu_cdc_ex\""
+					"define" : "PICO_TARGET_NAME=\"hello_serial_client\""
 				},
 				{
 					"backtrace" : 5,
@@ -367,11 +363,15 @@
 				},
 				{
 					"backtrace" : 5,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "/home/student/.freertos/portable/ThirdParty/GCC/RP2040/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -379,31 +379,11 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/tinyusb/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 5,
@@ -423,7 +403,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -638,6 +618,31 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_usb_reset_interface_headers/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/include"
 				},
 				{
@@ -659,6 +664,11 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
 				},
 				{
 					"backtrace" : 5,
@@ -689,26 +699,6 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pwm/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
 				}
 			],
 			"language" : "C",
@@ -804,7 +794,9 @@
 				91,
 				92,
 				93,
-				94
+				94,
+				95,
+				96
 			]
 		},
 		{
@@ -982,6 +974,10 @@
 				},
 				{
 					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_USB=1"
+				},
+				{
+					"backtrace" : 5,
 					"define" : "LIB_PICO_STDLIB=1"
 				},
 				{
@@ -1015,14 +1011,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_UTIL=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_TINYUSB_BOARD=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_TINYUSB_DEVICE=1"
 				},
 				{
 					"backtrace" : 5,
@@ -1074,7 +1062,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"hat_imu_cdc_ex\""
+					"define" : "PICO_TARGET_NAME=\"hello_serial_client\""
 				},
 				{
 					"backtrace" : 5,
@@ -1089,11 +1077,15 @@
 				},
 				{
 					"backtrace" : 5,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "/home/student/.freertos/portable/ThirdParty/GCC/RP2040/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -1101,31 +1093,11 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/tinyusb/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 5,
@@ -1145,7 +1117,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -1360,6 +1332,31 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_usb_reset_interface_headers/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/include"
 				},
 				{
@@ -1381,6 +1378,11 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
 				},
 				{
 					"backtrace" : 5,
@@ -1411,26 +1413,6 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pwm/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
 				}
 			],
 			"language" : "ASM",
@@ -1640,6 +1622,10 @@
 				},
 				{
 					"backtrace" : 5,
+					"define" : "LIB_PICO_STDIO_USB=1"
+				},
+				{
+					"backtrace" : 5,
 					"define" : "LIB_PICO_STDLIB=1"
 				},
 				{
@@ -1673,14 +1659,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "LIB_PICO_UTIL=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_TINYUSB_BOARD=1"
-				},
-				{
-					"backtrace" : 5,
-					"define" : "LIB_TINYUSB_DEVICE=1"
 				},
 				{
 					"backtrace" : 5,
@@ -1732,7 +1710,7 @@
 				},
 				{
 					"backtrace" : 9,
-					"define" : "PICO_TARGET_NAME=\"hat_imu_cdc_ex\""
+					"define" : "PICO_TARGET_NAME=\"hello_serial_client\""
 				},
 				{
 					"backtrace" : 5,
@@ -1747,11 +1725,15 @@
 				},
 				{
 					"backtrace" : 5,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
+				},
+				{
+					"backtrace" : 5,
 					"path" : "/home/student/.freertos/portable/ThirdParty/GCC/RP2040/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -1759,31 +1741,11 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/tinyusb/include"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 5,
@@ -1803,7 +1765,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -2018,6 +1980,31 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_usb_reset_interface_headers/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/include"
 				},
 				{
@@ -2039,6 +2026,11 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/boot_stage2/include"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
 				},
 				{
 					"backtrace" : 5,
@@ -2069,26 +2061,6 @@
 					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pwm/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/include"
-				},
-				{
-					"backtrace" : 5,
-					"isSystem" : true,
-					"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
 				}
 			],
 			"language" : "CXX",
@@ -2115,13 +2087,9 @@
 		{
 			"backtrace" : 5,
 			"id" : "TKJHAT_SDK::@070647dd357c7d4768a5"
-		},
-		{
-			"backtrace" : 5,
-			"id" : "usb_serial_debug::@523260a2fbf4622b6193"
 		}
 	],
-	"id" : "hat_imu_cdc_ex::@47e9f00b9b3dd3c3d00a",
+	"id" : "hello_serial_client::@bef8cc48ff3085d8b453",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -2136,7 +2104,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hat_imu_cdc_ex/hat_imu_cdc_ex.elf.map",
+				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hello_serial_client/hello_serial_client.elf.map",
 				"role" : "flags"
 			},
 			{
@@ -2896,7 +2864,7 @@
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "-Wl,-L/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build",
+				"fragment" : "-Wl,-L/home/student/jtkj-projects/projekti/TKJ-projekti/build",
 				"role" : "flags"
 			},
 			{
@@ -2968,21 +2936,16 @@
 				"backtrace" : 5,
 				"fragment" : "../../libs/TKJHAT/libTKJHAT_SDK.a",
 				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "../../libs/usb-serial-debug/libusb_serial_debug.a",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "hat_imu_cdc_ex",
-	"nameOnDisk" : "hat_imu_cdc_ex.elf",
+	"name" : "hello_serial_client",
+	"nameOnDisk" : "hello_serial_client.elf",
 	"paths" : 
 	{
-		"build" : "examples/hat_imu_cdc_ex",
-		"source" : "examples/hat_imu_cdc_ex"
+		"build" : "examples/hello_serial_client",
+		"source" : "examples/hello_serial_client"
 	},
 	"sourceGroups" : 
 	[
@@ -3073,7 +3036,9 @@
 				91,
 				92,
 				93,
-				94
+				94,
+				95,
+				96
 			]
 		},
 		{
@@ -3099,7 +3064,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "examples/hat_imu_cdc_ex/src/main.c",
+			"path" : "examples/hello_serial_client/src/main.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -3441,91 +3406,19 @@
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c",
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/croutine.c",
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/event_groups.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/list.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/queue.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/stream_buffer.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/tasks.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/timers.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.freertos/portable/MemMang/heap_4.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c",
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -3544,12 +3437,6 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -3664,6 +3551,96 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/croutine.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/event_groups.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/list.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/stream_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/tasks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/timers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.freertos/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c",
 			"sourceGroupIndex" : 0
 		}
 	],

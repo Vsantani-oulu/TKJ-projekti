@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/tools/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/docs/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main
+CMAKE_SOURCE_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build
+CMAKE_BINARY_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/common/pico_divider_headers//CMakeFiles/progress.marks
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles 0
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles /home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/common/pico_divider_headers//CMakeFiles/progress.marks
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/clean
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,18 +103,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/preinstall
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/preinstall
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/common/pico_divider_headers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -136,7 +136,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

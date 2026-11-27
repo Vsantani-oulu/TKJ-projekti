@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

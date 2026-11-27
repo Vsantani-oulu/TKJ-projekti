@@ -5,7 +5,6 @@
 #include <pico/stdlib.h>
 
 #include <FreeRTOS.h>
-#include <timers.h>
 #include <queue.h>
 #include <task.h>
 
@@ -28,7 +27,7 @@ static void btn_fxn(uint gpio, uint32_t eventMask);
 void uartFxn();
 void serial_task(void * pvParameters); 
 void outputTask(void * pvParameters);
-void recive_message(char msg[]);
+void recive_message(char msg);
 void buzz_message();
 void beep(char length); 
 void translate_msg();
@@ -79,34 +78,13 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     }
 }
 
-void uartFxn() {
-    // Take char from UART and give it to recive_message()
-    if (currentState == READ_UART){
-        char input;
-        char buf[100];
-        input = uart_getc(uart0);
-        sprintf(buf, "%c", input);
-        recive_message(buf);
-    }
-}
-
 void serial_task(void * pvParameters) {
     uart_init(uart0, 9600);
-    gpio_set_function(0, GPIO_FUNC_UART);
-    gpio_set_function(1, GPIO_FUNC_UART);
-
-    irq_set_exclusive_handler(UART0_IRQ, uartFxn);
     while(1){
-        // Enable uart only if state is READ_UART
-        if (serialUpdated == NOT_UPDATED){
-            if (currentState == READ_UART){
-                irq_set_enabled(UART0_IRQ, true);
-                uart_set_irq_enables(uart0, true, false);
-                serialUpdated = UPDATED;
-            } else {
-                irq_set_enabled(UART0_IRQ, false);
-                uart_set_irq_enables(uart0, false, false);   
-                serialUpdated = UPDATED;
+        if (currentState == READ_UART){
+            int ch = getchar_timeout_us(0);      
+            if (ch >= 0) {
+                recive_message((char)ch);          
             }
         }
         vTaskDelay(pdMS_TO_TICKS(100));
@@ -128,12 +106,12 @@ void outputTask(void * pvParameters) {
     }
 }
 
-void recive_message(char msg[]){
+void recive_message(char msg){
     // Append input into global_msg and set state of message to ready if its newline
-    if (msg[0] == '\n'){
+    if (msg == '\n'){
         message = READY;
-    } else if(msg[0] != '\0'){
-        sprintf(global_msg+strlen(global_msg), "%s", msg);
+    } else if(msg >= 0){
+        sprintf(global_msg+strlen(global_msg), "%c", msg);
     }
 }
 
@@ -156,7 +134,7 @@ void buzz_message() {
             printf("long\n");
         }
         //short sleep so that its easier to see when one blink ends and other starts
-        sleep_ms(100);   
+        sleep_ms(1000);   
     }
 }
 
@@ -164,11 +142,11 @@ void beep(char length) {
     // blinks the led for 300ms if - and 100ms if .
     if (length == 'L'){
         toggle_led();
-        sleep_ms(300);
+        sleep_ms(3000);
         toggle_led();
     } else if (length == 'S'){
         toggle_led();
-        sleep_ms(100);
+        sleep_ms(1000);
         toggle_led();
     }
 
@@ -206,6 +184,7 @@ void translate_msg(){
         }
     }
     clear_display();
+    printf("writing");
     write_text(sentance_to_be_built);
 }
 
@@ -278,9 +257,9 @@ int main() {
     init_hat_sdk();
 
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
-    init_display();
     //init buzzer and dont init led if using buzzer, led is for testing purposes for the sim
     //init_buzzer();
+    init_display();
     init_led();
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);

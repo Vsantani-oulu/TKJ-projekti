@@ -41,7 +41,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeSystem.cmake"
+			"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeSystem.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -66,15 +66,15 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake"
+			"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
+			"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeASMCompiler.cmake"
+			"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/3.28.3/CMakeASMCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -965,8 +965,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build",
-		"source" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main"
+		"build" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build",
+		"source" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main"
 	},
 	"version" : 
 	{

@@ -2,7 +2,7 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/types.h \
@@ -21,13 +21,13 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/version.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \

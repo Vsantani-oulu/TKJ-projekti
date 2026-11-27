@@ -1,5 +1,5 @@
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hello_serial_client/hello_serial_client.elf:     file format elf32-littlearm
+/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hello_serial_client/hello_serial_client.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -47,16 +47,16 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  21 .debug_rnglists 000025dd  00000000  00000000  000780e0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   00027b76  00000000  00000000  0007a6bd  2**0
+ 22 .debug_line   00027b4a  00000000  00000000  0007a6bd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000ca1a  00000000  00000000  000a2233  2**0
+ 23 .debug_str    0000c9ee  00000000  00000000  000a2207  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  00005500  00000000  00000000  000aec50  2**2
+ 24 .debug_frame  00005500  00000000  00000000  000aebf8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 00000368  00000000  00000000  000b4150  2**0
+ 25 .debug_line_str 0000035d  00000000  00000000  000b40f8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hello_serial_client/hello_serial_client.elf:     file format elf32-littlearm
+/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hello_serial_client/hello_serial_client.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:

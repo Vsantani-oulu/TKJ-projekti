@@ -1,5 +1,5 @@
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hat_imu_cdc_ex/hat_imu_cdc_ex.elf:     file format elf32-littlearm
+/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hat_imu_cdc_ex/hat_imu_cdc_ex.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -47,16 +47,16 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  21 .debug_rnglists 00002493  00000000  00000000  00071198  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   000256b4  00000000  00000000  0007362b  2**0
+ 22 .debug_line   00025667  00000000  00000000  0007362b  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    0000c23b  00000000  00000000  00098cdf  2**0
+ 23 .debug_str    0000c1ee  00000000  00000000  00098c92  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  000051cc  00000000  00000000  000a4f1c  2**2
+ 24 .debug_frame  000051cc  00000000  00000000  000a4e80  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 00000363  00000000  00000000  000aa0e8  2**0
+ 25 .debug_line_str 00000358  00000000  00000000  000aa04c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hat_imu_cdc_ex/hat_imu_cdc_ex.elf:     file format elf32-littlearm
+/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hat_imu_cdc_ex/hat_imu_cdc_ex.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:

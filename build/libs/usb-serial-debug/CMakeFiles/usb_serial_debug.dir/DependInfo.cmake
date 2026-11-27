@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
-  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+  "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -92,14 +92,14 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include"
-  "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config"
+  "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include"
+  "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config"
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/include"
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/tinyusb/include"
   "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw"
   "/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src"
   "/home/student/.freertos/portable/ThirdParty/GCC/RP2040/include"
-  "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+  "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
   "/home/student/.freertos/include"
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/include"
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/include"
@@ -241,8 +241,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d"
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o.d"
-  "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/helper.c" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o.d"
-  "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/usb_descriptors.c" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o.d"
+  "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/helper.c" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o.d"
+  "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/usb_descriptors.c" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o.d"
   "/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )
 

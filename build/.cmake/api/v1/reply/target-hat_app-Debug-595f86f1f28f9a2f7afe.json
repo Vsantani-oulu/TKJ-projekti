@@ -430,7 +430,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -438,15 +438,15 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 12,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_cyw43_driver"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_cyw43_driver"
 				},
 				{
 					"backtrace" : 5,
@@ -466,7 +466,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -1212,7 +1212,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -1220,15 +1220,15 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 12,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_cyw43_driver"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_cyw43_driver"
 				},
 				{
 					"backtrace" : 5,
@@ -1248,7 +1248,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -1914,7 +1914,7 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config"
 				},
 				{
 					"backtrace" : 5,
@@ -1922,15 +1922,15 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT"
 				},
 				{
 					"backtrace" : 12,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_cyw43_driver"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_cyw43_driver"
 				},
 				{
 					"backtrace" : 5,
@@ -1950,7 +1950,7 @@
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 5,
@@ -2323,7 +2323,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf.map",
+				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/projekti/TKJ-projekti/build/hat_app.elf.map",
 				"role" : "flags"
 			},
 			{
@@ -3083,7 +3083,7 @@
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "-Wl,-L/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build",
+				"fragment" : "-Wl,-L/home/student/jtkj-projects/projekti/TKJ-projekti/build",
 				"role" : "flags"
 			},
 			{

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main
+CMAKE_SOURCE_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build
+CMAKE_BINARY_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/build
 
 # Utility rule file for TKJHAT_SDK_pdm_microphone_pio_h.
 
@@ -68,9 +68,9 @@ include libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/progress.make
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h: libs/TKJHAT/pdm_microphone.pio.h
 
-libs/TKJHAT/pdm_microphone.pio.h: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating pdm_microphone.pio.h"
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT && /home/student/.pico-sdk/tools/2.2.0/pioasm/pioasm -o c-sdk -v 0 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.pio /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT/pdm_microphone.pio.h
+libs/TKJHAT/pdm_microphone.pio.h: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating pdm_microphone.pio.h"
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT && /home/student/.pico-sdk/tools/2.2.0/pioasm/pioasm -o c-sdk -v 0 /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.pio /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT/pdm_microphone.pio.h
 
 TKJHAT_SDK_pdm_microphone_pio_h: libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h
 TKJHAT_SDK_pdm_microphone_pio_h: libs/TKJHAT/pdm_microphone.pio.h
@@ -82,10 +82,10 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/build: TKJHAT_SDK_pdm
 .PHONY : libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/build
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/clean:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT && $(CMAKE_COMMAND) -P CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/cmake_clean.cmake
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT && $(CMAKE_COMMAND) -P CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/cmake_clean.cmake
 .PHONY : libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/clean
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/depend:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT /home/student/jtkj-projects/projekti/TKJ-projekti/build /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : libs/TKJHAT/CMakeFiles/TKJHAT_SDK_pdm_microphone_pio_h.dir/depend
 

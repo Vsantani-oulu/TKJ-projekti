@@ -1,5 +1,5 @@
 examples/hello_serial_client/CMakeFiles/hello_serial_client.dir/src/main.c.o: \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hello_serial_client/src/main.c \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hello_serial_client/src/main.c \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdio.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_ansi.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/newlib.h \
@@ -27,13 +27,13 @@ examples/hello_serial_client/CMakeFiles/hello_serial_client.dir/src/main.c.o: \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/version.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
@@ -83,13 +83,13 @@ examples/hello_serial_client/CMakeFiles/hello_serial_client.dir/src/main.c.o: \
  /home/student/.freertos/include/mpu_wrappers.h \
  /home/student/.freertos/include/task.h \
  /home/student/.freertos/include/list.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/include/hardware/pio.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h

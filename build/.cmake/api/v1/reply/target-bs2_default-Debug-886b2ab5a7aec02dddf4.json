@@ -147,7 +147,7 @@
 				{
 					"backtrace" : 8,
 					"isSystem" : true,
-					"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base"
+					"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 8,
@@ -222,7 +222,7 @@
 			},
 			{
 				"backtrace" : 7,
-				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf.map",
+				"fragment" : "-Wl,-Map=/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf.map",
 				"role" : "flags"
 			}
 		],

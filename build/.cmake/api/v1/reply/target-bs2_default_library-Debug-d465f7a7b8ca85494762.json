@@ -1,10 +1,16 @@
 {
+	"artifacts" : 
+	[
+		{
+			"path" : "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o"
+		}
+	],
 	"backtrace" : 2,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
-			"add_custom_target",
+			"add_library",
 			"pico_define_boot_stage2",
 			"add_custom_command"
 		],
@@ -26,7 +32,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 71,
+				"line" : 79,
 				"parent" : 1
 			},
 			{
@@ -37,6 +43,22 @@
 			}
 		]
 	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
 	"dependencies" : 
 	[
 		{
@@ -44,8 +66,8 @@
 			"id" : "bs2_default::@efaae0dfea37ab6992ce"
 		}
 	],
-	"id" : "bs2_default_bin::@efaae0dfea37ab6992ce",
-	"name" : "bs2_default_bin",
+	"id" : "bs2_default_library::@efaae0dfea37ab6992ce",
+	"name" : "bs2_default_library",
 	"paths" : 
 	{
 		"build" : "pico-sdk/src/rp2040/boot_stage2",
@@ -73,22 +95,23 @@
 	[
 		{
 			"backtrace" : 2,
+			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin",
+			"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.rule",
+			"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin.rule",
+			"path" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "UTILITY"
+	"type" : "OBJECT_LIBRARY"
 }

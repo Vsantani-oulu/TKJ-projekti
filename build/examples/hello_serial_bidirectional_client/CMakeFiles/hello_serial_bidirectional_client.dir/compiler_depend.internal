@@ -4774,7 +4774,7 @@ examples/hello_serial_bidirectional_client/CMakeFiles/hello_serial_bidirectional
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 examples/hello_serial_bidirectional_client/CMakeFiles/hello_serial_bidirectional_client.dir/src/main.c.o
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hello_serial_bidirectional_client/src/main.c
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hello_serial_bidirectional_client/src/main.c
  /home/student/.freertos/include/FreeRTOS.h
  /home/student/.freertos/include/deprecated_definitions.h
  /home/student/.freertos/include/list.h
@@ -4861,6 +4861,7 @@ examples/hello_serial_bidirectional_client/CMakeFiles/hello_serial_bidirectional
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h
+ /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hello_serial_bidirectional_client/src/main.c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h

@@ -4007,7 +4007,7 @@ libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/helper.c
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/helper.c
  /home/student/.freertos/include/FreeRTOS.h
  /home/student/.freertos/include/deprecated_definitions.h
  /home/student/.freertos/include/list.h
@@ -4082,11 +4082,12 @@ libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include/usbSerialDebug/helper.h
+ /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/helper.c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/usb_descriptors.c
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/usb_descriptors.c
  /home/student/.freertos/include/FreeRTOS.h
  /home/student/.freertos/include/deprecated_definitions.h
  /home/student/.freertos/include/list.h
@@ -4163,6 +4164,7 @@ libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+ /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/src/usb_descriptors.c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 

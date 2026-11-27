@@ -192,7 +192,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
  .debug_line    0x00000000      0x3e1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
- .debug_str     0x00000000      0x3d6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
+ .debug_str     0x00000000      0x3cb CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
  .debug_frame   0x00000000       0x28 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
  .ARM.attributes
@@ -291,7 +291,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
  .debug_line    0x00000000       0x6f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
- .debug_str     0x00000000      0x1c0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
+ .debug_str     0x00000000      0x1b5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
@@ -396,7 +396,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x7f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
  .debug_line    0x00000000      0xb1e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
- .debug_str     0x00000000      0x5ae CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
+ .debug_str     0x00000000      0x5a3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
  .debug_frame   0x00000000       0xf8 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
  .ARM.attributes
@@ -491,7 +491,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x61 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
  .debug_line    0x00000000      0x4e5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
- .debug_str     0x00000000      0x414 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
+ .debug_str     0x00000000      0x409 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
  .debug_frame   0x00000000       0x68 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
  .ARM.attributes
@@ -597,7 +597,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x4f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
  .debug_line    0x00000000      0x4aa CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
- .debug_str     0x00000000      0x3c1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
+ .debug_str     0x00000000      0x3b6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
  .debug_frame   0x00000000      0x134 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
  .ARM.attributes
@@ -659,7 +659,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x8e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
  .debug_line    0x00000000      0x7d1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
- .debug_str     0x00000000      0x421 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
+ .debug_str     0x00000000      0x416 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
  .debug_frame   0x00000000      0x198 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
  .ARM.attributes
@@ -704,7 +704,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xa7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
  .debug_line    0x00000000      0xa40 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
- .debug_str     0x00000000      0x4ff CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
+ .debug_str     0x00000000      0x4f4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
  .debug_frame   0x00000000      0x14c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
  .ARM.attributes
@@ -745,7 +745,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x8b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
  .debug_line    0x00000000      0x9c0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
- .debug_str     0x00000000      0xc73 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
+ .debug_str     0x00000000      0xc68 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
  .debug_frame   0x00000000      0x108 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
  .ARM.attributes
@@ -816,7 +816,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
  .debug_line    0x00000000      0x312 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
- .debug_str     0x00000000      0x38d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
+ .debug_str     0x00000000      0x382 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
  .debug_frame   0x00000000       0x40 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
  .ARM.attributes
@@ -858,7 +858,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
  .debug_line    0x00000000       0x6d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_str     0x00000000      0x1be CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_str     0x00000000      0x1b3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -870,7 +870,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
  .debug_line    0x00000000       0x70 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_str     0x00000000      0x1c1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_str     0x00000000      0x1b6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -912,7 +912,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x6c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
  .debug_line    0x00000000      0x999 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
- .debug_str     0x00000000      0xaa7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
+ .debug_str     0x00000000      0xa9c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
  .debug_frame   0x00000000       0xf0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
  .ARM.attributes
@@ -939,12 +939,12 @@ Discarded input sections
                 0x00000000       0x14 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
  .debug_line    0x00000000       0xa6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
  .debug_line_str
-                0x00000000       0xa2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
+                0x00000000       0x97 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
  .debug_info    0x00000000       0x23 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
  .debug_abbrev  0x00000000       0x12 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
  .debug_aranges
                 0x00000000       0x40 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
- .debug_str     0x00000000       0xb0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
+ .debug_str     0x00000000       0xa5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
  .debug_rnglists
                 0x00000000       0x2b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
  .ARM.attributes
@@ -976,7 +976,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
  .debug_line    0x00000000      0x311 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
- .debug_str     0x00000000      0x287 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+ .debug_str     0x00000000      0x27c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
  .debug_frame   0x00000000       0x20 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
  .ARM.attributes
@@ -1150,7 +1150,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x10b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
  .debug_line    0x00000000     0x2212 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
- .debug_str     0x00000000      0x543 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
+ .debug_str     0x00000000      0x538 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
  .debug_frame   0x00000000      0x4c0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
  .ARM.attributes
@@ -1327,7 +1327,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x104 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
  .debug_line    0x00000000     0x2094 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
- .debug_str     0x00000000      0x556 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
+ .debug_str     0x00000000      0x54b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
  .debug_frame   0x00000000      0x410 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
  .ARM.attributes
@@ -1446,7 +1446,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x109 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
  .debug_line    0x00000000     0x2b2b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
- .debug_str     0x00000000      0x727 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
+ .debug_str     0x00000000      0x71c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
  .debug_frame   0x00000000      0x3d4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
  .ARM.attributes
@@ -1469,7 +1469,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x31 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
  .debug_line    0x00000000      0x2a7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
- .debug_str     0x00000000      0x3a7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+ .debug_str     0x00000000      0x39c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
  .debug_frame   0x00000000       0xa0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
  .ARM.attributes
@@ -1594,7 +1594,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x19 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
  .debug_line    0x00000000      0x362 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
- .debug_str     0x00000000      0x2db CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+ .debug_str     0x00000000      0x2d0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
  .debug_frame   0x00000000       0x30 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
  .ARM.attributes
@@ -1697,7 +1697,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
  .debug_line    0x00000000       0x6d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
- .debug_str     0x00000000      0x1be CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
+ .debug_str     0x00000000      0x1b3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
@@ -1728,7 +1728,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
  .debug_line    0x00000000       0x69 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
- .debug_str     0x00000000      0x1ba CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
+ .debug_str     0x00000000      0x1af CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -1740,7 +1740,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
  .debug_line    0x00000000       0x6c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
- .debug_str     0x00000000      0x1bd CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+ .debug_str     0x00000000      0x1b2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -1752,7 +1752,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
  .debug_line    0x00000000       0x69 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
- .debug_str     0x00000000      0x1ba CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
+ .debug_str     0x00000000      0x1af CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -1764,7 +1764,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
  .debug_line    0x00000000       0x6b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
- .debug_str     0x00000000      0x1bc CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
+ .debug_str     0x00000000      0x1b1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -1776,7 +1776,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
  .debug_line    0x00000000       0x69 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
- .debug_str     0x00000000      0x1ba CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
+ .debug_str     0x00000000      0x1af CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -1788,7 +1788,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
  .debug_line    0x00000000       0x6f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
- .debug_str     0x00000000      0x1c0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+ .debug_str     0x00000000      0x1b5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -1800,7 +1800,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
  .debug_line    0x00000000       0x69 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
- .debug_str     0x00000000      0x1ba CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
+ .debug_str     0x00000000      0x1af CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -1812,7 +1812,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
  .debug_line    0x00000000       0x6f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
- .debug_str     0x00000000      0x1c0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+ .debug_str     0x00000000      0x1b5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -1839,7 +1839,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
  .debug_line    0x00000000       0x6d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
- .debug_str     0x00000000      0x1be CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
+ .debug_str     0x00000000      0x1b3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
@@ -1907,7 +1907,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
  .debug_line    0x00000000       0xad CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
- .debug_str     0x00000000      0x20b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+ .debug_str     0x00000000      0x200 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
  .debug_frame   0x00000000       0x20 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
  .ARM.attributes
@@ -1929,7 +1929,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/hello_hat.dir/home/student/.freertos/croutine.c.o
  .debug_line    0x00000000       0x43 CMakeFiles/hello_hat.dir/home/student/.freertos/croutine.c.o
- .debug_str     0x00000000      0x199 CMakeFiles/hello_hat.dir/home/student/.freertos/croutine.c.o
+ .debug_str     0x00000000      0x18e CMakeFiles/hello_hat.dir/home/student/.freertos/croutine.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.freertos/croutine.c.o
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/hello_hat.dir/home/student/.freertos/croutine.c.o
@@ -2210,7 +2210,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xb6 CMakeFiles/hello_hat.dir/home/student/.freertos/stream_buffer.c.o
  .debug_line    0x00000000     0x10d8 CMakeFiles/hello_hat.dir/home/student/.freertos/stream_buffer.c.o
- .debug_str     0x00000000      0xa1d CMakeFiles/hello_hat.dir/home/student/.freertos/stream_buffer.c.o
+ .debug_str     0x00000000      0xa12 CMakeFiles/hello_hat.dir/home/student/.freertos/stream_buffer.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.freertos/stream_buffer.c.o
  .debug_frame   0x00000000      0x314 CMakeFiles/hello_hat.dir/home/student/.freertos/stream_buffer.c.o
  .ARM.attributes
@@ -2656,7 +2656,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x129 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
  .debug_line    0x00000000     0x12b1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
- .debug_str     0x00000000     0x1133 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
+ .debug_str     0x00000000     0x1128 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
  .debug_frame   0x00000000      0x368 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
  .ARM.attributes
@@ -2710,7 +2710,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x56 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
  .debug_line    0x00000000      0x67d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
- .debug_str     0x00000000      0x630 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
+ .debug_str     0x00000000      0x625 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
  .debug_frame   0x00000000      0x154 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
  .ARM.attributes
@@ -2729,7 +2729,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o
  .debug_line    0x00000000      0x3e4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o
- .debug_str     0x00000000      0x44e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o
+ .debug_str     0x00000000      0x443 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o
  .comment       0x00000000       0x46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o
  .debug_frame   0x00000000       0x20 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o
  .ARM.attributes
@@ -2950,8 +2950,8 @@ Discarded input sections
                 0x00000000       0xa0 ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
  .debug_rnglists
                 0x00000000       0x85 ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
- .debug_line    0x00000000     0x1370 ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
- .debug_str     0x00000000     0x17a0 ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
+ .debug_line    0x00000000     0x1344 ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
+ .debug_str     0x00000000     0x178a ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
  .comment       0x00000000       0x46 ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
  .debug_frame   0x00000000      0x1c0 ../../libs/TKJHAT/libTKJHAT_SDK.a(pdm_microphone.c.o)
  .ARM.attributes
@@ -2996,8 +2996,8 @@ Discarded input sections
                 0x00000000       0x58 ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
  .debug_rnglists
                 0x00000000       0x60 ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
- .debug_line    0x00000000      0x9c6 ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
- .debug_str     0x00000000      0x4e1 ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
+ .debug_line    0x00000000      0x9bb ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
+ .debug_str     0x00000000      0x4cb ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
  .comment       0x00000000       0x46 ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
  .debug_frame   0x00000000      0x130 ../../libs/TKJHAT/libTKJHAT_SDK.a(OpenPDMFilter.c.o)
  .ARM.attributes
@@ -6844,134 +6844,134 @@ LOAD linker stubs
  .debug_rnglists
                 0x000025d2      0x113 ../../libs/TKJHAT/libTKJHAT_SDK.a(ssd1306.c.o)
 
-.debug_line     0x00000000    0x28745
- .debug_line    0x00000000      0x469 CMakeFiles/hello_hat.dir/src/main.c.o
- .debug_line    0x00000469      0xe13 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_line    0x0000127c      0x2c7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
- .debug_line    0x00001543      0x218 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_line    0x0000175b      0x653 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
- .debug_line    0x00001dae      0x430 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
- .debug_line    0x000021de      0x3e1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_line    0x000025bf     0x12d1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
- .debug_line    0x00003890      0x2c4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
- .debug_line    0x00003b54     0x106a CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
- .debug_line    0x00004bbe      0x3b0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
- .debug_line    0x00004f6e     0x1df3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
- .debug_line    0x00006d61      0xf07 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
- .debug_line    0x00007c68      0xc70 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_line    0x000088d8      0x53b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
- .debug_line    0x00008e13      0x57b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
- .debug_line    0x0000938e      0x308 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_line    0x00009696      0x2e7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_line    0x0000997d      0x352 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_line    0x00009ccf      0x274 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
- .debug_line    0x00009f43      0x5f9 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_line    0x0000a53c      0x557 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_line    0x0000aa93      0x108 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_line    0x0000ab9b      0x2a9 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_line    0x0000ae44      0x44d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_line    0x0000b291      0x3ec CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_line    0x0000b67d       0x60 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_line    0x0000b6dd       0x61 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_line    0x0000b73e      0x3c6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_line    0x0000bb04      0x3ba CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_line    0x0000bebe      0x49d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
- .debug_line    0x0000c35b       0x94 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_line    0x0000c3ef      0x1f0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_line    0x0000c5df     0x1352 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
- .debug_line    0x0000d931       0xa2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
- .debug_line    0x0000d9d3      0x86b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x0000e23e      0xd63 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x0000efa1      0x537 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o
- .debug_line    0x0000f4d8     0x10c0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
- .debug_line    0x00010598      0x3ab CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
- .debug_line    0x00010943      0x3b6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_line    0x00010cf9      0xbb4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
- .debug_line    0x000118ad     0x13a8 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_line    0x00012c55      0xc30 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_line    0x00013885     0x26f8 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
- .debug_line    0x00015f7d      0x68d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
- .debug_line    0x0001660a     0x1054 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
- .debug_line    0x0001765e      0xade CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
- .debug_line    0x0001813c     0x1421 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
- .debug_line    0x0001955d     0x142f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_line    0x0001a98c     0x11ce CMakeFiles/hello_hat.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
- .debug_line    0x0001bb5a      0x8ba CMakeFiles/hello_hat.dir/home/student/.freertos/event_groups.c.o
- .debug_line    0x0001c414      0x360 CMakeFiles/hello_hat.dir/home/student/.freertos/list.c.o
- .debug_line    0x0001c774     0x1b71 CMakeFiles/hello_hat.dir/home/student/.freertos/queue.c.o
- .debug_line    0x0001e2e5     0x4218 CMakeFiles/hello_hat.dir/home/student/.freertos/tasks.c.o
- .debug_line    0x000224fd      0xcae CMakeFiles/hello_hat.dir/home/student/.freertos/timers.c.o
- .debug_line    0x000231ab      0x573 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
- .debug_line    0x0002371e     0x10db CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
- .debug_line    0x000247f9      0x816 CMakeFiles/hello_hat.dir/home/student/.freertos/portable/MemMang/heap_4.c.o
- .debug_line    0x0002500f      0xda6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
- .debug_line    0x00025db5     0x1cd2 ../../libs/TKJHAT/libTKJHAT_SDK.a(sdk.c.o)
- .debug_line    0x00027a87      0xcbe ../../libs/TKJHAT/libTKJHAT_SDK.a(ssd1306.c.o)
+.debug_line     0x00000000    0x28703
+ .debug_line    0x00000000      0x453 CMakeFiles/hello_hat.dir/src/main.c.o
+ .debug_line    0x00000453      0xe13 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_line    0x00001266      0x2c7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
+ .debug_line    0x0000152d      0x218 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_line    0x00001745      0x653 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
+ .debug_line    0x00001d98      0x430 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
+ .debug_line    0x000021c8      0x3e1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_line    0x000025a9     0x12d1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
+ .debug_line    0x0000387a      0x2c4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
+ .debug_line    0x00003b3e     0x106a CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
+ .debug_line    0x00004ba8      0x3b0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
+ .debug_line    0x00004f58     0x1df3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
+ .debug_line    0x00006d4b      0xf07 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
+ .debug_line    0x00007c52      0xc70 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_line    0x000088c2      0x53b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
+ .debug_line    0x00008dfd      0x57b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
+ .debug_line    0x00009378      0x308 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_line    0x00009680      0x2e7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_line    0x00009967      0x352 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_line    0x00009cb9      0x274 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_line    0x00009f2d      0x5f9 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_line    0x0000a526      0x557 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_line    0x0000aa7d      0x108 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_line    0x0000ab85      0x2a9 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_line    0x0000ae2e      0x44d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_line    0x0000b27b      0x3ec CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_line    0x0000b667       0x60 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_line    0x0000b6c7       0x61 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_line    0x0000b728      0x3c6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_line    0x0000baee      0x3ba CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_line    0x0000bea8      0x49d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_line    0x0000c345       0x94 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_line    0x0000c3d9      0x1f0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_line    0x0000c5c9     0x1352 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
+ .debug_line    0x0000d91b       0xa2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_line    0x0000d9bd      0x86b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_line    0x0000e228      0xd63 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x0000ef8b      0x537 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+ .debug_line    0x0000f4c2     0x10c0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+ .debug_line    0x00010582      0x3ab CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+ .debug_line    0x0001092d      0x3b6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_line    0x00010ce3      0xbb4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
+ .debug_line    0x00011897     0x13a8 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_line    0x00012c3f      0xc30 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_line    0x0001386f     0x26f8 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
+ .debug_line    0x00015f67      0x68d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_line    0x000165f4     0x1054 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
+ .debug_line    0x00017648      0xade CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
+ .debug_line    0x00018126     0x1421 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
+ .debug_line    0x00019547     0x142f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_line    0x0001a976     0x11ce CMakeFiles/hello_hat.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
+ .debug_line    0x0001bb44      0x8ba CMakeFiles/hello_hat.dir/home/student/.freertos/event_groups.c.o
+ .debug_line    0x0001c3fe      0x360 CMakeFiles/hello_hat.dir/home/student/.freertos/list.c.o
+ .debug_line    0x0001c75e     0x1b71 CMakeFiles/hello_hat.dir/home/student/.freertos/queue.c.o
+ .debug_line    0x0001e2cf     0x4218 CMakeFiles/hello_hat.dir/home/student/.freertos/tasks.c.o
+ .debug_line    0x000224e7      0xcae CMakeFiles/hello_hat.dir/home/student/.freertos/timers.c.o
+ .debug_line    0x00023195      0x573 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
+ .debug_line    0x00023708     0x10db CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_line    0x000247e3      0x816 CMakeFiles/hello_hat.dir/home/student/.freertos/portable/MemMang/heap_4.c.o
+ .debug_line    0x00024ff9      0xda6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
+ .debug_line    0x00025d9f     0x1cbc ../../libs/TKJHAT/libTKJHAT_SDK.a(sdk.c.o)
+ .debug_line    0x00027a5b      0xca8 ../../libs/TKJHAT/libTKJHAT_SDK.a(ssd1306.c.o)
 
-.debug_str      0x00000000     0xccb6
- .debug_str     0x00000000     0xccb6 CMakeFiles/hello_hat.dir/src/main.c.o
-                                0x384 (size before relaxing)
- .debug_str     0x0000ccb6      0xcef CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_str     0x0000ccb6      0x23d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
- .debug_str     0x0000ccb6      0x219 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_str     0x0000ccb6      0x3c2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
- .debug_str     0x0000ccb6      0x35d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
- .debug_str     0x0000ccb6      0x283 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_str     0x0000ccb6      0xade CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
- .debug_str     0x0000ccb6      0x241 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
- .debug_str     0x0000ccb6      0x883 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
- .debug_str     0x0000ccb6      0x301 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
- .debug_str     0x0000ccb6     0x1271 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
- .debug_str     0x0000ccb6      0xa6d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
- .debug_str     0x0000ccb6      0xa5b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_str     0x0000ccb6      0x4a2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
- .debug_str     0x0000ccb6      0x3f3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
- .debug_str     0x0000ccb6      0x2c3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_str     0x0000ccb6      0x37a CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_str     0x0000ccb6      0x26a CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_str     0x0000ccb6      0x2ba CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
- .debug_str     0x0000ccb6      0x7ed CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_str     0x0000ccb6      0x4c2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_str     0x0000ccb6       0xb2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
- .debug_str     0x0000ccb6       0xb5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
- .debug_str     0x0000ccb6       0xb7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
- .debug_str     0x0000ccb6      0x32d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
- .debug_str     0x0000ccb6       0xbd CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
- .debug_str     0x0000ccb6       0xbb CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
- .debug_str     0x0000ccb6       0xb5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
- .debug_str     0x0000ccb6      0x2de CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
- .debug_str     0x0000ccb6      0x474 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
- .debug_str     0x0000ccb6       0xb2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
- .debug_str     0x0000ccb6      0x429 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_str     0x0000ccb6      0x4b7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
- .debug_str     0x0000ccb6       0xa6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
- .debug_str     0x0000ccb6      0x7c1 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_str     0x0000ccb6      0xb51 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
- .debug_str     0x0000ccb6      0xe6a CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o
- .debug_str     0x0000ccb6      0xf88 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
- .debug_str     0x0000ccb6     0x100c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
- .debug_str     0x0000ccb6      0x2b0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_str     0x0000ccb6      0x7a4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
- .debug_str     0x0000ccb6     0x124d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_str     0x0000ccb6      0xa7e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_str     0x0000ccb6     0x1ba0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
- .debug_str     0x0000ccb6      0x714 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
- .debug_str     0x0000ccb6     0x1793 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
- .debug_str     0x0000ccb6      0xe69 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
- .debug_str     0x0000ccb6      0xeee CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
- .debug_str     0x0000ccb6      0x641 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_str     0x0000ccb6      0xe9a CMakeFiles/hello_hat.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
- .debug_str     0x0000ccb6      0x729 CMakeFiles/hello_hat.dir/home/student/.freertos/event_groups.c.o
- .debug_str     0x0000ccb6      0x2e8 CMakeFiles/hello_hat.dir/home/student/.freertos/list.c.o
- .debug_str     0x0000ccb6      0xd04 CMakeFiles/hello_hat.dir/home/student/.freertos/queue.c.o
- .debug_str     0x0000ccb6     0x1765 CMakeFiles/hello_hat.dir/home/student/.freertos/tasks.c.o
- .debug_str     0x0000ccb6      0xa57 CMakeFiles/hello_hat.dir/home/student/.freertos/timers.c.o
- .debug_str     0x0000ccb6      0x4b7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
- .debug_str     0x0000ccb6      0xd4e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
- .debug_str     0x0000ccb6      0x591 CMakeFiles/hello_hat.dir/home/student/.freertos/portable/MemMang/heap_4.c.o
- .debug_str     0x0000ccb6     0x1087 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
- .debug_str     0x0000ccb6     0x1a32 ../../libs/TKJHAT/libTKJHAT_SDK.a(sdk.c.o)
- .debug_str     0x0000ccb6      0xf01 ../../libs/TKJHAT/libTKJHAT_SDK.a(ssd1306.c.o)
+.debug_str      0x00000000     0xcc7f
+ .debug_str     0x00000000     0xcc7f CMakeFiles/hello_hat.dir/src/main.c.o
+                                0x36e (size before relaxing)
+ .debug_str     0x0000cc7f      0xce4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_str     0x0000cc7f      0x232 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
+ .debug_str     0x0000cc7f      0x20e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_str     0x0000cc7f      0x3b7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
+ .debug_str     0x0000cc7f      0x352 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
+ .debug_str     0x0000cc7f      0x278 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_str     0x0000cc7f      0xad3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
+ .debug_str     0x0000cc7f      0x236 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
+ .debug_str     0x0000cc7f      0x878 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
+ .debug_str     0x0000cc7f      0x2f6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
+ .debug_str     0x0000cc7f     0x1266 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
+ .debug_str     0x0000cc7f      0xa62 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
+ .debug_str     0x0000cc7f      0xa50 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_str     0x0000cc7f      0x497 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
+ .debug_str     0x0000cc7f      0x3e8 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
+ .debug_str     0x0000cc7f      0x2b8 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_str     0x0000cc7f      0x36f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_str     0x0000cc7f      0x25f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_str     0x0000cc7f      0x2af CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_str     0x0000cc7f      0x7e2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_str     0x0000cc7f      0x4b7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_str     0x0000cc7f       0xa7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+ .debug_str     0x0000cc7f       0xaa CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
+ .debug_str     0x0000cc7f       0xac CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+ .debug_str     0x0000cc7f      0x322 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+ .debug_str     0x0000cc7f       0xb2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+ .debug_str     0x0000cc7f       0xb0 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+ .debug_str     0x0000cc7f       0xaa CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+ .debug_str     0x0000cc7f      0x2d3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+ .debug_str     0x0000cc7f      0x469 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_str     0x0000cc7f       0xa7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+ .debug_str     0x0000cc7f      0x41e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_str     0x0000cc7f      0x4ac CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
+ .debug_str     0x0000cc7f       0x9b CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_str     0x0000cc7f      0x7b6 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_str     0x0000cc7f      0xb46 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_str     0x0000cc7f      0xe5f CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+ .debug_str     0x0000cc7f      0xf7d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+ .debug_str     0x0000cc7f     0x1001 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+ .debug_str     0x0000cc7f      0x2a5 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_str     0x0000cc7f      0x799 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
+ .debug_str     0x0000cc7f     0x1242 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_str     0x0000cc7f      0xa73 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_str     0x0000cc7f     0x1b95 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
+ .debug_str     0x0000cc7f      0x709 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_str     0x0000cc7f     0x1788 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
+ .debug_str     0x0000cc7f      0xe5e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
+ .debug_str     0x0000cc7f      0xee3 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
+ .debug_str     0x0000cc7f      0x636 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_str     0x0000cc7f      0xe8f CMakeFiles/hello_hat.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
+ .debug_str     0x0000cc7f      0x71e CMakeFiles/hello_hat.dir/home/student/.freertos/event_groups.c.o
+ .debug_str     0x0000cc7f      0x2dd CMakeFiles/hello_hat.dir/home/student/.freertos/list.c.o
+ .debug_str     0x0000cc7f      0xcf9 CMakeFiles/hello_hat.dir/home/student/.freertos/queue.c.o
+ .debug_str     0x0000cc7f     0x175a CMakeFiles/hello_hat.dir/home/student/.freertos/tasks.c.o
+ .debug_str     0x0000cc7f      0xa4c CMakeFiles/hello_hat.dir/home/student/.freertos/timers.c.o
+ .debug_str     0x0000cc7f      0x4ac CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
+ .debug_str     0x0000cc7f      0xd43 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
+ .debug_str     0x0000cc7f      0x586 CMakeFiles/hello_hat.dir/home/student/.freertos/portable/MemMang/heap_4.c.o
+ .debug_str     0x0000cc7f     0x107c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
+ .debug_str     0x0000cc7f     0x1a1c ../../libs/TKJHAT/libTKJHAT_SDK.a(sdk.c.o)
+ .debug_str     0x0000cc7f      0xeeb ../../libs/TKJHAT/libTKJHAT_SDK.a(ssd1306.c.o)
 
 .debug_frame    0x00000000     0x5b6c
  .debug_frame   0x00000000       0x5c CMakeFiles/hello_hat.dir/src/main.c.o
@@ -7040,23 +7040,23 @@ LOAD linker stubs
  .debug_frame   0x00005b40       0x2c /home/student/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-reent.o)
 
 .debug_line_str
-                0x00000000      0x35e
+                0x00000000      0x353
  .debug_line_str
-                0x00000000      0x35e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-                                 0xa4 (size before relaxing)
+                0x00000000      0x353 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+                                 0x99 (size before relaxing)
  .debug_line_str
-                0x0000035e       0xa7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
+                0x00000353       0x9c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
  .debug_line_str
-                0x0000035e       0xa9 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+                0x00000353       0x9e CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
  .debug_line_str
-                0x0000035e       0xaf CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+                0x00000353       0xa4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
  .debug_line_str
-                0x0000035e       0xad CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+                0x00000353       0xa2 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
  .debug_line_str
-                0x0000035e       0xa7 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+                0x00000353       0x9c CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
  .debug_line_str
-                0x0000035e       0xa4 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+                0x00000353       0x99 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
  .debug_line_str
-                0x0000035e       0x98 CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
+                0x00000353       0x8d CMakeFiles/hello_hat.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
  .debug_line_str
-                0x0000035e       0xc2 /home/student/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x00000353       0xc2 /home/student/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)

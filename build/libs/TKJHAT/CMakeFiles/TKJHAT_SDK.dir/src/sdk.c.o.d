@@ -1,6 +1,6 @@
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o: \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h \
@@ -19,13 +19,13 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o: \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/newlib.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/config.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/version.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
@@ -70,17 +70,17 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o: \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/include/hardware/pio.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/ssd1306.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/ssd1306.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdio.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/reent.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_ansi.h \

@@ -47,8 +47,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/croutine.c.o: /home
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/event_groups.c.o: /home/student/.freertos/event_groups.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -104,8 +104,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/event_groups.c.o: /
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/list.c.o: /home/student/.freertos/list.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -158,8 +158,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/list.c.o: /home/stu
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/portable/MemMang/heap_4.c.o: /home/student/.freertos/portable/MemMang/heap_4.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -217,8 +217,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/portable/MemMang/he
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o: /home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -290,8 +290,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/portable/ThirdParty
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/queue.c.o: /home/student/.freertos/queue.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -350,8 +350,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/queue.c.o: /home/st
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/stream_buffer.c.o: /home/student/.freertos/stream_buffer.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -407,8 +407,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/stream_buffer.c.o: 
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/tasks.c.o: /home/student/.freertos/tasks.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -468,8 +468,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/tasks.c.o: /home/st
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/timers.c.o: /home/student/.freertos/timers.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -525,8 +525,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.freertos/timers.c.o: /home/s
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -566,8 +566,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -613,8 +613,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -659,8 +659,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -708,8 +708,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -755,8 +755,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -828,8 +828,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -872,8 +872,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -933,8 +933,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -981,8 +981,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1039,8 +1039,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/commo
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1078,8 +1078,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp204
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1136,8 +1136,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1176,8 +1176,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1234,8 +1234,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1288,8 +1288,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1334,8 +1334,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1388,8 +1388,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1442,8 +1442,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1498,8 +1498,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1558,8 +1558,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1605,8 +1605,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1646,8 +1646,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1686,8 +1686,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1728,8 +1728,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1779,8 +1779,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1831,8 +1831,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1872,8 +1872,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1933,8 +1933,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1977,8 +1977,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2029,8 +2029,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2083,8 +2083,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2126,8 +2126,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2200,8 +2200,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2251,8 +2251,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2303,8 +2303,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2347,8 +2347,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -2409,8 +2409,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2461,8 +2461,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2506,8 +2506,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2561,8 +2561,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2625,8 +2625,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2664,8 +2664,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2722,8 +2722,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2768,8 +2768,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2807,8 +2807,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2864,8 +2864,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2925,8 +2925,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2966,8 +2966,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3008,8 +3008,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3077,8 +3077,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3144,8 +3144,8 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3211,10 +3211,10 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
-libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/OpenPDM2PCM/OpenPDMFilter.c.o: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c \
+libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/OpenPDM2PCM/OpenPDMFilter.c.o: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_newlib_version.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h \
@@ -3222,9 +3222,10 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/OpenPDM2PCM/OpenPDMFilter.c.o: /ho
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/features.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.h
 
-libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/pdm_microphone.c.o: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.c \
+libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/pdm_microphone.c.o: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
   /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
@@ -3298,11 +3299,12 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/pdm_microphone.c.o: /home/student/
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  libs/TKJHAT/pdm_microphone.pio.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.c \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT/pdm_microphone.pio.h
 
-libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c \
+libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
   /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
@@ -3387,10 +3389,11 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o: /home/student/jtkj-projects/j
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/ssd1306.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
-libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/ssd1306.c.o: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/ssd1306.c \
+libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/ssd1306.c.o: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/ssd1306.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
   /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
@@ -3476,8 +3479,9 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/ssd1306.c.o: /home/student/jtkj-projec
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/font.h \
   /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/ssd1306.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/ssd1306.c \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/font.h:
@@ -3494,11 +3498,15 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/ssd1306.c.o: /home/student/jtkj-projec
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
 
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c:
+
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h:
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.h:
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c:
+
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
@@ -3510,8 +3518,6 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/ssd1306.c.o: /home/student/jtkj-projec
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
-libs/TKJHAT/pdm_microphone.pio.h:
-
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_timeval.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c:
@@ -3519,10 +3525,6 @@ libs/TKJHAT/pdm_microphone.pio.h:
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdio.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c:
-
-generated/pico_base/pico/config_autogen.h:
-
-generated/pico_base/pico/version.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
 
@@ -3582,7 +3584,13 @@ generated/pico_base/pico/version.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/stat.h:
 
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_resets/include/hardware/resets.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info.h:
+
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
+
+/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT/pdm_microphone.pio.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
@@ -3606,12 +3614,6 @@ generated/pico_base/pico/version.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_locale.h:
 
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
-
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
 
 /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h:
@@ -3619,10 +3621,6 @@ generated/pico_base/pico/version.h:
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/include/hardware/sync.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/reent.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_resets/include/hardware/resets.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info.h:
 
 /home/student/.freertos/include/FreeRTOS.h:
 
@@ -3634,10 +3632,6 @@ generated/pico_base/pico/version.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/config.h:
 
-/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/strings.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
-
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_pthreadtypes.h:
@@ -3645,8 +3639,6 @@ generated/pico_base/pico/version.h:
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/ieeefp.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/c++/14.2.1/cstdlib:
 
@@ -3703,6 +3695,14 @@ generated/pico_base/pico/version.h:
 /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_types.h:
+
+/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c:
 
@@ -3784,6 +3784,20 @@ generated/pico_base/pico/version.h:
 
 /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h:
 
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
+/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/strings.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h:
+
+/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h:
+
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
@@ -3815,12 +3829,6 @@ generated/pico_base/pico/version.h:
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/include/hardware/pio.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/include/pico/util/pheap.h:
 
@@ -3960,6 +3968,8 @@ generated/pico_base/pico/version.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/ssd1306.c:
+
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/unistd.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c:
@@ -4003,6 +4013,8 @@ generated/pico_base/pico/version.h:
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c:
+
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.c:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 

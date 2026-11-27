@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main
+CMAKE_SOURCE_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build
+CMAKE_BINARY_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/build
 
 # Utility rule file for tkjhat-doc.
 
@@ -67,8 +67,8 @@ include libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/compiler_depend.make
 include libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/progress.make
 
 libs/TKJHAT/CMakeFiles/tkjhat-doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TKJHAT SDK documentation with Doxygen"
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/docs && /usr/bin/doxygen /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/docs/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TKJHAT SDK documentation with Doxygen"
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/docs && /usr/bin/doxygen /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/docs/Doxyfile
 
 tkjhat-doc: libs/TKJHAT/CMakeFiles/tkjhat-doc
 tkjhat-doc: libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/build.make
@@ -79,10 +79,10 @@ libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/build: tkjhat-doc
 .PHONY : libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/build
 
 libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/clean:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT && $(CMAKE_COMMAND) -P CMakeFiles/tkjhat-doc.dir/cmake_clean.cmake
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT && $(CMAKE_COMMAND) -P CMakeFiles/tkjhat-doc.dir/cmake_clean.cmake
 .PHONY : libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/clean
 
 libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/depend:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT /home/student/jtkj-projects/projekti/TKJ-projekti/build /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : libs/TKJHAT/CMakeFiles/tkjhat-doc.dir/depend
 

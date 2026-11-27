@@ -3,11 +3,11 @@
 cmake_policy(SET CMP0009 NEW)
 
 # OPENPDM_SRCS at libs/TKJHAT/CMakeLists.txt:8 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/*.c")
 set(OLD_GLOB
-  "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c"
+  "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/cmake.verify_globs")
 endif()

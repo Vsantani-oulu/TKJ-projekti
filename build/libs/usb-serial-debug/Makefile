@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main
+CMAKE_SOURCE_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build
+CMAKE_BINARY_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug//CMakeFiles/progress.marks
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles 0
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles /home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug//CMakeFiles/progress.marks
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/clean
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,23 +103,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/preinstall
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/preinstall
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/rule:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/rule
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/rule
 .PHONY : libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/rule
 
 # Convenience name for target.
@@ -128,7 +128,7 @@ usb_serial_debug: libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/rule
 
 # fast build rule for target.
 usb_serial_debug/fast:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build
 .PHONY : usb_serial_debug/fast
 
 home/student/.freertos/croutine.o: home/student/.freertos/croutine.c.o
@@ -136,7 +136,7 @@ home/student/.freertos/croutine.o: home/student/.freertos/croutine.c.o
 
 # target to build an object file
 home/student/.freertos/croutine.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/croutine.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/croutine.c.o
 .PHONY : home/student/.freertos/croutine.c.o
 
 home/student/.freertos/croutine.i: home/student/.freertos/croutine.c.i
@@ -144,7 +144,7 @@ home/student/.freertos/croutine.i: home/student/.freertos/croutine.c.i
 
 # target to preprocess a source file
 home/student/.freertos/croutine.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/croutine.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/croutine.c.i
 .PHONY : home/student/.freertos/croutine.c.i
 
 home/student/.freertos/croutine.s: home/student/.freertos/croutine.c.s
@@ -152,7 +152,7 @@ home/student/.freertos/croutine.s: home/student/.freertos/croutine.c.s
 
 # target to generate assembly for a file
 home/student/.freertos/croutine.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/croutine.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/croutine.c.s
 .PHONY : home/student/.freertos/croutine.c.s
 
 home/student/.freertos/event_groups.o: home/student/.freertos/event_groups.c.o
@@ -160,7 +160,7 @@ home/student/.freertos/event_groups.o: home/student/.freertos/event_groups.c.o
 
 # target to build an object file
 home/student/.freertos/event_groups.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/event_groups.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/event_groups.c.o
 .PHONY : home/student/.freertos/event_groups.c.o
 
 home/student/.freertos/event_groups.i: home/student/.freertos/event_groups.c.i
@@ -168,7 +168,7 @@ home/student/.freertos/event_groups.i: home/student/.freertos/event_groups.c.i
 
 # target to preprocess a source file
 home/student/.freertos/event_groups.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/event_groups.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/event_groups.c.i
 .PHONY : home/student/.freertos/event_groups.c.i
 
 home/student/.freertos/event_groups.s: home/student/.freertos/event_groups.c.s
@@ -176,7 +176,7 @@ home/student/.freertos/event_groups.s: home/student/.freertos/event_groups.c.s
 
 # target to generate assembly for a file
 home/student/.freertos/event_groups.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/event_groups.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/event_groups.c.s
 .PHONY : home/student/.freertos/event_groups.c.s
 
 home/student/.freertos/list.o: home/student/.freertos/list.c.o
@@ -184,7 +184,7 @@ home/student/.freertos/list.o: home/student/.freertos/list.c.o
 
 # target to build an object file
 home/student/.freertos/list.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/list.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/list.c.o
 .PHONY : home/student/.freertos/list.c.o
 
 home/student/.freertos/list.i: home/student/.freertos/list.c.i
@@ -192,7 +192,7 @@ home/student/.freertos/list.i: home/student/.freertos/list.c.i
 
 # target to preprocess a source file
 home/student/.freertos/list.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/list.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/list.c.i
 .PHONY : home/student/.freertos/list.c.i
 
 home/student/.freertos/list.s: home/student/.freertos/list.c.s
@@ -200,7 +200,7 @@ home/student/.freertos/list.s: home/student/.freertos/list.c.s
 
 # target to generate assembly for a file
 home/student/.freertos/list.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/list.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/list.c.s
 .PHONY : home/student/.freertos/list.c.s
 
 home/student/.freertos/portable/MemMang/heap_4.o: home/student/.freertos/portable/MemMang/heap_4.c.o
@@ -208,7 +208,7 @@ home/student/.freertos/portable/MemMang/heap_4.o: home/student/.freertos/portabl
 
 # target to build an object file
 home/student/.freertos/portable/MemMang/heap_4.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/MemMang/heap_4.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/MemMang/heap_4.c.o
 .PHONY : home/student/.freertos/portable/MemMang/heap_4.c.o
 
 home/student/.freertos/portable/MemMang/heap_4.i: home/student/.freertos/portable/MemMang/heap_4.c.i
@@ -216,7 +216,7 @@ home/student/.freertos/portable/MemMang/heap_4.i: home/student/.freertos/portabl
 
 # target to preprocess a source file
 home/student/.freertos/portable/MemMang/heap_4.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/MemMang/heap_4.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/MemMang/heap_4.c.i
 .PHONY : home/student/.freertos/portable/MemMang/heap_4.c.i
 
 home/student/.freertos/portable/MemMang/heap_4.s: home/student/.freertos/portable/MemMang/heap_4.c.s
@@ -224,7 +224,7 @@ home/student/.freertos/portable/MemMang/heap_4.s: home/student/.freertos/portabl
 
 # target to generate assembly for a file
 home/student/.freertos/portable/MemMang/heap_4.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/MemMang/heap_4.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/MemMang/heap_4.c.s
 .PHONY : home/student/.freertos/portable/MemMang/heap_4.c.s
 
 home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.o: home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
@@ -232,7 +232,7 @@ home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.o: home/student/.free
 
 # target to build an object file
 home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
 .PHONY : home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o
 
 home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.i: home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.i
@@ -240,7 +240,7 @@ home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.i: home/student/.free
 
 # target to preprocess a source file
 home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.i
 .PHONY : home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.i
 
 home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.s: home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.s
@@ -248,7 +248,7 @@ home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.s: home/student/.free
 
 # target to generate assembly for a file
 home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.s
 .PHONY : home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.s
 
 home/student/.freertos/queue.o: home/student/.freertos/queue.c.o
@@ -256,7 +256,7 @@ home/student/.freertos/queue.o: home/student/.freertos/queue.c.o
 
 # target to build an object file
 home/student/.freertos/queue.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/queue.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/queue.c.o
 .PHONY : home/student/.freertos/queue.c.o
 
 home/student/.freertos/queue.i: home/student/.freertos/queue.c.i
@@ -264,7 +264,7 @@ home/student/.freertos/queue.i: home/student/.freertos/queue.c.i
 
 # target to preprocess a source file
 home/student/.freertos/queue.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/queue.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/queue.c.i
 .PHONY : home/student/.freertos/queue.c.i
 
 home/student/.freertos/queue.s: home/student/.freertos/queue.c.s
@@ -272,7 +272,7 @@ home/student/.freertos/queue.s: home/student/.freertos/queue.c.s
 
 # target to generate assembly for a file
 home/student/.freertos/queue.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/queue.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/queue.c.s
 .PHONY : home/student/.freertos/queue.c.s
 
 home/student/.freertos/stream_buffer.o: home/student/.freertos/stream_buffer.c.o
@@ -280,7 +280,7 @@ home/student/.freertos/stream_buffer.o: home/student/.freertos/stream_buffer.c.o
 
 # target to build an object file
 home/student/.freertos/stream_buffer.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/stream_buffer.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/stream_buffer.c.o
 .PHONY : home/student/.freertos/stream_buffer.c.o
 
 home/student/.freertos/stream_buffer.i: home/student/.freertos/stream_buffer.c.i
@@ -288,7 +288,7 @@ home/student/.freertos/stream_buffer.i: home/student/.freertos/stream_buffer.c.i
 
 # target to preprocess a source file
 home/student/.freertos/stream_buffer.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/stream_buffer.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/stream_buffer.c.i
 .PHONY : home/student/.freertos/stream_buffer.c.i
 
 home/student/.freertos/stream_buffer.s: home/student/.freertos/stream_buffer.c.s
@@ -296,7 +296,7 @@ home/student/.freertos/stream_buffer.s: home/student/.freertos/stream_buffer.c.s
 
 # target to generate assembly for a file
 home/student/.freertos/stream_buffer.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/stream_buffer.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/stream_buffer.c.s
 .PHONY : home/student/.freertos/stream_buffer.c.s
 
 home/student/.freertos/tasks.o: home/student/.freertos/tasks.c.o
@@ -304,7 +304,7 @@ home/student/.freertos/tasks.o: home/student/.freertos/tasks.c.o
 
 # target to build an object file
 home/student/.freertos/tasks.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/tasks.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/tasks.c.o
 .PHONY : home/student/.freertos/tasks.c.o
 
 home/student/.freertos/tasks.i: home/student/.freertos/tasks.c.i
@@ -312,7 +312,7 @@ home/student/.freertos/tasks.i: home/student/.freertos/tasks.c.i
 
 # target to preprocess a source file
 home/student/.freertos/tasks.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/tasks.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/tasks.c.i
 .PHONY : home/student/.freertos/tasks.c.i
 
 home/student/.freertos/tasks.s: home/student/.freertos/tasks.c.s
@@ -320,7 +320,7 @@ home/student/.freertos/tasks.s: home/student/.freertos/tasks.c.s
 
 # target to generate assembly for a file
 home/student/.freertos/tasks.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/tasks.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/tasks.c.s
 .PHONY : home/student/.freertos/tasks.c.s
 
 home/student/.freertos/timers.o: home/student/.freertos/timers.c.o
@@ -328,7 +328,7 @@ home/student/.freertos/timers.o: home/student/.freertos/timers.c.o
 
 # target to build an object file
 home/student/.freertos/timers.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/timers.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/timers.c.o
 .PHONY : home/student/.freertos/timers.c.o
 
 home/student/.freertos/timers.i: home/student/.freertos/timers.c.i
@@ -336,7 +336,7 @@ home/student/.freertos/timers.i: home/student/.freertos/timers.c.i
 
 # target to preprocess a source file
 home/student/.freertos/timers.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/timers.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/timers.c.i
 .PHONY : home/student/.freertos/timers.c.i
 
 home/student/.freertos/timers.s: home/student/.freertos/timers.c.s
@@ -344,7 +344,7 @@ home/student/.freertos/timers.s: home/student/.freertos/timers.c.s
 
 # target to generate assembly for a file
 home/student/.freertos/timers.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/timers.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.freertos/timers.c.s
 .PHONY : home/student/.freertos/timers.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o
@@ -352,7 +352,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.o: home/studen
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
@@ -360,7 +360,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.i: home/studen
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
@@ -368,7 +368,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.s: home/studen
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
@@ -376,7 +376,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.o: hom
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -384,7 +384,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.i: hom
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -392,7 +392,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.s: hom
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
@@ -400,7 +400,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.o: home/st
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -408,7 +408,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.i: home/st
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -416,7 +416,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.s: home/st
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -424,7 +424,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.o: home/st
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -432,7 +432,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.i: home/st
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -440,7 +440,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.s: home/st
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -448,7 +448,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -456,7 +456,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -464,7 +464,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -472,7 +472,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.o: home/st
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -480,7 +480,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.i: home/st
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -488,7 +488,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.s: home/st
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -496,7 +496,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.o: home/
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -504,7 +504,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.i: home/
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -512,7 +512,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.s: home/
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -520,7 +520,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.o: home/st
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -528,7 +528,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.i: home/st
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -536,7 +536,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.s: home/st
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -544,7 +544,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.o: h
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -552,7 +552,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.i: h
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -560,7 +560,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.s: h
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -568,7 +568,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.o: home/st
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -576,7 +576,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.i: home/st
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -584,7 +584,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.s: home/st
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -592,7 +592,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: h
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -600,7 +600,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: h
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -608,7 +608,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: h
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
@@ -616,7 +616,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.o: h
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -624,7 +624,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.i: h
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -632,7 +632,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.s: h
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
@@ -640,7 +640,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.o: hom
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
@@ -648,7 +648,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.i: hom
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
@@ -656,7 +656,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.s: hom
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
@@ -664,7 +664,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.o: home/studen
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -672,7 +672,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.i: home/studen
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -680,7 +680,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.s: home/studen
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
@@ -688,7 +688,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.o: home/student/.pi
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
@@ -696,7 +696,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.i: home/student/.pi
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
@@ -704,7 +704,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.s: home/student/.pi
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
@@ -712,7 +712,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.o: home/stu
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
@@ -720,7 +720,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.i: home/stu
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
@@ -728,7 +728,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.s: home/stu
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -736,7 +736,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -744,7 +744,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -752,7 +752,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
@@ -760,7 +760,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -768,7 +768,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -776,7 +776,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.o: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
@@ -784,7 +784,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.o: home/student/.pico-sdk/
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.i: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
@@ -792,7 +792,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.i: home/student/.pico-sdk/
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.s: home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
@@ -800,7 +800,7 @@ home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.s: home/student/.pico-sdk/
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.o: home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
@@ -808,7 +808,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.o: home/student
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.i: home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.i
@@ -816,7 +816,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.i: home/student
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.s: home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.s
@@ -824,7 +824,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.s: home/student
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
@@ -832,7 +832,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.o: home/s
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.i
@@ -840,7 +840,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.i: home/s
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.s
@@ -848,7 +848,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.s: home/s
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
@@ -856,7 +856,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.o: home/student/
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.i
@@ -864,7 +864,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.i: home/student/
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.s
@@ -872,7 +872,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.s: home/student/
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
@@ -880,7 +880,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.o: home/student/.pic
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.i
@@ -888,7 +888,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.i: home/student/.pic
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.s
@@ -896,7 +896,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.s: home/student/.pic
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
@@ -904,7 +904,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.o: home/student/.pico-
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.i
@@ -912,7 +912,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.i: home/student/.pico-
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.s
@@ -920,7 +920,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.s: home/student/.pico-
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
@@ -928,7 +928,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.o: home/student/.pico
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.i
@@ -936,7 +936,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.i: home/student/.pico
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.s
@@ -944,7 +944,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.s: home/student/.pico
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
@@ -952,7 +952,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.o: home/stu
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.i
@@ -960,7 +960,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.i: home/stu
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.s
@@ -968,7 +968,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.s: home/stu
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
@@ -976,7 +976,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.o: home/student/.
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.i
@@ -984,7 +984,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.i: home/student/.
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.s
@@ -992,7 +992,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.s: home/student/.
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
@@ -1000,7 +1000,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.o: home/student/.pic
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.i
@@ -1008,7 +1008,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.i: home/student/.pic
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.s
@@ -1016,7 +1016,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.s: home/student/.pic
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.o: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
@@ -1024,7 +1024,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.o: home/student/.pic
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.i: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.i
@@ -1032,7 +1032,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.i: home/student/.pic
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.s: home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.s
@@ -1040,7 +1040,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.s: home/student/.pic
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
@@ -1048,7 +1048,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i
@@ -1056,7 +1056,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s
@@ -1064,7 +1064,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -1072,7 +1072,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.o: 
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -1080,7 +1080,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.i: 
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -1088,7 +1088,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.s: 
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
@@ -1096,7 +1096,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.o: home/s
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.i
@@ -1104,7 +1104,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.i: home/s
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.s
@@ -1112,7 +1112,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.s: home/s
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
@@ -1120,7 +1120,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.o: home
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
@@ -1128,7 +1128,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.o: 
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i
@@ -1136,7 +1136,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.i: 
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s
@@ -1144,7 +1144,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.s: 
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
@@ -1152,7 +1152,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.o: home/stu
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i
@@ -1160,7 +1160,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.i: home/stu
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.s
@@ -1168,7 +1168,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.s: home/stu
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
@@ -1176,7 +1176,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.i
@@ -1184,7 +1184,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s
@@ -1192,7 +1192,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
@@ -1200,7 +1200,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.o: home/student
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.i
@@ -1208,7 +1208,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.i: home/student
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.s
@@ -1216,7 +1216,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.s: home/student
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -1224,7 +1224,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.o
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
@@ -1232,7 +1232,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.o: home/student
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.i
@@ -1240,7 +1240,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.i: home/student
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.s
@@ -1248,7 +1248,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.s: home/student
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
@@ -1256,7 +1256,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.i
@@ -1264,7 +1264,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.s
@@ -1272,7 +1272,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -1280,7 +1280,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spi
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1288,7 +1288,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spi
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1296,7 +1296,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spi
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
@@ -1304,7 +1304,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.o: home/stu
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1312,7 +1312,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.i: home/stu
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1320,7 +1320,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.s: home/stu
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
@@ -1328,7 +1328,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.o: home/stu
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.i
@@ -1336,7 +1336,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.i: home/stu
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.s
@@ -1344,7 +1344,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.s: home/stu
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
@@ -1352,7 +1352,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.i
@@ -1360,7 +1360,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.s
@@ -1368,7 +1368,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
@@ -1376,7 +1376,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1384,7 +1384,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1392,7 +1392,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -1400,7 +1400,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.o: ho
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1408,7 +1408,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.i: ho
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1416,7 +1416,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.s: ho
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
@@ -1424,7 +1424,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.o: 
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i
@@ -1432,7 +1432,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.i: 
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.s
@@ -1440,7 +1440,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.s: 
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
@@ -1448,7 +1448,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1456,7 +1456,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1464,7 +1464,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
@@ -1472,7 +1472,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i
@@ -1480,7 +1480,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.s
@@ -1488,7 +1488,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -1496,7 +1496,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: ho
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -1504,7 +1504,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.o: home/stu
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1512,7 +1512,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.i: home/stu
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1520,7 +1520,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.s: home/stu
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -1528,7 +1528,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.o: hom
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1536,7 +1536,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.i: hom
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1544,7 +1544,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.s: hom
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -1552,7 +1552,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_inter
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1560,7 +1560,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_inter
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1568,7 +1568,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_inter
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
@@ -1576,7 +1576,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.o: home/student/.
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -1584,7 +1584,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.o: h
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1592,7 +1592,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.i: h
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1600,7 +1600,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.s: h
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
@@ -1608,7 +1608,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.o:
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
@@ -1616,7 +1616,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
@@ -1624,7 +1624,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp20
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
@@ -1632,7 +1632,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp20
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
@@ -1640,7 +1640,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp20
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
@@ -1648,7 +1648,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.o: home/
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i
@@ -1656,7 +1656,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.i: home/
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.s
@@ -1664,7 +1664,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.s: home/
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
@@ -1672,7 +1672,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_r
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
@@ -1680,7 +1680,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enume
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1688,7 +1688,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enume
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1696,7 +1696,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enume
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
@@ -1704,7 +1704,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.o: home/student
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.i
@@ -1712,7 +1712,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.i: home/student
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.s
@@ -1720,7 +1720,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.s: home/student
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
@@ -1728,7 +1728,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.o:
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
@@ -1736,7 +1736,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
@@ -1744,7 +1744,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
@@ -1752,7 +1752,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
@@ -1760,7 +1760,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.o: home/st
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i
@@ -1768,7 +1768,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.i: home/st
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.s
@@ -1776,7 +1776,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.s: home/st
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
@@ -1784,7 +1784,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
@@ -1792,7 +1792,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_ae
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
@@ -1800,7 +1800,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.i
@@ -1808,7 +1808,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.s
@@ -1816,7 +1816,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
@@ -1824,7 +1824,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: ho
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
@@ -1832,7 +1832,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.o: home
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.i
@@ -1840,7 +1840,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.i: home
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.s
@@ -1848,7 +1848,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.s: home
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
@@ -1856,7 +1856,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.o: h
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.i
@@ -1864,7 +1864,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.i: h
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.s
@@ -1872,7 +1872,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.s: h
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1880,7 +1880,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.o: hom
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1888,7 +1888,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.i: hom
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1896,7 +1896,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.s: hom
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
@@ -1904,7 +1904,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i
@@ -1912,7 +1912,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.s
@@ -1920,7 +1920,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
@@ -1928,7 +1928,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.o: home/stu
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.i
@@ -1936,7 +1936,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.i: home/stu
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.s
@@ -1944,7 +1944,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.s: home/stu
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1952,7 +1952,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.o
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1960,7 +1960,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.i
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1968,7 +1968,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.s
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -1976,7 +1976,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_c
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1984,7 +1984,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_c
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1992,7 +1992,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_c
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -2000,7 +2000,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_s
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -2008,7 +2008,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_s
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -2016,7 +2016,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_s
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -2024,7 +2024,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standa
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -2032,7 +2032,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standa
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -2040,7 +2040,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standa
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
@@ -2048,7 +2048,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.o: home/student
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i
@@ -2056,7 +2056,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.i: home/student
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.s
@@ -2064,7 +2064,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.s: home/student
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
@@ -2072,7 +2072,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.o: ho
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -2080,7 +2080,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.i: ho
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -2088,7 +2088,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.s: ho
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -2096,7 +2096,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.o: home/stude
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -2104,7 +2104,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.i: home/stude
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -2112,7 +2112,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.s: home/stude
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.s
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.o: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
@@ -2120,7 +2120,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.o: home
 
 # target to build an object file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.i: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -2128,7 +2128,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.i: home
 
 # target to preprocess a source file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i
 
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.s: home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -2136,7 +2136,7 @@ home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.s: home
 
 # target to generate assembly for a file
 home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.s
 
 src/helper.o: src/helper.c.o
@@ -2144,7 +2144,7 @@ src/helper.o: src/helper.c.o
 
 # target to build an object file
 src/helper.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.o
 .PHONY : src/helper.c.o
 
 src/helper.i: src/helper.c.i
@@ -2152,7 +2152,7 @@ src/helper.i: src/helper.c.i
 
 # target to preprocess a source file
 src/helper.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.i
 .PHONY : src/helper.c.i
 
 src/helper.s: src/helper.c.s
@@ -2160,7 +2160,7 @@ src/helper.s: src/helper.c.s
 
 # target to generate assembly for a file
 src/helper.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/helper.c.s
 .PHONY : src/helper.c.s
 
 src/usb_descriptors.o: src/usb_descriptors.c.o
@@ -2168,7 +2168,7 @@ src/usb_descriptors.o: src/usb_descriptors.c.o
 
 # target to build an object file
 src/usb_descriptors.c.o:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.o
 .PHONY : src/usb_descriptors.c.o
 
 src/usb_descriptors.i: src/usb_descriptors.c.i
@@ -2176,7 +2176,7 @@ src/usb_descriptors.i: src/usb_descriptors.c.i
 
 # target to preprocess a source file
 src/usb_descriptors.c.i:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.i
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.i
 .PHONY : src/usb_descriptors.c.i
 
 src/usb_descriptors.s: src/usb_descriptors.c.s
@@ -2184,7 +2184,7 @@ src/usb_descriptors.s: src/usb_descriptors.c.s
 
 # target to generate assembly for a file
 src/usb_descriptors.c.s:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.s
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(MAKE) $(MAKESILENT) -f libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/build.make libs/usb-serial-debug/CMakeFiles/usb_serial_debug.dir/src/usb_descriptors.c.s
 .PHONY : src/usb_descriptors.c.s
 
 # Help Target
@@ -2464,7 +2464,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -P /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

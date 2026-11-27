@@ -31,7 +31,7 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/stdio.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_verify.h \
@@ -39,7 +39,7 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_debug.h \
  /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/osal/osal_freertos.h \
  /home/student/.freertos/include/FreeRTOS.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/assert.h \
  /home/student/.freertos/include/projdefs.h \
  /home/student/.freertos/include/portable.h \
@@ -48,9 +48,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/types.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/version.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \

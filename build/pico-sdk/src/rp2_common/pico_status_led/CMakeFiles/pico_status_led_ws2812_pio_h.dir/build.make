@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main
+CMAKE_SOURCE_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build
+CMAKE_BINARY_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/build
 
 # Utility rule file for pico_status_led_ws2812_pio_h.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws281
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h: pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
 pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_status_led/ws2812.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ws2812.pio.h"
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led && /home/student/.pico-sdk/tools/2.2.0/pioasm/pioasm -o c-sdk -v 0 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_status_led/ws2812.pio /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ws2812.pio.h"
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led && /home/student/.pico-sdk/tools/2.2.0/pioasm/pioasm -o c-sdk -v 0 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_status_led/ws2812.pio /home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
 
 pico_status_led_ws2812_pio_h: pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h
 pico_status_led_ws2812_pio_h: pico-sdk/src/rp2_common/pico_status_led/ws2812.pio.h
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/clean:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led && $(CMAKE_COMMAND) -P CMakeFiles/pico_status_led_ws2812_pio_h.dir/cmake_clean.cmake
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led && $(CMAKE_COMMAND) -P CMakeFiles/pico_status_led_ws2812_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_status_led /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_status_led /home/student/jtkj-projects/projekti/TKJ-projekti/build /home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led /home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/depend
 

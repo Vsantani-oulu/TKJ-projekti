@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT
+# Install script for directory: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

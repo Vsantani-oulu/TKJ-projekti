@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/student/.freertos/portable/ThirdParty/GCC/RP2040")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/student/jtkj-projects/projekti/TKJ-projekti/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

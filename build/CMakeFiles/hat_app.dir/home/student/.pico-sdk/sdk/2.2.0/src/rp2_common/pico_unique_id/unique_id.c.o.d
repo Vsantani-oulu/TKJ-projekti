@@ -18,13 +18,13 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_uniq
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/version.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform.h \
  /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \

@@ -1502,105 +1502,105 @@
 				{
 					"directoryIndex" : 99,
 					"id" : "TKJHAT_SDK::@070647dd357c7d4768a5",
-					"jsonFile" : "target-TKJHAT_SDK-Debug-a8b2c07bde7482252650.json",
+					"jsonFile" : "target-TKJHAT_SDK-Debug-a8e288a3a62b5c4d8adf.json",
 					"name" : "TKJHAT_SDK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 99,
 					"id" : "TKJHAT_SDK_pdm_microphone_pio_h::@070647dd357c7d4768a5",
-					"jsonFile" : "target-TKJHAT_SDK_pdm_microphone_pio_h-Debug-62955b0d4e8c611441aa.json",
+					"jsonFile" : "target-TKJHAT_SDK_pdm_microphone_pio_h-Debug-8500f243686e91696570.json",
 					"name" : "TKJHAT_SDK_pdm_microphone_pio_h",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 20,
 					"id" : "bs2_default::@efaae0dfea37ab6992ce",
-					"jsonFile" : "target-bs2_default-Debug-9f6c391c09fc4e13c722.json",
+					"jsonFile" : "target-bs2_default-Debug-886b2ab5a7aec02dddf4.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 20,
 					"id" : "bs2_default_bin::@efaae0dfea37ab6992ce",
-					"jsonFile" : "target-bs2_default_bin-Debug-1a0e9b7448cdad8d7ec3.json",
+					"jsonFile" : "target-bs2_default_bin-Debug-29fd501d7ed160e37340.json",
 					"name" : "bs2_default_bin",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 20,
 					"id" : "bs2_default_library::@efaae0dfea37ab6992ce",
-					"jsonFile" : "target-bs2_default_library-Debug-136428fc054f273e8950.json",
+					"jsonFile" : "target-bs2_default_library-Debug-d465f7a7b8ca85494762.json",
 					"name" : "bs2_default_library",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 78,
 					"id" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h::@c2fb4f534018e64680d5",
-					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-8058bee89e96e6f4ee3e.json",
+					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-f5787c41fd1893911e26.json",
 					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hat_app::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hat_app-Debug-8c76baf9c7620fc876c0.json",
+					"jsonFile" : "target-hat_app-Debug-595f86f1f28f9a2f7afe.json",
 					"name" : "hat_app",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 103,
 					"id" : "hat_imu_cdc_ex::@47e9f00b9b3dd3c3d00a",
-					"jsonFile" : "target-hat_imu_cdc_ex-Debug-4de9c8a44cac4ed9da92.json",
+					"jsonFile" : "target-hat_imu_cdc_ex-Debug-838d182ad54bf33cd988.json",
 					"name" : "hat_imu_cdc_ex",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 102,
 					"id" : "hat_imu_ex::@c337141516dd8cf8654a",
-					"jsonFile" : "target-hat_imu_ex-Debug-23a044bc27fd9c78c836.json",
+					"jsonFile" : "target-hat_imu_ex-Debug-258e05990bdb32211f97.json",
 					"name" : "hat_imu_ex",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 101,
 					"id" : "hello_hat::@56d4305d642ec49545ac",
-					"jsonFile" : "target-hello_hat-Debug-54874518c13c4456ba02.json",
+					"jsonFile" : "target-hello_hat-Debug-203114ecfbfe9fd1bbc4.json",
 					"name" : "hello_hat",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 105,
 					"id" : "hello_serial_bidirectional_client::@2ad371b834ac4df92de0",
-					"jsonFile" : "target-hello_serial_bidirectional_client-Debug-31ef713ec3212091d635.json",
+					"jsonFile" : "target-hello_serial_bidirectional_client-Debug-48019cca090909dbf80c.json",
 					"name" : "hello_serial_bidirectional_client",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 104,
 					"id" : "hello_serial_client::@bef8cc48ff3085d8b453",
-					"jsonFile" : "target-hello_serial_client-Debug-014cba4da69d0c22b036.json",
+					"jsonFile" : "target-hello_serial_client-Debug-b01cfaec67242f9ea628.json",
 					"name" : "hello_serial_client",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 92,
 					"id" : "pico_status_led_ws2812_pio_h::@c2e5f126dae27421b95b",
-					"jsonFile" : "target-pico_status_led_ws2812_pio_h-Debug-fb7e49120e19566caa02.json",
+					"jsonFile" : "target-pico_status_led_ws2812_pio_h-Debug-b7f01913b728d51d9c41.json",
 					"name" : "pico_status_led_ws2812_pio_h",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 99,
 					"id" : "tkjhat-doc::@070647dd357c7d4768a5",
-					"jsonFile" : "target-tkjhat-doc-Debug-db17a6b8713b548efd56.json",
+					"jsonFile" : "target-tkjhat-doc-Debug-4e97625f2ed674eab078.json",
 					"name" : "tkjhat-doc",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 100,
 					"id" : "usb_serial_debug::@523260a2fbf4622b6193",
-					"jsonFile" : "target-usb_serial_debug-Debug-736b1a12fef0abdb902d.json",
+					"jsonFile" : "target-usb_serial_debug-Debug-f00f053d34fe87589664.json",
 					"name" : "usb_serial_debug",
 					"projectIndex" : 0
 				}
@@ -1610,8 +1610,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build",
-		"source" : "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main"
+		"build" : "/home/student/jtkj-projects/projekti/TKJ-projekti/build",
+		"source" : "/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main"
 	},
 	"version" : 
 	{

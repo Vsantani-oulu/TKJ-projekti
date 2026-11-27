@@ -3276,7 +3276,7 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/OpenPDM2PCM/OpenPDMFilter.c.o
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_newlib_version.h
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_default_types.h
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h
@@ -3284,10 +3284,11 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/OpenPDM2PCM/OpenPDMFilter.c.o
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h
  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/features.h
  /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
+ /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/pdm_microphone.c.o
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.c
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.c
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h
@@ -3361,12 +3362,13 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/pdm/pdm_microphone.c.o
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/OpenPDM2PCM/OpenPDMFilter.h
+ /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/pdm/pdm_microphone.c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT/pdm_microphone.pio.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h
@@ -3451,11 +3453,12 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/sdk.c.o
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/ssd1306.h
+ /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/sdk.c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 
 libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/ssd1306.c.o
- /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/ssd1306.c
+ /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/ssd1306.c
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
  /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
  /home/student/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h
@@ -3541,6 +3544,7 @@ libs/TKJHAT/CMakeFiles/TKJHAT_SDK.dir/src/ssd1306.c.o
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/font.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/ssd1306.h
+ /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/src/ssd1306.c
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h
  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
 

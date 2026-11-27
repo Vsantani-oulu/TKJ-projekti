@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main
+CMAKE_SOURCE_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build
+CMAKE_BINARY_DIR = /home/student/jtkj-projects/projekti/TKJ-projekti/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hat_app.dir/depend.make
@@ -70,23 +70,23 @@ include CMakeFiles/hat_app.dir/progress.make
 include CMakeFiles/hat_app.dir/flags.make
 
 CMakeFiles/hat_app.dir/src/main.c.o: CMakeFiles/hat_app.dir/flags.make
-CMakeFiles/hat_app.dir/src/main.c.o: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c
+CMakeFiles/hat_app.dir/src/main.c.o: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c
 CMakeFiles/hat_app.dir/src/main.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hat_app.dir/src/main.c.o"
-	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/src/main.c.o -MF CMakeFiles/hat_app.dir/src/main.c.o.d -o CMakeFiles/hat_app.dir/src/main.c.o -c /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hat_app.dir/src/main.c.o"
+	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/src/main.c.o -MF CMakeFiles/hat_app.dir/src/main.c.o.d -o CMakeFiles/hat_app.dir/src/main.c.o -c /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c
 
 CMakeFiles/hat_app.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hat_app.dir/src/main.c.i"
-	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c > CMakeFiles/hat_app.dir/src/main.c.i
+	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c > CMakeFiles/hat_app.dir/src/main.c.i
 
 CMakeFiles/hat_app.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hat_app.dir/src/main.c.s"
-	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c -o CMakeFiles/hat_app.dir/src/main.c.s
+	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/src/main.c -o CMakeFiles/hat_app.dir/src/main.c.s
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdl
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -128,7 +128,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -142,7 +142,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_plat
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_plat
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.i: cmake_force
@@ -170,7 +170,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_clai
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -184,7 +184,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -198,7 +198,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -211,7 +211,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -225,7 +225,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.i: cmake_force
@@ -239,7 +239,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -253,7 +253,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/loc
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mut
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -281,7 +281,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/cri
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.i: cmake_force
@@ -295,7 +295,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/tim
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -309,7 +309,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/tim
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -323,7 +323,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.i: cmake_force
@@ -337,7 +337,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/dat
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.i: cmake_force
@@ -351,7 +351,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/phe
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.i: cmake_force
@@ -365,7 +365,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/que
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -379,7 +379,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -393,7 +393,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -407,7 +407,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -421,7 +421,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -435,7 +435,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -449,7 +449,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -463,7 +463,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_boot
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -477,7 +477,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_boot
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -491,7 +491,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -505,7 +505,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flas
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -518,7 +518,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -532,7 +532,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -546,7 +546,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runt
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -560,7 +560,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runt
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -574,7 +574,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runt
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -587,7 +587,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runt
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -600,7 +600,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -613,7 +613,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divi
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -627,7 +627,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_doub
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -641,7 +641,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_doub
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -654,7 +654,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_doub
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -667,7 +667,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_doub
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -680,7 +680,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int6
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -694,7 +694,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_floa
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -708,7 +708,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_floa
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -721,7 +721,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_floa
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -735,7 +735,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_floa
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -748,7 +748,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mall
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -762,7 +762,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -776,7 +776,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atom
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -790,7 +790,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -804,7 +804,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stan
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -817,7 +817,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_prin
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o   -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -831,7 +831,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -845,7 +845,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -859,7 +859,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdi
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -873,7 +873,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdi
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -887,7 +887,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdi
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -901,7 +901,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdi
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -915,7 +915,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_uniq
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -929,7 +929,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -943,7 +943,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -957,7 +957,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -971,7 +971,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -985,7 +985,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/u
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -999,7 +999,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/u
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1013,7 +1013,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/au
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1027,7 +1027,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cd
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1041,7 +1041,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/df
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1055,7 +1055,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/df
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1069,7 +1069,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hi
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1083,7 +1083,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/mi
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1097,7 +1097,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/ms
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1111,7 +1111,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/ne
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1125,7 +1125,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/ne
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1139,7 +1139,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/us
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1153,7 +1153,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/ve
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1167,7 +1167,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vi
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1181,7 +1181,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.s
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1195,7 +1195,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/t
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1209,7 +1209,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o: /home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o -c /home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -1223,7 +1223,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/por
 CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o: /home/student/.freertos/croutine.c
 CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.o -c /home/student/.freertos/croutine.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.i: cmake_force
@@ -1237,7 +1237,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/croutine.c.s: cmake_force
 CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o: /home/student/.freertos/event_groups.c
 CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.o -c /home/student/.freertos/event_groups.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.i: cmake_force
@@ -1251,7 +1251,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/event_groups.c.s: cmake_force
 CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o: /home/student/.freertos/list.c
 CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/list.c.o -c /home/student/.freertos/list.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/list.c.i: cmake_force
@@ -1265,7 +1265,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/list.c.s: cmake_force
 CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o: /home/student/.freertos/queue.c
 CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.o -c /home/student/.freertos/queue.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.i: cmake_force
@@ -1279,7 +1279,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/queue.c.s: cmake_force
 CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o: /home/student/.freertos/stream_buffer.c
 CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.o -c /home/student/.freertos/stream_buffer.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.i: cmake_force
@@ -1293,7 +1293,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/stream_buffer.c.s: cmake_force
 CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o: /home/student/.freertos/tasks.c
 CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.o -c /home/student/.freertos/tasks.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.i: cmake_force
@@ -1307,7 +1307,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/tasks.c.s: cmake_force
 CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o: /home/student/.freertos/timers.c
 CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.o -c /home/student/.freertos/timers.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.i: cmake_force
@@ -1321,7 +1321,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/timers.c.s: cmake_force
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1335,7 +1335,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1349,7 +1349,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mult
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o: /home/student/.freertos/portable/MemMang/heap_4.c
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o -MF CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o.d -o CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.o -c /home/student/.freertos/portable/MemMang/heap_4.c
 
 CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.i: cmake_force
@@ -1363,7 +1363,7 @@ CMakeFiles/hat_app.dir/home/student/.freertos/portable/MemMang/heap_4.c.s: cmake
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -1377,7 +1377,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1391,7 +1391,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1405,7 +1405,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1419,7 +1419,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -1433,7 +1433,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -1447,7 +1447,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -1461,7 +1461,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -1475,7 +1475,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -1489,7 +1489,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -1503,7 +1503,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -1517,7 +1517,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -1531,7 +1531,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -1545,7 +1545,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -1559,7 +1559,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -1573,7 +1573,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -1587,7 +1587,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw4
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -1601,7 +1601,7 @@ CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_asyn
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/hat_app.dir/flags.make
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/hat_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o"
 	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o -c /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/hat_app.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1845,13 +1845,13 @@ hat_app.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/
 hat_app.elf: libs/TKJHAT/libTKJHAT_SDK.a
 hat_app.elf: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 hat_app.elf: CMakeFiles/hat_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Linking CXX executable hat_app.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Linking CXX executable hat_app.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hat_app.dir/link.txt --verbose=$(VERBOSE)
-	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -h /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf > hat_app.dis
-	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -d /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf >> hat_app.dis
-	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Oihex /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf hat_app.hex
-	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf hat_app.bin
-	/home/student/.pico-sdk/picotool/2.2.0/picotool/picotool uf2 convert --quiet /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/hat_app.elf hat_app.uf2 --family rp2040
+	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -h /home/student/jtkj-projects/projekti/TKJ-projekti/build/hat_app.elf > hat_app.dis
+	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -d /home/student/jtkj-projects/projekti/TKJ-projekti/build/hat_app.elf >> hat_app.dis
+	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Oihex /home/student/jtkj-projects/projekti/TKJ-projekti/build/hat_app.elf hat_app.hex
+	/home/student/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /home/student/jtkj-projects/projekti/TKJ-projekti/build/hat_app.elf hat_app.bin
+	/home/student/.pico-sdk/picotool/2.2.0/picotool/picotool uf2 convert --quiet /home/student/jtkj-projects/projekti/TKJ-projekti/build/hat_app.elf hat_app.uf2 --family rp2040
 
 # Rule to build all files generated by this target.
 CMakeFiles/hat_app.dir/build: hat_app.elf
@@ -1862,6 +1862,6 @@ CMakeFiles/hat_app.dir/clean:
 .PHONY : CMakeFiles/hat_app.dir/clean
 
 CMakeFiles/hat_app.dir/depend:
-	cd /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/CMakeFiles/hat_app.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/student/jtkj-projects/projekti/TKJ-projekti/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main /home/student/jtkj-projects/projekti/TKJ-projekti/build /home/student/jtkj-projects/projekti/TKJ-projekti/build /home/student/jtkj-projects/projekti/TKJ-projekti/build/CMakeFiles/hat_app.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/hat_app.dir/depend
 

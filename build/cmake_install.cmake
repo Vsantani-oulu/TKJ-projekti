@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main
+# Install script for directory: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,15 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/pico-sdk/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/FREERTOS_KERNEL/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/TKJHAT/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/libs/usb-serial-debug/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hello_hat/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hat_imu_ex/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hat_imu_cdc_ex/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hello_serial_client/cmake_install.cmake")
-  include("/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/examples/hello_serial_bidirectional_client/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/pico-sdk/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/FREERTOS_KERNEL/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/TKJHAT/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/libs/usb-serial-debug/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hello_hat/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hat_imu_ex/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hat_imu_cdc_ex/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hello_serial_client/cmake_install.cmake")
+  include("/home/student/jtkj-projects/projekti/TKJ-projekti/build/examples/hello_serial_bidirectional_client/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/jtkj-projects/projekti/TKJ-projekti/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
