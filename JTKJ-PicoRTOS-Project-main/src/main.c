@@ -12,7 +12,7 @@
 #include "tkjhat/sdk.h"
 // states
 enum state {IDLE=1, READ_UART, DISPLAY, SUSPENDED};
-enum state currentState = DISPLAY;
+enum state currentState = SUSPENDED;
 enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
 enum updated {NOT_UPDATED=1, UPDATED};
@@ -47,6 +47,7 @@ void startRX(){
 void stopRX(){
     // Disable reciving messages by setting state to SUSPENDED 
     // also clear value of all global variables used in RX (global_msg, message, serialUpdated)
+    clear_display();
     stop_display();
     currentState = SUSPENDED;
     memcpy(global_msg, empty_msg, strlen(global_msg));
@@ -74,8 +75,10 @@ void stateChanger(void * pvParameters) {
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     // Enables and disables rx
     if (currentState == SUSPENDED){
+        printf("Starting");
         startRX();
     } else {
+        printf("Ending");
         stopRX();
     }
 }
