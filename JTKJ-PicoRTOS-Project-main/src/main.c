@@ -39,8 +39,6 @@ void startRX(){
     init_display();
     sleep_ms(100);
     //sleep a bit to make sure screen is inited before writing on it
-    clear_display();
-    write_text("waiting");
     currentState = IDLE;
 }
 
@@ -282,7 +280,6 @@ int main() {
     init_hat_sdk();
 
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
-    init_display();
 
     //init buzzer and dont init led if using buzzer, led is for testing purposes for the sim
     //init_buzzer();
