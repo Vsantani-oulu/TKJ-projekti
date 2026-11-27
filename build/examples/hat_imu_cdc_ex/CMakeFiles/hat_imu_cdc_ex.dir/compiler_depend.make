@@ -46,9 +46,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/cro
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/event_groups.c.o: /home/student/.freertos/event_groups.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -103,9 +103,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/eve
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/list.c.o: /home/student/.freertos/list.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -157,9 +157,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/lis
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/portable/MemMang/heap_4.c.o: /home/student/.freertos/portable/MemMang/heap_4.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -216,9 +216,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/por
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c.o: /home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -289,9 +289,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/por
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/queue.c.o: /home/student/.freertos/queue.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -349,9 +349,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/que
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/stream_buffer.c.o: /home/student/.freertos/stream_buffer.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -406,9 +406,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/str
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/tasks.c.o: /home/student/.freertos/tasks.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -467,9 +467,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/tas
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/timers.c.o: /home/student/.freertos/timers.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -524,9 +524,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.freertos/tim
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/hw/bsp/rp2040/family.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -641,16 +641,16 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -725,70 +725,70 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_compiler.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h \
   /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -858,10 +858,10 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -938,10 +938,10 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -1018,10 +1018,10 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -1109,10 +1109,10 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1187,10 +1187,10 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -1267,10 +1267,10 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1309,9 +1309,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1356,9 +1356,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1402,9 +1402,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1451,9 +1451,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1498,9 +1498,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1571,9 +1571,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1615,9 +1615,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1676,9 +1676,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1724,9 +1724,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1782,9 +1782,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1821,9 +1821,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1879,9 +1879,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1919,9 +1919,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -1977,9 +1977,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2031,9 +2031,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2077,9 +2077,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2137,9 +2137,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2191,9 +2191,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2245,9 +2245,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2301,9 +2301,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2361,9 +2361,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2408,9 +2408,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2449,9 +2449,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2489,9 +2489,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2531,9 +2531,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2582,9 +2582,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2634,9 +2634,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2675,9 +2675,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2736,9 +2736,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2779,9 +2779,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2823,9 +2823,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2875,9 +2875,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2929,9 +2929,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -2972,9 +2972,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3046,9 +3046,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3097,9 +3097,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3149,9 +3149,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3193,9 +3193,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3230,9 +3230,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -3292,9 +3292,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3344,9 +3344,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3389,9 +3389,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3444,9 +3444,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3508,9 +3508,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3547,9 +3547,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3605,9 +3605,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3651,9 +3651,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3690,9 +3690,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3747,9 +3747,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3808,9 +3808,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3849,9 +3849,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3891,9 +3891,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -3952,9 +3952,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -4022,9 +4022,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
@@ -4075,9 +4075,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/home/student/.pico-sdk/sdk
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hat_imu_cdc_ex/src/main.c \
   /home/student/.freertos/include/FreeRTOS.h \
@@ -4185,22 +4185,17 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hat_imu_cdc_ex/src/main.c \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include/usbSerialDebug/helper.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h \
-  /home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h \
+  /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include/usbSerialDebug/helper.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h
 
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h:
-
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h:
-
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h:
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include/usbSerialDebug/helper.h:
 
 /home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hat_imu_cdc_ex/src/main.c:
 
@@ -4233,8 +4228,6 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/c++/14.2.1/pstl/pstl_config.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/c++/14.2.1/cstdlib:
-
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/examples/hat_imu_cdc_ex/src/main.c:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/c++/14.2.1/cassert:
 
@@ -4370,8 +4363,6 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.freertos/include/event_groups.h:
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/include/usbSerialDebug/helper.h:
-
 /home/student/.freertos/list.c:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
@@ -4391,6 +4382,12 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_locale.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
 
@@ -4418,6 +4415,16 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pio.h:
 
+generated/pico_base/pico/version.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/include/pico/double.h:
+
+/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/cdefs.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
 
 /home/student/.freertos/include/FreeRTOS.h:
@@ -4426,7 +4433,17 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/config.h:
 
+/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/strings.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc.h:
+
+/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/lock.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_verify.h:
 
@@ -4456,12 +4473,6 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.h:
 
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
-
-/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/strings.h:
-
 /home/student/.freertos/portable/MemMang/heap_4.c:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/features.h:
@@ -4490,15 +4501,17 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/string.h:
 
+/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+
+/home/student/.freertos/include/task.h:
+
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c:
 
 /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_types.h:
-
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/version.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c:
 
 /home/student/.freertos/include/queue.h:
 
@@ -4540,23 +4553,25 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h:
 
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/sdk.h:
+
 /home/student/.freertos/portable/ThirdParty/GCC/RP2040/port.c:
 
 /home/student/.freertos/include/semphr.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c:
 
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/include/pico/double.h:
-
-/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/cdefs.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+generated/pico_base/pico/config_autogen.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/include/pico/sem.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_default_types.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
+
+/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_endian.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_pthreadtypes.h:
 
@@ -4572,35 +4587,7 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c:
 
-/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/lock.h:
-
-/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/c++/14.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
-
-/home/student/.freertos/include/task.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
-
 /home/student/.freertos/include/timers.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/error.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h:
-
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/build/generated/pico_base/pico/config_autogen.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/stdlib.h:
 
@@ -4609,6 +4596,10 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb_option.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_common.h:
 
@@ -4622,11 +4613,9 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
 
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h:
+
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
 
@@ -4658,7 +4647,13 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/time.h:
 
-/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c:
+/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_mcu.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_adc/adc.c:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/error.h:
+
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c:
 
@@ -4706,7 +4701,7 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/dcd.h:
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/usb-serial-debug/config/tusb_config.h:
+/home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c:
 
@@ -4716,8 +4711,6 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/time.h:
 
-/home/student/jtkj-projects/jtkj-project-tocopy/TKJ-projekti/JTKJ-PicoRTOS-Project-main/config/FreeRTOSConfig.h:
-
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/include/pico/runtime.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c:
@@ -4725,6 +4718,8 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 /home/student/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_pvt.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
+
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pins.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c:
 
@@ -4742,12 +4737,6 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/include/pico/util/datetime.h:
 
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
-
-/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
-
-/home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_endian.h:
-
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/endian.h:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
@@ -4764,6 +4753,8 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_timeval.h:
 
+/home/student/jtkj-projects/projekti/TKJ-projekti/JTKJ-PicoRTOS-Project-main/libs/TKJHAT/include/tkjhat/pdm_microphone.h:
+
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c:
 
 /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/timespec.h:
@@ -4773,6 +4764,12 @@ examples/hat_imu_cdc_ex/CMakeFiles/hat_imu_cdc_ex.dir/src/main.c.o: /home/studen
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c:
 
 /home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/include/hardware/pio.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+
+/home/student/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h:
 
 /home/student/.freertos/include/list.h:
 

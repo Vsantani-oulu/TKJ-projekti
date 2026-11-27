@@ -10,7 +10,7 @@
 
 #include "tkjhat/sdk.h"
 // states
-enum state {IDLE=1, READ_UART, DISPLAY, SUSPENDED};
+enum state {IDLE=1, READ_USB, DISPLAY, SUSPENDED};
 enum state currentState = SUSPENDED;
 enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
@@ -24,7 +24,6 @@ void startRX();
 void stopRX();
 void stateChanger(void * pvParameters);
 static void btn_fxn(uint gpio, uint32_t eventMask);
-void uartFxn();
 void serial_task(void * pvParameters); 
 void outputTask(void * pvParameters);
 void recive_message(char msg);
@@ -53,11 +52,12 @@ void stateChanger(void * pvParameters) {
     // Handles changing states
     while(1){
         if (currentState == IDLE){
+            init_display();
             serialUpdated = NOT_UPDATED;
-            currentState = READ_UART;
-            printf("reading uart");
-        } else if (currentState == READ_UART && message == READY){
-            // Only change into display state if message is ready and currently reading uart
+            currentState = READ_USB;
+            printf("reading USB");
+        } else if (currentState == READ_USB && message == READY){
+            // Only change into display state if message is ready and currently reading usb
             message = NOT_READY;
             currentState = DISPLAY;
             printf("displaying");
@@ -71,17 +71,16 @@ static void btn_fxn(uint gpio, uint32_t eventMask) {
     if (currentState == SUSPENDED){
         printf("Starting");
         startRX();
-    } else if (currentState == READ_UART){
-        //only allow stopping the rx if state is READ_UART so that it cannot be stopped during any output task
+    } else if (currentState == READ_USB){
+        //only allow stopping the rx if state is READ_USB so that it cannot be stopped during any output task
         printf("Ending");
         stopRX();
     }
 }
 
 void serial_task(void * pvParameters) {
-    uart_init(uart0, 9600);
     while(1){
-        if (currentState == READ_UART){
+        if (currentState == READ_USB){
             int ch = getchar_timeout_us(0);      
             if (ch >= 0) {
                 recive_message((char)ch);          
@@ -142,11 +141,11 @@ void beep(char length) {
     // blinks the led for 300ms if - and 100ms if .
     if (length == 'L'){
         toggle_led();
-        sleep_ms(3000);
+        sleep_ms(999);
         toggle_led();
     } else if (length == 'S'){
         toggle_led();
-        sleep_ms(1000);
+        sleep_ms(333);
         toggle_led();
     }
 
