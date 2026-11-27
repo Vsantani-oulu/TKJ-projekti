@@ -1,5 +1,4 @@
 
-
 #include <stdio.h>
 #include <string.h>
 
@@ -17,13 +16,17 @@ enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
 int initialized = 0;
 // message variables
-char global_msg[100] = ".-- .- .. - .. -. --. ";
+char global_msg[100] = "";
 static char empty_msg[100] = "";
 int updated = 0;
 // Veetin prototyypit voipi poistaa
 void stateChanger(void * pvParameters);
 
 
+static void btn_fxn(uint gpio, uint32_t eventMask) {
+    // Prints msg
+    printf(global_msg);
+}
 
 void stateChanger(void * pvParameters) {
     // Handles changing states
@@ -45,7 +48,7 @@ void stateChanger(void * pvParameters) {
 ////MORSEN LUKEMINEN SENSOREILLA:
 
 int asentoReset = 1; //onko laite käynyt yläasennossa viime merkin jälkeen
-int spaceReset = 1; //onko yläasennossa oleva laite printannut välilyöntiä
+int spaceReset = 0; //onko yläasennossa oleva laite printannut välilyöntiä
 
 char asento_morseksi(float ax){
     if (ax > 0.75){
@@ -82,14 +85,16 @@ void sensor_task(void *arg){
         );
         
         symbol = asento_morseksi(ax);
+        //printf("symbol: %c, resetKesto: %d, spaceReset: %d",symbol,resetKesto,spaceReset);
         if(symbol == 'r'){ //laite on yläasennossa
             asentoReset = 1;
             resetKesto++;
-            if(resetKesto >= 10 && spaceReset){ //0,5 s kohdalla
+            if(resetKesto >= 50 && spaceReset){ //0,5 s kohdalla
                 sprintf(
                     global_msg + strlen(global_msg),
                     " "
                 );
+                printf("vali\n");
                 spaceReset = 0;
 
         resetKesto = 0;
@@ -116,7 +121,7 @@ void sensor_task(void *arg){
         }
         //muuten symbol == '\0' ei aiheuta toimenpiteitä
 
-        vTaskDelay(pdMS_TO_TICKS(50));
+        vTaskDelay(pdMS_TO_TICKS(20));
     }
 }
 
@@ -178,7 +183,7 @@ int main() {
     init_sw1();
     init_led();
 
-
+    gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
     
     TaskHandle_t sensorTaskHandle = NULL;
 
