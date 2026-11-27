@@ -11,16 +11,18 @@
 
 #include "tkjhat/sdk.h"
 // states
-enum state {IDLE=1, READ_UART, DISPLAY};
+enum state {IDLE=1, READ_UART, DISPLAY, SUSPENDED};
 enum state currentState = DISPLAY;
 enum msg {NOT_READY=1, READY};
 enum msg message = NOT_READY;
-int initialized = 0;
+enum updated {NOT_UPDATED=1, UPDATED};
+enum updated serialUpdated = NOT_UPDATED;
 // message variables
-char global_msg[100] = ".-- .- .. - .. -. --. ";
+char global_msg[100] = "";
 static char empty_msg[100] = "";
-int updated = 0;
 // prototypes
+void startRX();
+void stopRX();
 void stateChanger(void * pvParameters);
 static void btn_fxn(uint gpio, uint32_t eventMask);
 void uartFxn();
@@ -32,11 +34,31 @@ void beep(char length);
 void translate_msg();
 char translate_char(char word[]);
 
+void startRX(){
+    // Enable reciving messages by starting the RXs state machine, also init display and write "waiting" on it
+    init_display();
+    sleep_ms(100);
+    //sleep a bit to make sure screen is inited before writing on it
+    clear_display();
+    write_text("waiting");
+    currentState = IDLE;
+}
+
+void stopRX(){
+    // Disable reciving messages by setting state to SUSPENDED 
+    // also clear value of all global variables used in RX (global_msg, message, serialUpdated)
+    stop_display();
+    currentState = SUSPENDED;
+    memcpy(global_msg, empty_msg, strlen(global_msg));
+    message = NOT_READY;
+    serialUpdated = NOT_UPDATED;
+}
+
 void stateChanger(void * pvParameters) {
     // Handles changing states
     while(1){
         if (currentState == IDLE){
-            updated = 0;
+            serialUpdated = NOT_UPDATED;
             currentState = READ_UART;
             printf("reading uart");
         } else if (currentState == READ_UART && message == READY){
@@ -50,8 +72,12 @@ void stateChanger(void * pvParameters) {
 }
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
-    // This is for debug purposes for checking states/variables during testing
-    printf("current state: %d",currentState);
+    // Enables and disables rx
+    if (currentState == SUSPENDED){
+        startRX();
+    } else {
+        stopRX();
+    }
 }
 
 void uartFxn() {
@@ -73,15 +99,15 @@ void serial_task(void * pvParameters) {
     irq_set_exclusive_handler(UART0_IRQ, uartFxn);
     while(1){
         // Enable uart only if state is READ_UART
-        if (!updated){
+        if (serialUpdated == NOT_UPDATED){
             if (currentState == READ_UART){
                 irq_set_enabled(UART0_IRQ, true);
                 uart_set_irq_enables(uart0, true, false);
-                updated = 1;
+                serialUpdated = UPDATED;
             } else {
                 irq_set_enabled(UART0_IRQ, false);
                 uart_set_irq_enables(uart0, false, false);   
-                updated = 1;
+                serialUpdated = UPDATED;
             }
         }
         vTaskDelay(pdMS_TO_TICKS(100));
@@ -94,22 +120,10 @@ void commTask(void * pvParameters) {
     //Task has a lower priority than the other ones, running only when the others are idle 
     while(1){
         if (currentState == DISPLAY){
-            if (!initialized){
-                // dont buzz the innitial "waiting" message
-                translate_msg();
-                currentState = IDLE;
-                memcpy(global_msg, empty_msg, strlen(global_msg));
-                initialized = 1;
-            }
-            else{
-                printf("starting buzz");
-                buzz_message();
-                printf("done with buzz");
-                translate_msg();
-                printf("swapping to idle");
-                currentState = IDLE;
-                memcpy(global_msg, empty_msg, strlen(global_msg));
-            }
+            buzz_message();
+            translate_msg();
+            currentState = IDLE;
+            memcpy(global_msg, empty_msg, strlen(global_msg));
         }
         vTaskDelay(pdMS_TO_TICKS(100));
     }
@@ -170,7 +184,6 @@ void beep(char length) {
 }
 
 void translate_msg(){
-    printf("entering translation");
     // Iterate over global_msg and translate it (outputted string includes spaces between words)
     int i;
 
@@ -193,7 +206,6 @@ void translate_msg(){
             memcpy(word_to_be_translated, empty_word, strlen(word_to_be_translated));
         }
     }
-    printf("writing to screen");
     clear_display();
     write_text(sentance_to_be_built);
 }
