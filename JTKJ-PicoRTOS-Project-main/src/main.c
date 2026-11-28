@@ -1,4 +1,4 @@
-
+#include <math.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -28,8 +28,6 @@ static void btn_fxn(uint gpio, uint32_t eventMask); // tulee valomerkki ja viest
 char asento_morseksi(float ax);
 void sensor_task(void *arg);
 
-int ON = 1; 
-
 void valomerkki(int lenght) {
     toggle_led();
     sleep_ms(500);
@@ -37,6 +35,13 @@ void valomerkki(int lenght) {
     //vesa
 }
 
+void send_morse_code(const char morse[])
+{
+    fputs(morse, stdout);
+    fputs("  \n", stdout);
+    fflush(stdout);
+    //rami
+}
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     // tulee valomerkki ja viesti siirtyy lähetettäväksi
@@ -49,7 +54,7 @@ void TXstateChanger(void * pvParameters) {
     while(1){
         if (TXcurrentState == PRINT){
             valomerkki(300);
-            printf(pending_msg);
+            send_morse_code(pending_msg);
             memcpy(pending_msg, empty_msg, strlen(pending_msg));
             TXcurrentState = LISTEN;
         }
@@ -65,11 +70,10 @@ char asento_morseksi(float ax){
     if (ax < -0.75){
         return '-';
     }
-    if (0.5 > ax && ax > -0.5){
+    if (ax > -0.5 && ax < 0.5){
         return 'r'; //'reset' eli on laite käynyt yläasennossa
     }
     return '\0'; //bufferi asentojen välissä
-
     //vesa
 }
 void sensor_task(void *arg){
@@ -78,17 +82,16 @@ void sensor_task(void *arg){
     float temp;
 
     char symbol;
-
+    char symbol2;
     int asentoReset = 1; //onko laite käynyt yläasennossa viime merkin jälkeen
     int spaceReady = 0; //onko yläasennossa oleva laite printannut välilyöntiä (1 -> voi printata spacen, 0 -> ei)
     int resetKesto = 0; //kauanko ollut yläasennossa, jotta tietää milloin pitää sprintf " "
-
+    int cooldown = 0;
     //alustetaan sensorit
     init_ICM42670();
     ICM42670_start_with_default_values();
     //task
     for(;;){
-        if (ON){
         ICM42670_read_sensor_data(
             &ax, &ay, &az,
             &gx, &gy, &gz,
@@ -96,11 +99,18 @@ void sensor_task(void *arg){
         );
         
         symbol = asento_morseksi(ax);
+        symbol2 = asento_morseksi(ax);
+        if (symbol == symbol2){
+            cooldown++;
+        } else {
+            cooldown = 0;
+        }
         //printf("symbol: %c, resetKesto: %d, spaceReady: %d",symbol,resetKesto,spaceReady);
+        if (cooldown >= 20){
         if(symbol == 'r'){ //laite on yläasennossa
             asentoReset = 1;
             resetKesto++;
-            if(resetKesto >= 50 && spaceReady){ //0,5 s kohdalla
+            if(resetKesto >= 3 && spaceReady){ //0,5 s kohdalla
                 sprintf(
                     pending_msg + strlen(pending_msg),
                     " "
@@ -114,7 +124,7 @@ void sensor_task(void *arg){
         {   
             resetKesto = 0;
             if(asentoReset) //jos laite on käynyt yläasennossa edellisen merkin jälkeen
-            {   
+            {  
                 sprintf(
                     pending_msg + strlen(pending_msg),
                     "%c",
@@ -127,9 +137,10 @@ void sensor_task(void *arg){
             }
         }
         //muuten symbol == '\0' ei aiheuta toimenpiteitä
+        cooldown = 0;
         }
-        vTaskDelay(pdMS_TO_TICKS(20));
-    }
+        vTaskDelay(pdMS_TO_TICKS(10));
+        }
 
     //vesa
 }
@@ -180,7 +191,6 @@ int main() {
 
     // Start the scheduler (never returns)
     vTaskStartScheduler();
-    // test
     // Never reach this line.
     return 0;
 
