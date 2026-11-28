@@ -5581,7 +5581,6 @@ CMakeFiles/hat_app.dir/src/main.c.o: /home/student/jtkj-projects/projekti/TKJ-pr
   /home/student/.freertos/include/mpu_wrappers.h \
   /home/student/.freertos/include/portable.h \
   /home/student/.freertos/include/projdefs.h \
-  /home/student/.freertos/include/queue.h \
   /home/student/.freertos/include/task.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
   /home/student/.freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h \

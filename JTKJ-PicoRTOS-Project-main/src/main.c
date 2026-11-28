@@ -5,136 +5,138 @@
 #include <pico/stdlib.h>
 
 #include <FreeRTOS.h>
-#include <queue.h>
 #include <task.h>
 
 #include "tkjhat/sdk.h"
+
+// RX  start
 // states
 enum state {IDLE=1, READ_USB, DISPLAY, SUSPENDED};
-enum state currentState = SUSPENDED;
+enum state RXcurrentState = SUSPENDED;
 enum msg {NOT_READY=1, READY};
-enum msg message = NOT_READY;
+enum msg RXmessage = NOT_READY;
 enum updated {NOT_UPDATED=1, UPDATED};
-enum updated serialUpdated = NOT_UPDATED;
+enum updated RXserialUpdated = NOT_UPDATED;
 // message variables
-char global_msg[100] = "";
-static char empty_msg[100] = "";
-// prototypes
+char RX_msg[100] = "";
+static char RX_empty_msg[100] = "";
+// Prototypes
 void startRX();
 void stopRX();
-void stateChanger(void * pvParameters);
+void RX_stateChanger(void * pvParameters);
 static void btn_fxn(uint gpio, uint32_t eventMask);
-void serial_task(void * pvParameters); 
-void outputTask(void * pvParameters);
-void recive_message(char msg);
+void RX_serial_task(void * pvParameters); 
+void RX_outputTask(void * pvParameters);
+void RX_recive_message(char msg);
 void buzz_message();
 void beep(char length); 
 void translate_msg();
 char translate_char(char word[]);
+// RX end
 
 void startRX(){
     // Enable reciving messages by starting the RXs state machine
-    currentState = IDLE;
+    RXcurrentState = IDLE;
+    //By Veeti
 }
 
 void stopRX(){
     // Disable reciving messages by setting state to SUSPENDED 
-    // also clear value of all global variables used in RX (global_msg, message, serialUpdated)
+    // also clear value of all global variables used in RX (RX_msg, message, serialUpdated)
     clear_display();
     stop_display();
-    currentState = SUSPENDED;
-    memcpy(global_msg, empty_msg, strlen(global_msg));
-    message = NOT_READY;
-    serialUpdated = NOT_UPDATED;
+    RXcurrentState = SUSPENDED;
+    memcpy(RX_msg, RX_empty_msg, strlen(RX_msg));
+    RXmessage = NOT_READY;
+    RXserialUpdated = NOT_UPDATED;
+    //By Veeti
 }
 
-void stateChanger(void * pvParameters) {
+void RX_stateChanger(void * pvParameters) {
     // Handles changing states
     while(1){
-        if (currentState == IDLE){
+        if (RXcurrentState == IDLE){
             init_display();
-            serialUpdated = NOT_UPDATED;
-            currentState = READ_USB;
+            RXserialUpdated = NOT_UPDATED;
+            RXcurrentState = READ_USB;
             printf("reading USB");
-        } else if (currentState == READ_USB && message == READY){
+        } else if (RXcurrentState == READ_USB && RXmessage == READY){
             // Only change into display state if message is ready and currently reading usb
-            message = NOT_READY;
-            currentState = DISPLAY;
+            RXmessage = NOT_READY;
+            RXcurrentState = DISPLAY;
             printf("displaying");
         }
         vTaskDelay(pdMS_TO_TICKS(100));
     }
+    //By Veeti
 }
 
 static void btn_fxn(uint gpio, uint32_t eventMask) {
     // Enables and disables rx
-    if (currentState == SUSPENDED){
+    if (RXcurrentState == SUSPENDED){
         printf("Starting");
         startRX();
-    } else if (currentState == READ_USB){
+    } else if (RXcurrentState == READ_USB){
         //only allow stopping the rx if state is READ_USB so that it cannot be stopped during any output task
         printf("Ending");
         stopRX();
     }
 }
 
-void serial_task(void * pvParameters) {
+void RX_serial_task(void * pvParameters) {
     while(1){
-        if (currentState == READ_USB){
+        if (RXcurrentState == READ_USB){
             int ch = getchar_timeout_us(0);      
             if (ch >= 0) {
-                recive_message((char)ch);          
+                RX_recive_message((char)ch);          
             }
         }
         vTaskDelay(pdMS_TO_TICKS(100));
         }
+    //By Veeti
 }
 
 
-void outputTask(void * pvParameters) {
-    //Buzz message, display it on lcd and then clear global_msg
+void RX_outputTask(void * pvParameters) {
+    //Buzz message, display it on lcd and then clear RX_msg
     //Task has a lower priority than the other ones, running only when the others are idle 
     while(1){
-        if (currentState == DISPLAY){
+        if (RXcurrentState == DISPLAY){
             buzz_message();
             translate_msg();
-            currentState = IDLE;
-            memcpy(global_msg, empty_msg, strlen(global_msg));
+            RXcurrentState = IDLE;
+            memcpy(RX_msg, RX_empty_msg, strlen(RX_msg));
         }
         vTaskDelay(pdMS_TO_TICKS(100));
     }
+    //By Veeti
 }
 
-void recive_message(char msg){
-    // Append input into global_msg and set state of message to ready if its newline
+void RX_recive_message(char msg){
+    // Append input into RX_msg and set state of message to ready if its newline
     if (msg == '\n'){
-        message = READY;
+        RXmessage = READY;
     } else if(msg >= 0){
-        sprintf(global_msg+strlen(global_msg), "%c", msg);
+        sprintf(RX_msg+strlen(RX_msg), "%c", msg);
     }
-}
-
-void write_message(char text[]) {
-    // Write global_msg to display and clear it
-    clear_display();
-    write_text(text);
-    return;
+    //By Veeti
 }
 
 void buzz_message() {
-    // Iterates over the global_msg and uses the buzzer to translate dots into short beeps and lines into long beeps
+    // Iterates over the RX_msg and uses the buzzer to translate dots into short beeps and lines into long beeps
     int c;
-    for (c = 0; c < strlen(global_msg); c++){
-        if (global_msg[c] == '.'){
+    for (c = 0; c < strlen(RX_msg); c++){
+        if (RX_msg[c] == '.'){
             beep('S');
             printf("short\n");
-        } else if (global_msg[c] == '-'){
+        } else if (RX_msg[c] == '-'){
             beep('L');
             printf("long\n");
         }
         //short sleep so that its easier to see when one blink ends and other starts
         sleep_ms(1000);   
     }
+    //By Veeti
 }
 
 void beep(char length) {
@@ -157,10 +159,11 @@ void beep(char length) {
     //} else if (length == 'S'){
     //    buzzer_play_tone(500,  100);
     //    printf("Short");
+    //By Veeti
 }
 
 void translate_msg(){
-    // Iterate over global_msg and translate it (outputted string includes spaces between words)
+    // Iterate over RX_msg and translate it (outputted string includes spaces between words)
     int i;
 
     char empty_word[100] = "";
@@ -168,11 +171,11 @@ void translate_msg(){
     char sentance_to_be_built[100] = "";
 
     // Tried using strtok, did not find a simple way to have it include double spaces so wrote my own version of it
-    for (i = 0; i < strlen(global_msg); i++){
-        if (global_msg[i] != ' '){
+    for (i = 0; i < strlen(RX_msg); i++){
+        if (RX_msg[i] != ' '){
             // add characters to the string that gets send to be translated (word_to_be_translated) if current char isint a space
-            sprintf(word_to_be_translated+strlen(word_to_be_translated), "%c", global_msg[i]);
-        } else if (global_msg[i] == ' ' && global_msg[i+1] == ' '){
+            sprintf(word_to_be_translated+strlen(word_to_be_translated), "%c", RX_msg[i]);
+        } else if (RX_msg[i] == ' ' && RX_msg[i+1] == ' '){
             // if current char and next char is a space, append translated morse character AND a single space to the final message
             sprintf(sentance_to_be_built+strlen(sentance_to_be_built), "%c ", translate_char(word_to_be_translated));
             memcpy(word_to_be_translated, empty_word, strlen(word_to_be_translated));
@@ -185,6 +188,7 @@ void translate_msg(){
     clear_display();
     printf("writing");
     write_text(sentance_to_be_built);
+    //By Veeti
 }
 
 char translate_char(char word[]){
@@ -249,6 +253,7 @@ char translate_char(char word[]){
     } else{
         return '?';
     }
+    //By Veeti
 }
 
 int main() {
@@ -264,7 +269,7 @@ int main() {
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
 
     TaskHandle_t stateChangerHandle, serialTaskHandle, outputTaskHandle = NULL;
-    BaseType_t result = xTaskCreate(stateChanger,   // (en) Task function
+    BaseType_t result = xTaskCreate(RX_stateChanger,   // (en) Task function
         "stateChanger",                   // (en) Name of the task 
         1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
         NULL,                    // (en) Arguments of the task 
@@ -274,7 +279,7 @@ int main() {
         printf("state changer Task created failed\n");
         return 0;
     }    
-    result = xTaskCreate(serial_task,   // (en) Task function
+    result = xTaskCreate(RX_serial_task,   // (en) Task function
         "serial",                   // (en) Name of the task 
         1024,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
         NULL,                    // (en) Arguments of the task 
@@ -284,7 +289,7 @@ int main() {
         printf("Serial Task created failed\n");
         return 0;
     }
-    result = xTaskCreate(outputTask,   // (en) Task function
+    result = xTaskCreate(RX_outputTask,   // (en) Task function
         "output",                   // (en) Name of the task 
         2048,                    // (en) Size of the stack for this task (in words). Generally 1024 or 2048
         NULL,                    // (en) Arguments of the task 
