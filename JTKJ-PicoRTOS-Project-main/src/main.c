@@ -132,20 +132,22 @@ void buzz_message() {
         } else if (RX_msg[c] == '-'){
             beep('L');
             printf("long\n");
+        } else if (RX_msg[c] == ' '){
+            sleep_ms(500);
         }
         //short sleep so that its easier to see when one blink ends and other starts
-        sleep_ms(1000);   
+        sleep_ms(100);   
     }
     //By Veeti
 }
 
 void beep(char length) {
     // buzzes for either 300ms (long) or 100ms (short)
-    // freq is 800hz
+    // freq is 700hz
     if (length == 'L'){
-        buzzer_play_tone(800, 300);
+        buzzer_play_tone(700, 300);
     } else if (length == 'S'){
-        buzzer_play_tone(800, 100);
+        buzzer_play_tone(700, 100);
     }
     //By Veeti
 }
@@ -175,7 +177,7 @@ void translate_msg(){
     }
     clear_display();
     printf("writing");
-    write_text(sentance_to_be_built);
+    write_text_xy(0, 0, sentance_to_be_built);
     //By Veeti
 }
 
