@@ -140,25 +140,13 @@ void buzz_message() {
 }
 
 void beep(char length) {
-    // blinks the led for 300ms if - and 100ms if .
+    // buzzes for either 300ms (long) or 100ms (short)
+    // freq is 800hz
     if (length == 'L'){
-        toggle_led();
-        sleep_ms(999);
-        toggle_led();
+        buzzer_play_tone(800, 300);
     } else if (length == 'S'){
-        toggle_led();
-        sleep_ms(333);
-        toggle_led();
+        buzzer_play_tone(800, 100);
     }
-
-    // This part of the code uses the buzzer, the simualtion struggles with the buzzer so for testing purposes led is used instead
-    // beeps either for 300ms (long) or 100ms (short), frequency used is 100hz 
-    //if (length == 'L'){
-    //    buzzer_play_tone(500,  300);
-    //    printf("long");
-    //} else if (length == 'S'){
-    //    buzzer_play_tone(500,  100);
-    //    printf("Short");
     //By Veeti
 }
 
@@ -261,10 +249,9 @@ int main() {
     init_hat_sdk();
 
     sleep_ms(300); //Wait some time so initialization of USB and hat is done.
-    //init buzzer and dont init led if using buzzer, led is for testing purposes for the sim
-    //init_buzzer();
+    
+    init_buzzer();
     init_display();
-    init_led();
 
     gpio_set_irq_enabled_with_callback(BUTTON1, GPIO_IRQ_EDGE_FALL, true, btn_fxn);
 
