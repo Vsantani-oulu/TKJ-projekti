@@ -37,6 +37,7 @@ void valomerkki(int lenght) {
 
 void send_morse_code(const char morse[])
 {
+    printf(morse);
     fputs(morse, stdout);
     fputs("  \n", stdout);
     fflush(stdout);

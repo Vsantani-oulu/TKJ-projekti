@@ -5645,6 +5645,7 @@ CMakeFiles/hat_app.dir/src/main.c.o: /home/student/jtkj-projects/projekti/TKJ-pr
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_types.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
+  /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/math.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/newlib.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h \
   /home/student/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdio.h \
